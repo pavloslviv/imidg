@@ -1,0 +1,246 @@
+*** LMS - Responsive Learning Management Theme Change log ***
+
+2016.11.09 – Version 4.3
+
+* Page builder fix
+
+
+2016.10.07 – Version 4.2
+
+* Bug Fixes
+* Woocommerce coupon code update css issue fixed
+* Global page layout option updated
+* Mailchimp updated to latest api 3.0
+* Updated latest version of all third party plugins
+* Social share links alignment issue fixed
+* Font awesome css updated
+* SSL compatible updated
+* Unyson importer plugin support
+* Dummy data content optimized
+* Dummy content importer procedure updated
+* Page builder update
+
+
+2016.09.27 – Version 4.1
+
+* DesignThemes Core Plugin installation issue fixed
+* rtl.css loaded correctly
+
+
+2016.09.21 - Version 4.0
+
+* Class custom post type created
+* Class concept comes with onsite class and online class options. Demo url => http://wedesignthemes.com/themes/lms/kids/dtclasses/
+* Now custom post type courses comes with WooCommerce payment support
+* Supports YITH WooCommerce Subscription 1.1.4 plugin for subscription process
+
+* Enhanced course single page 
+ -> Students enrolled list
+ -> Modified ratings display
+ -> Certificate and badge notification
+ -> Link BuddyPress group and Events
+ -> Demo url => http://wedesignthemes.com/themes/lms/courses/advanced-programming/
+
+* New course template page => http://wedesignthemes.com/themes/lms/courses-template/
+
+* Quiz Enhancements
+ -> Option to switch between show one question at a time or to show all questions at time
+ -> New question type Multiple Choice with Images ( Answers in images ) added
+ -> View quiz statistics immediately after quiz completion
+ -> Use images in questions and answers
+ -> Enable answer explanation immediately
+ -> Demo Login => students / students
+
+* Enahanced Student Dashboard
+ -> Class progress with graphical analysis
+ -> Course progress with graphical analysis
+ -> Quiz statistics
+
+* 3 New Demos
+ -> http://wedesignthemes.com/themes/lms/rtl/
+ -> http://wedesignthemes.com/themes/lms/kids/
+ -> http://wedesignthemes.com/themes/lms/pointssystem/
+
+
+* Course progress in percentage once student logs in course single page and dashboard
+* Option to change teacher label throught the site in buddha panel
+
+* Supports Social Logins
+ -> Facebook
+ -> Google Plus
+ -> Demo url => http://wedesignthemes.com/themes/lms/login/
+
+
+* Supports "Timetable Wordpress Plugin - Weekly Class Schedule" plugin  1.7.2.1
+* Supports "The Events Calendar" 4.2.6
+* Supports "The Events Calendar PRO" 4.2.5
+* Supports "WPBakery Visual Composer" 4.12.1
+* Supports "Ultimate Addons for Visual Composer" 3.16.7
+* Supports "Responsive Google Maps" 4.0
+* Supports "WooCommerce" 2.6.4
+* WordPress 4.6.1 compatible
+
+
+
+2016.07.01 - Version 3.1
+ * Comes with "SCORM Cloud For WordPress" plugin compatibility, demo url http://wedesignthemes.com/themes/lms/scorm/
+ * "TinCan courses" can be imported in Scorm Cloud plugin and its statistics can be viewed in Scorm Cloud
+ * Online documentation for Scorm integration can be viewed in http://wedesignthemes.com/themes/lms/scorm/instructions/ and http://buddhathemes.com/docs/lms/#scormcourse
+ * Responsive Styled Google Maps 3.4 included 
+ * LayerSlider WP 5.6.9 included
+ * Slider Revolution 5.2.6 included
+ * The Events Calendar 4.2.1.1 compatible
+ * Ultimate Addons for Visual Composer 3.16.5 included
+ * WooCommerce 2.6.2 compatible
+
+
+2016.06.17 - Version 3.0
+ * Options to switch between following login and registration pages WordPress Default, LMS Theme - Default Profile, LMS Theme - BuddyPress Profile, s2Member Plugin
+ * Updated BuddyPress profile page
+ * Option to switch between theme default Dashboard page (Welcome Template) and BuddyPress profile page
+ * Private messaging option between Teacher and Student using BuddyPress
+ * Option to link BuddyPress group with LMS theme default courses
+ * Option for Students to "Join Group" manually if they not yet joined to course group
+ * Email notifications enabled for theme default courses (student will receive mail when thier quiz is graded and teacher will receive mail when student submits quiz for grading)
+ * "Apply Coupon" in checkout page not working in mobiles
+ * Fix - Cross site scripting vulnerability in search form
+ * Course Curriculum updated with parent and child lessons design
+ * Added instagram, soundcloud and vk social icons
+ * Packed with latest version plugins
+ * WooCommerce 2.6.1 compatible
+ * The Events Calendar 4.2 and The Events Calendar PRO 4.2 compatible
+ * s2Member Framework 160503 and s2Member Pro 160503 compatible
+ * Sensei 1.8.8 compatible
+
+
+2016.06.01 - Version 2.2
+ * Now you can make assignments priceable
+ * Teacher can add remarks or reviews for student assignments
+ * Admin can preview certificate now
+ * User cannot take free courses without registration
+ * Option to hide course, lesson and assignment content if user not logged in
+ * Bulk assignment of courses to student or students to course is possible now
+ * Categorywise filter options 
+ * Fontawesome icons are updated
+ * Added link for icons in icon box shortcodes
+ * Not able to print certificate along with background image - Fixed
+ * Help video to copy and translate content from default to other languages (WPML with DesignThemes Pagebuilder) - https://www.youtube.com/watch?v=KrcMoo1_sSs
+ * DesignThemes Pagebuilder with WPML issue - Fixed
+ * Foreign languages broken issue in DesignThemes pagebuilder
+ * SSL compatible
+ * Added 'Return to Shop' link cart page
+ * New widget to display Course Categories
+ * Option to enable page layout for all pages globally in buddha panel options
+ * Language translations files updated
+ * Ultimate Addons for Visual Composer support
+ * WPBakery Visual Composer support
+ * Packed with latest version plugins
+ * WordPress 4.5.2 compatible
+
+
+2016.04.15 - Version 2.1
+ * WordPress 4.5 compatible
+ * Packed with Layer Slider 5.6.2 version
+ * Packed with Revolution Slider 5.1.4 version
+ * Packed with Responsive Styled Google Maps 3.0 version 
+
+
+2016.01.07 - Version 2.0
+ * Supports s2Member Pro v151218
+ * Option to customize all s2member user levels from buddha panel
+ * Option to have one or more s2Member supported payment types
+ * Supports sensei addons like Sensei Certificates, Sensei Course Participants, Sensei Course Progress, Sensei Media Attachments, Sensei Share Your Grade
+ * Admin can manully assign course(s) to student
+ * Option to change the course, lesson and course type slug
+ * Updated membership page with membership template
+ * Option to remove placeholder images from blog, portfolio, courses, etc,
+ * Not able to have more than one WooCommerce widget with different settings - Fixed
+ * Theme settings removed when switching the themes - Fixed
+ * Added cart icon along with menu
+ * Added category option in 'dt_sc_events' shortcode
+ * The "Signup" button in mailchimp widget is not translatable - Fixed
+ * Page builder fix for WPML
+ * Able to download certificates without logging in - Fixed
+ * Users able to upload assignments without logging in - Fixed
+ * Option to set default sidebar for all posts, pages, courses, etc...,
+ * Enhanced dummy data installation
+ * Updated Documentation
+ * Packed with Layer Slider 5.6.2 and Revolution Slider 5.1.4
+ * BuddyPress 2.4.3 compatible
+ * s2Member Framework 151218 compatible
+ * Woothemes Sensei 1.8.8 compatible
+ * The Events Calendar 4.0.4 compatible
+ * WooCommerce 2.4.12 compatible
+ * Updated fontawesome icons and tgm plugin activation scripts
+ * Demo URL have been changed to http://wedesignthemes.com/themes/lms/, http://wedesignthemes.com/themes/lms/sensei/
+
+
+2015.11.12 - Version 1.9
+ * Updated documentation
+
+2015.06.16 - Version 1.8
+ * Updated PrettyPhoto Script to latest version
+
+2015.06.15 - Version 1.7
+ * WPML Compatible
+
+2015.04.30 - Version 1.6
+ * Wordpress 4.2.1 compatible
+ * Bug Fixes
+
+2015.04.24 - Version 1.5
+ * XSS vulnerability issues fixed
+ * Wordpress 4.2 compatible
+ * WooCommerce 2.3.8 compatible
+ * The Events Calendar 3.9.3 compatible
+
+2015.04.10 - version 1.4
+ * Now with the help of s2Member, we can provide open subscription to all courses based on following time periods day, month, year and lifetime.
+ * Added grouping option for courses in default lessons custom post
+ * Menu comes in two line when having only four menus issue fixed
+ * Fixed search of portfolio items doesn't show its image issue
+ * New user able to register as administrator issue fixed
+ * Fixed alignment issue in menus, when menu links are disabled
+ * The Events Calendar 3.9.1 compatible
+ * WooCommerce 2.3.7 compatible
+ * s2Member Framework 150311 compatible
+ * s2Member configuration in documentation
+
+2015.01.14 - version 1.3
+ * Wordpress 4.1 compatible
+ * Now course page can have media attachments.
+ * Quiz pages for courses with auto and manual evaluation 
+ * Options to have following type of questions Multiple Choice, Multiple Correct, True / False, Gap Fill, Single Line and Multi Line
+ * Certificates and Badges option for courses
+ * Options to add assignemnts and include in course evaluation.
+ * Payments for teachers can be feeded manually.
+ * Simple and graphical analysis of courses, course subscriptions, course completion, etc,
+ * Updated Dashboard.
+ * Retina and RTL support.
+ * Image Optimization.
+ * Updated dummy content file.
+ * Updated documentation.
+ * Added demo slider zip files for both Layer Slider and Revolution Slider.
+ * Option to disable placeholder images.
+ * Theme and plugin languages files updated
+ * The Events Calendar and The Events Calendar PRO 3.9 compatible
+ * Woocommerce 2.2.10 and BuddyPress 2.1.1 compatible
+ * Option to update footer logo in buddha panel
+ * Now dt_sc_recent_post shortcode can have categories attribute
+ * Option to have own server video in course and lessons page
+ * Fixed menus comes in two line issue
+
+
+2014.09.15 - version 1.2
+ * Wordpress 4.0 compatible
+ * Woocommerce 2.2.2 compatible
+
+
+
+2014.09.10 - version 1.1
+ * Included updated version of revolution slider
+ 
+ * Now white skins are also available (Added 20 more skins)
+
+2014.08.14 - version 1.0
+ * First release!

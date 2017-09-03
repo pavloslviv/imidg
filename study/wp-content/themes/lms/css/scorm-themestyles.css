@@ -1,0 +1,18 @@
+.scormCloudInvitation { background-color: #f5e9d4; border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 0; box-sizing: border-box; padding: 30px 20px; display:inline-block; width:100%; }
+.scormCloudInvitation h3 { margin-bottom:10px; }
+
+.scormCloudInvitation .courseInfo { border-radius:0; margin:20px auto; padding: 10px 20px; text-align:center; background-color:#fdf6ea; border-color:#e2d6c1; box-sizing:border-box; }
+.scormCloudInvitation table.result_table { border-radius:0; border-color:#e2d6c1; }
+.logged-in .scormCloudInvitation .courseInfo { width:100%; }
+.courselistDiv .usercourseblock { line-height:23px; margin-bottom:15px !important; }
+.courselistDiv .usercourseblock .courseTitle { font-size:14px !important; font-weight:600 !important; }
+.scormCloudInvitation table.result_table td.head { text-decoration:none; }
+.scormCloudInvitation input[type="button"] { font-size:14px; }
+.scormCloudInvitation table.result_table td.head, .scormCloudInvitation table.result_table td { border-right: 1px solid #e2d6c1; }
+
+.courselistDiv .courseDetails { background: #f5e9d4; box-sizing: border-box; display: none; margin: 10px 0 !important; padding: 15px !important; border:1px solid rgba(0, 0, 0, 0.05); }
+
+.courselistDiv .usercourseblock .showDetails { text-transform:capitalize; }
+.courselistDiv .usercourseblock .showDetails:before { content: "\f103"; font-family: 'FontAwesome'; left: -4px; position: relative; top: 1px; }
+
+.scormCloudInvitation .unknown, .courselistDiv .courseDetails .unknown { color: #808080; }
