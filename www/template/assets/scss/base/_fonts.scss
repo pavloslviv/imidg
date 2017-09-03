@@ -1,0 +1,123 @@
+/* Fonts includes
+-------------------------------------------------------------------------------------*/
+@font-face{
+  font-family: "Roboto";
+  src: url("../fonts/RobotoMedium/RobotoMedium.eot");
+  src: url("../fonts/RobotoMedium/RobotoMedium.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/RobotoMedium/RobotoMedium.woff") format("woff"),
+  url("../fonts/RobotoMedium/RobotoMedium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face{
+  font-family: "Roboto";
+  src: url("../fonts/RobotoLight/RobotoLight.eot");
+  src: url("../fonts/RobotoLight/RobotoLight.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/RobotoLight/RobotoLight.woff") format("woff"),
+  url("../fonts/RobotoLight/RobotoLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face{
+  font-family: "Roboto";
+  src: url("../fonts/RobotoLightItalic/RobotoLightItalic.eot");
+  src: url("../fonts/RobotoLightItalic/RobotoLightItalic.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/RobotoLightItalic/RobotoLightItalic.woff") format("woff"),
+  url("../fonts/RobotoLightItalic/RobotoLightItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icon/icomoon.eot?t37je');
+  src:  url('../fonts/icon/icomoon.eot?t37je#iefix') format('embedded-opentype'),
+  url('../fonts/icon/icomoon.ttf?t37je') format('truetype'),
+  url('../fonts/icon/icomoon.woff?t37je') format('woff'),
+  url('../fonts/icon/icomoon.svg?t37je#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-edit:before {
+  content: "\e900";
+}
+.icon-2-down:before {
+  content: "\61";
+}
+.icon-phone-call-2:before {
+  content: "\62";
+}
+.icon-2-up:before {
+  content: "\64";
+}
+.icon-add-circular-button:before {
+  content: "\65";
+}
+.icon-placeholder:before {
+  content: "\66";
+}
+.icon-placeholder-1:before {
+  content: "\67";
+}
+.icon-calendar:before {
+  content: "\68";
+}
+.icon-cancel:before {
+  content: "\69";
+}
+.icon-cancel-1:before {
+  content: "\6c";
+}
+.icon-checked-1:before {
+  content: "\6d";
+}
+.icon-clock:before {
+  content: "\70";
+}
+.icon-user:before {
+  content: "\72";
+}
+.icon-home:before {
+  content: "\75";
+}
+.icon-white-phone:before {
+  content: "\76";
+}
+.icon-instagram:before {
+  content: "\77";
+}
+.icon-left-arrow:before {
+  content: "\63";
+}
+

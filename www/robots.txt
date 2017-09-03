@@ -1,0 +1,12 @@
+User-agent: * 
+Disallow: /admin/
+Disallow: /*filters*
+Disallow: /*price*
+Disallow: /*form*
+Disallow: /*cart*
+Disallow: /*search*
+Disallow: /*query*
+Disallow: /*page-*
+
+Host: imidg.com.ua
+Sitemap: http://imidg.com.ua/sitemap.xml

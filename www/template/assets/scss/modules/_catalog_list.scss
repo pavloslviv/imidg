@@ -1,0 +1,223 @@
+.main-catalog{
+  padding: 0 0 45px;
+
+  .sect-title{
+    margin: 0 0 35px;
+  }
+
+}
+
+.show-filter{
+  display: none;
+}
+
+.catalog-filter{
+  width: 100%;
+  margin: 0 0 50px;
+
+  .simple-modal_title{
+    display: none;
+  }
+
+  &_item{
+    padding: 0 0 30px;
+    margin: 0 0 25px;
+    border-bottom: 1px solid #d1d9de;
+  }
+
+  &_title{
+    margin: 0 0 18px;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: $main-text;
+  }
+
+  .letter-sorting{
+    padding: 5px 0 5px;
+    font-size: 0;
+    line-height: 0;
+    text-align: left;
+
+    a{
+      display: inline-block;
+      font-size: 14px;
+      line-height: 18px;
+      color: $main-text;
+      text-transform: uppercase;
+      text-decoration: none;
+      margin: 0 14px 6px 0;
+      transition: all .2s linear;
+
+      &:hover, &.checked{
+        color: #dc4b4b;
+        text-decoration: underline;
+        transition: all .2s linear;
+      }
+    }
+  }
+
+  .filter-list{
+    margin: 10px 0 0;
+    max-height: 200px;
+    overflow: hidden;
+
+    li{
+      margin: 0 0 12px;
+
+      &:last-child{
+        margin: 0;
+      }
+
+      a{
+        display: block;
+        position: relative;
+        padding: 0 0 0 34px;
+        font-size: 13px;
+        line-height: 14px;
+        color: $main-text;
+        text-decoration: none;
+        transition: all .2s linear;
+
+        span{
+          display: inline-block;
+          margin: 0 0 0 15px;
+          text-transform: uppercase;
+          color: #7f7f7f;
+        }
+
+        &:before {
+          content: "\6d";
+          font-family: "icomoon" !important;
+          display: inline-block;
+          position: absolute;
+          width: 14px;
+          height: 14px;
+          top: 0;
+          left: 0;
+          background-color: #d6e1e9;
+          text-align: center;
+          font-size: 11px;
+          line-height: 14px;
+          vertical-align: middle;
+          color: transparent;
+        }
+
+        &:hover{
+          color: #dc4b4b;
+          transition: all .2s linear;
+        }
+
+        &.checked{
+
+          &:before {
+            color: $main-text;
+          }
+        }
+      }
+    }
+
+    .mCSB_scrollTools{
+      opacity: 1;
+    }
+
+    .mCSB_scrollTools .mCSB_draggerRail{
+      width: 4px;
+      background-color: #f4f3f5;
+      border-radius: 0;
+    }
+
+    .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+      background-color: #252525;
+      border-radius: 0;
+    }
+  }
+}
+
+.filter-price_inputs{
+  padding: 20px 0 0;
+  text-align: left;
+  font-size: 0;
+
+  span{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    line-height: 30px;
+    color: $main-text;
+  }
+
+  input{
+    display: inline-block;
+    width: 76px;
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    color: $main-text;
+    font-weight: 300;
+    padding: 4px 5px;
+    margin: 0 10px;
+    vertical-align: middle;
+  }
+}
+
+.filter-price_slider{
+  width: 100%;
+
+  .noUi-origin {
+    width:auto;
+    height: 2px;
+    top: 0;
+    background-color: #252525;
+  }
+
+  &.noUi-target{
+    position: relative;
+    margin: 6px 0;
+    height: 2px;
+    background-color: #d6e1e9;
+
+    .noUi-handle{
+      position: absolute;
+      width: 14px;
+      height: 14px;
+      top: -6px;
+      border: 1px solid #969696;
+      background-color: #ffffff;
+      border-radius: 50%;
+      box-shadow: 0 0 7px rgba(150, 150, 150, 0.26);
+      cursor: pointer;
+      transition: border-color .2s linear;
+
+      &:after, &:before {
+        content: none;
+      }
+
+      &-lower {
+        left: -7px;
+        right:auto;
+      }
+
+      &-upper {
+        right: -7px;
+        left:auto;
+      }
+
+      &:hover{
+        border-color: #252525;
+        transition: border-color .2s linear;
+      }
+    }
+
+    .noUi-connect{
+      position: absolute;
+      height: 2px;
+      top: -1px;
+      width: auto;
+      background-color: #252525;
+    }
+  }
+}
+
+

@@ -1,0 +1,120 @@
+
+
+article, .cms-content, .cms_content, #cms-content{
+  width: 100%;
+
+  img{
+    float: left;
+    max-width: 100%;
+    height: auto;
+    margin: 0 0 26px;
+  }
+
+  h1{
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 500;
+    color: $main-text;
+    text-transform: uppercase;
+    margin: 0 0 25px;
+  }
+
+  h2{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+    color: $main-text;
+    text-transform: uppercase;
+    margin: 0 0 25px;
+  }
+
+  h3{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    color: $main-text;
+    margin: 0 0 25px;
+  }
+
+  h4{
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    color: $main-text;
+    text-transform: uppercase;
+    margin: 0 0 25px;
+  }
+
+  h5, h6{
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 500;
+    color: $main-text;
+    text-transform: uppercase;
+    margin: 0 0 25px;
+  }
+
+  p{
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 0 14px;
+    color: $main-text;
+  }
+
+  b, strong{
+    font-weight: 500;
+    font-style: normal;
+    color: $main-text;
+  }
+
+  i, em{
+    font-style: italic;
+    font-weight: 300;
+  }
+
+  blockquote{
+    margin: 0 0 25px 40px;
+    padding: 35px 70px 33px 40px;
+    background-color: #f1f2f2;
+    box-shadow: inset 3px 0 0 #dc4b4b;
+    font-size: 17px;
+    line-height: 24px;
+    font-style: italic;
+    color: $main-text;
+  }
+
+  a{
+    text-decoration: underline;
+    color: $red-color;
+
+    &:hover{
+      text-decoration: none;
+    }
+  }
+
+  ul{
+    list-style-type: disc;
+    margin: 0 0 10px;
+
+    li{
+      margin: 0 0 5px;
+      padding: 0 0 0 40px;
+      font-size: 16px;
+      line-height: 20px;
+      color: $main-text;
+    }
+  }
+
+  ol{
+    list-style-type: decimal;
+    margin: 0 0 10px;
+
+    li{
+      margin: 0 0 5px;
+      padding: 0 0 0 40px;
+      font-size: 16px;
+      line-height: 20px;
+      color: $main-text;
+    }
+  }
+}

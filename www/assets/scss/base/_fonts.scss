@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'RobotoLight';
+    src: url('../fonts/Roboto/RobotoLight.eot');
+    src: url('../fonts/Roboto/RobotoLight.eot') format('embedded-opentype'),
+    url('../fonts/Roboto/RobotoLight.woff2') format('woff2'),
+    url('../fonts/Roboto/RobotoLight.woff') format('woff'),
+    url('../fonts/Roboto/RobotoLight.ttf') format('truetype'),
+    url('../fonts/Roboto/RobotoLight.svg#RobotoLight') format('svg');
+}
+
+@font-face {
+    font-family: 'RobotoBold';
+    src: url('../fonts/Roboto/RobotoBold.eot');
+    src: url('../fonts/Roboto/RobotoBold.eot') format('embedded-opentype'),
+    url('../fonts/Roboto/RobotoBold.woff2') format('woff2'),
+    url('../fonts/Roboto/RobotoBold.woff') format('woff'),
+    url('../fonts/Roboto/RobotoBold.ttf') format('truetype'),
+    url('../fonts/Roboto/RobotoBold.svg#RobotoBold') format('svg');
+}
+
+@font-face {
+    @font-face {
+        font-family: 'arial';
+        src: url('../fonts/Arial/arial.eot');
+        src: url('../fonts/Arial/arial.eot') format('embedded-opentype'),
+        url('../fonts/Arial/arial.woff2') format('woff2'),
+        url('../fonts/Arial/arial.woff') format('woff'),
+        url('../fonts/Arial/arial.ttf') format('truetype'),
+        url('../fonts/Arial/arial.svg#arial') format('svg');
+    }
+
+}
+
+
+

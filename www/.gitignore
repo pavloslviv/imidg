@@ -1,0 +1,5 @@
+/node_modules/
+/media/
+.idea/
+/lib/smarty/compiled
+/public/

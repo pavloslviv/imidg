@@ -1,0 +1,2177 @@
+2016.05.20 14:11:22> ERROR: Empty POST
+2016.05.20 14:15:35> ERROR: Empty POST
+2016.05.20 14:17:17> ERROR: Empty POST
+2016.05.20 14:17:20> ERROR: Empty POST
+2016.06.09 17:23:45> >>>  log callback data
+2016.06.09 17:23:45> array (
+  'signature' => 'aeNwW1t6f/ZjabUL4HwmUlMbrDc=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjoxODYzODgyODAsInN0YXR1cyI6InN1Y2Nlc3MiLCJ2ZXJzaW9uIjozLCJ0eXBlIjoiYnV5IiwicGF5dHlwZSI6ImNhcmQiLCJwdWJsaWNfa2V5IjoiaTI0MTE4MTQzODA5IiwiYWNxX2lkIjo0MTQ5NjMsIm9yZGVyX2lkIjoiNjU0IiwibGlxcGF5X29yZGVyX2lkIjoiRUM1Tzc2T0UxNDY1NDgyMjE4NjU4OTQ2IiwiZGVzY3JpcHRpb24iOiLQn9C70LDRgtGW0LYg0LfQsCDQt9Cw0LzQvtCy0LvQtdC90L3RjyIsInNlbmRlcl9jYXJkX21hc2syIjoiNTE2ODc1KjQ5Iiwic2VuZGVyX2NhcmRfYmFuayI6InBiIiwic2VuZGVyX2NhcmRfdHlwZSI6Im1jIiwic2VuZGVyX2NhcmRfY291bnRyeSI6ODA0LCJpcCI6IjE5NC40NC4xOTQuMTE0IiwiYW1vdW50IjoxNC4wLCJjdXJyZW5jeSI6IlVBSCIsInNlbmRlcl9jb21taXNzaW9uIjowLjAsInJlY2VpdmVyX2NvbW1pc3Npb24iOjAuMzksImFnZW50X2NvbW1pc3Npb24iOjAuMCwiYW1vdW50X2RlYml0IjoxNC4wLCJhbW91bnRfY3JlZGl0IjoxNC4wLCJjb21taXNzaW9uX2RlYml0IjowLjAsImNvbW1pc3Npb25fY3JlZGl0IjowLjM5LCJjdXJyZW5jeV9kZWJpdCI6IlVBSCIsImN1cnJlbmN5X2NyZWRpdCI6IlVBSCIsInNlbmRlcl9ib251cyI6MC4wLCJhbW91bnRfYm9udXMiOjAuMCwiYXV0aGNvZGVfZGViaXQiOiIwMTkwNjEiLCJycm5fZGViaXQiOiIwMDAzOTU3NDQxNTEiLCJtcGlfZWNpIjoiNSIsImlzXzNkcyI6dHJ1ZSwidHJhbnNhY3Rpb25faWQiOjE4NjM4ODI4MH0=',
+)
+2016.06.09 17:23:45> verify signature begin
+2016.06.09 17:23:45> Callback signature OK
+2016.06.09 17:23:45> log data
+2016.06.09 17:23:45> array (
+  'action' => 'pay',
+  'payment_id' => 186388280,
+  'status' => 'success',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'card',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '654',
+  'liqpay_order_id' => 'EC5O76OE1465482218658946',
+  'description' => 'Платіж за замовлення',
+  'sender_card_mask2' => '516875*49',
+  'sender_card_bank' => 'pb',
+  'sender_card_type' => 'mc',
+  'sender_card_country' => 804,
+  'ip' => '194.44.194.114',
+  'amount' => 14,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 0.39,
+  'agent_commission' => 0,
+  'amount_debit' => 14,
+  'amount_credit' => 14,
+  'commission_debit' => 0,
+  'commission_credit' => 0.39,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 0,
+  'amount_bonus' => 0,
+  'authcode_debit' => '019061',
+  'rrn_debit' => '000395744151',
+  'mpi_eci' => '5',
+  'is_3ds' => true,
+  'transaction_id' => 186388280,
+)
+2016.06.09 17:23:45> повідомлення замовнику
+2016.06.09 17:23:45> Order 654 processed as successfull sale
+2016.06.09 17:23:45> OK
+2016.06.21 17:02:26> >>>  log callback data
+2016.06.21 17:02:26> array (
+  'signature' => 'FbA3Q/yZzrese8VKbKx73DVYTB4=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjoxOTM0OTQ5ODksInN0YXR1cyI6InN1Y2Nlc3MiLCJ2ZXJzaW9uIjozLCJ0eXBlIjoiYnV5IiwicGF5dHlwZSI6ImNhcmQiLCJwdWJsaWNfa2V5IjoiaTI0MTE4MTQzODA5IiwiYWNxX2lkIjo0MTQ5NjMsIm9yZGVyX2lkIjoiNjczIiwibGlxcGF5X29yZGVyX2lkIjoiVjRKNFFQSDQxNDY2NTE3NzM0MDA2MDU3IiwiZGVzY3JpcHRpb24iOiLQn9C70LDRgtGW0LYg0LfQsCDQt9Cw0LzQvtCy0LvQtdC90L3RjyIsInNlbmRlcl9jYXJkX21hc2syIjoiNTE2ODc1KjQ5Iiwic2VuZGVyX2NhcmRfYmFuayI6InBiIiwic2VuZGVyX2NhcmRfdHlwZSI6Im1jIiwic2VuZGVyX2NhcmRfY291bnRyeSI6ODA0LCJpcCI6IjE5NC40NC4xOTQuMTE0IiwiYW1vdW50IjoxNC4wLCJjdXJyZW5jeSI6IlVBSCIsInNlbmRlcl9jb21taXNzaW9uIjowLjAsInJlY2VpdmVyX2NvbW1pc3Npb24iOjAuMzksImFnZW50X2NvbW1pc3Npb24iOjAuMCwiYW1vdW50X2RlYml0IjoxNC4wLCJhbW91bnRfY3JlZGl0IjoxNC4wLCJjb21taXNzaW9uX2RlYml0IjowLjAsImNvbW1pc3Npb25fY3JlZGl0IjowLjM5LCJjdXJyZW5jeV9kZWJpdCI6IlVBSCIsImN1cnJlbmN5X2NyZWRpdCI6IlVBSCIsInNlbmRlcl9ib251cyI6MC43LCJhbW91bnRfYm9udXMiOjAuNywiYXV0aGNvZGVfZGViaXQiOiI2OTgwNzkiLCJycm5fZGViaXQiOiIwMTk1OTY5NDA1NzAiLCJtcGlfZWNpIjoiNSIsImlzXzNkcyI6dHJ1ZSwiY3JlYXRlX2RhdGUiOjE0NjY1MTc3NDYxNzEsImVuZF9kYXRlIjoxNDY2NTE3NzQ2MTcxLCJ0cmFuc2FjdGlvbl9pZCI6MTkzNDk0OTg5fQ==',
+)
+2016.06.21 17:02:26> verify signature begin
+2016.06.21 17:02:26> Callback signature OK
+2016.06.21 17:02:26> log data
+2016.06.21 17:02:26> array (
+  'action' => 'pay',
+  'payment_id' => 193494989,
+  'status' => 'success',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'card',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '673',
+  'liqpay_order_id' => 'V4J4QPH41466517734006057',
+  'description' => 'Платіж за замовлення',
+  'sender_card_mask2' => '516875*49',
+  'sender_card_bank' => 'pb',
+  'sender_card_type' => 'mc',
+  'sender_card_country' => 804,
+  'ip' => '194.44.194.114',
+  'amount' => 14,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 0.39,
+  'agent_commission' => 0,
+  'amount_debit' => 14,
+  'amount_credit' => 14,
+  'commission_debit' => 0,
+  'commission_credit' => 0.39,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 0.7,
+  'amount_bonus' => 0.7,
+  'authcode_debit' => '698079',
+  'rrn_debit' => '019596940570',
+  'mpi_eci' => '5',
+  'is_3ds' => true,
+  'create_date' => 1466517746171,
+  'end_date' => 1466517746171,
+  'transaction_id' => 193494989,
+)
+2016.06.21 17:02:26> повідомлення замовнику
+2016.06.21 17:02:31> Order 673 processed as successfull sale
+2016.06.21 17:02:31> OK
+2016.07.19 14:59:05> >>>  log callback data
+2016.07.19 14:59:05> array (
+  'signature' => 'AmnMYHl/AJkvMIiD1y+jpHetPEM=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjoyMTAxOTE1MTMsInN0YXR1cyI6InN1Y2Nlc3MiLCJ2ZXJzaW9uIjozLCJ0eXBlIjoiYnV5IiwicGF5dHlwZSI6InByaXZhdDI0IiwicHVibGljX2tleSI6ImkyNDExODE0MzgwOSIsImFjcV9pZCI6NDE0OTYzLCJvcmRlcl9pZCI6IjcxNiIsImxpcXBheV9vcmRlcl9pZCI6IlFUWDZGVkRCMTQ2ODkyOTUzNzQxODYwMCIsImRlc2NyaXB0aW9uIjoi0J/Qu9Cw0YLRltC2INC30LAg0LfQsNC80L7QstC70LXQvdC90Y8iLCJzZW5kZXJfcGhvbmUiOiIzODA2NzcwMDQ5MzEiLCJzZW5kZXJfY2FyZF9tYXNrMiI6IjUxNjc5OCo2OCIsInNlbmRlcl9jYXJkX2JhbmsiOiJwYiIsInNlbmRlcl9jYXJkX3R5cGUiOiJtYyIsInNlbmRlcl9jYXJkX2NvdW50cnkiOjgwNCwiaXAiOiIxOTQuNDQuMTk0LjExNCIsImFtb3VudCI6MTY0LjAsImN1cnJlbmN5IjoiVUFIIiwic2VuZGVyX2NvbW1pc3Npb24iOjAuMCwicmVjZWl2ZXJfY29tbWlzc2lvbiI6NC41MSwiYWdlbnRfY29tbWlzc2lvbiI6MC4wLCJhbW91bnRfZGViaXQiOjE2NC4wLCJhbW91bnRfY3JlZGl0IjoxNjQuMCwiY29tbWlzc2lvbl9kZWJpdCI6MC4wLCJjb21taXNzaW9uX2NyZWRpdCI6NC41MSwiY3VycmVuY3lfZGViaXQiOiJVQUgiLCJjdXJyZW5jeV9jcmVkaXQiOiJVQUgiLCJzZW5kZXJfYm9udXMiOjguMiwiYW1vdW50X2JvbnVzIjo4LjIsImF1dGhjb2RlX2RlYml0IjoiMzkyMDEwIiwicnJuX2RlYml0IjoiMDE5OTAzNzY0MTg2IiwibXBpX2VjaSI6IjciLCJpc18zZHMiOmZhbHNlLCJjcmVhdGVfZGF0ZSI6MTQ2ODkyOTU0NTE0OSwiZW5kX2RhdGUiOjE0Njg5Mjk1NDUxNDksInRyYW5zYWN0aW9uX2lkIjoyMTAxOTE1MTN9',
+)
+2016.07.19 14:59:05> verify signature begin
+2016.07.19 14:59:05> Callback signature OK
+2016.07.19 14:59:05> log data
+2016.07.19 14:59:05> array (
+  'action' => 'pay',
+  'payment_id' => 210191513,
+  'status' => 'success',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'privat24',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '716',
+  'liqpay_order_id' => 'QTX6FVDB1468929537418600',
+  'description' => 'Платіж за замовлення',
+  'sender_phone' => '380677004931',
+  'sender_card_mask2' => '516798*68',
+  'sender_card_bank' => 'pb',
+  'sender_card_type' => 'mc',
+  'sender_card_country' => 804,
+  'ip' => '194.44.194.114',
+  'amount' => 164,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 4.51,
+  'agent_commission' => 0,
+  'amount_debit' => 164,
+  'amount_credit' => 164,
+  'commission_debit' => 0,
+  'commission_credit' => 4.51,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 8.2,
+  'amount_bonus' => 8.2,
+  'authcode_debit' => '392010',
+  'rrn_debit' => '019903764186',
+  'mpi_eci' => '7',
+  'is_3ds' => false,
+  'create_date' => 1468929545149,
+  'end_date' => 1468929545149,
+  'transaction_id' => 210191513,
+)
+2016.07.19 14:59:05> повідомлення замовнику
+2016.07.19 14:59:05> Order 716 processed as successfull sale
+2016.07.19 14:59:05> OK
+2016.07.24 15:15:33> >>>  log callback data
+2016.07.24 15:15:33> array (
+  'signature' => '3JUAhoxEqgje5fOw+Jnv5JuXbog=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjoyMTMxMTgzNzUsInN0YXR1cyI6ImZhaWx1cmUiLCJlcnJfY29kZSI6ImVycl9wYXltZW50IiwidmVyc2lvbiI6MywidHlwZSI6ImJ1eSIsInBheXR5cGUiOiJjYXJkIiwicHVibGljX2tleSI6ImkyNDExODE0MzgwOSIsImFjcV9pZCI6NDE0OTYzLCJvcmRlcl9pZCI6IjcyMyIsImxpcXBheV9vcmRlcl9pZCI6IldBUU5XMUg1MTQ2OTM2MjUyNDA1OTg5MSIsImRlc2NyaXB0aW9uIjoi0J/Qu9Cw0YLRltC2INC30LAg0LfQsNC80L7QstC70LXQvdC90Y8iLCJzZW5kZXJfY2FyZF9tYXNrMiI6IjU0NTcwOCo3OSIsInNlbmRlcl9jYXJkX2JhbmsiOiJwYiIsInNlbmRlcl9jYXJkX3R5cGUiOiJtYyIsInNlbmRlcl9jYXJkX2NvdW50cnkiOjgwNCwiaXAiOiI5MS4yMjAuNjEuMjciLCJhbW91bnQiOjE3MzAuMCwiY3VycmVuY3kiOiJVQUgiLCJzZW5kZXJfY29tbWlzc2lvbiI6MC4wLCJyZWNlaXZlcl9jb21taXNzaW9uIjo0Ny41OCwiYWdlbnRfY29tbWlzc2lvbiI6MC4wLCJhbW91bnRfZGViaXQiOjE3MzAuMCwiYW1vdW50X2NyZWRpdCI6MTczMC4wLCJjb21taXNzaW9uX2RlYml0IjowLjAsImNvbW1pc3Npb25fY3JlZGl0Ijo0Ny41OCwiY3VycmVuY3lfZGViaXQiOiJVQUgiLCJjdXJyZW5jeV9jcmVkaXQiOiJVQUgiLCJzZW5kZXJfYm9udXMiOjg2LjUsImFtb3VudF9ib251cyI6ODYuNSwibXBpX2VjaSI6IjUiLCJpc18zZHMiOnRydWUsImNyZWF0ZV9kYXRlIjoxNDY5MzYyNTMxOTE2LCJlbmRfZGF0ZSI6MTQ2OTM2MjUzMTkxNiwidHJhbnNhY3Rpb25faWQiOjIxMzExODM3NSwiY29kZSI6ImVycl9wYXltZW50In0=',
+)
+2016.07.24 15:15:33> verify signature begin
+2016.07.24 15:15:33> Callback signature OK
+2016.07.24 15:15:33> log data
+2016.07.24 15:15:33> array (
+  'action' => 'pay',
+  'payment_id' => 213118375,
+  'status' => 'failure',
+  'err_code' => 'err_payment',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'card',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '723',
+  'liqpay_order_id' => 'WAQNW1H51469362524059891',
+  'description' => 'Платіж за замовлення',
+  'sender_card_mask2' => '545708*79',
+  'sender_card_bank' => 'pb',
+  'sender_card_type' => 'mc',
+  'sender_card_country' => 804,
+  'ip' => '91.220.61.27',
+  'amount' => 1730,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 47.58,
+  'agent_commission' => 0,
+  'amount_debit' => 1730,
+  'amount_credit' => 1730,
+  'commission_debit' => 0,
+  'commission_credit' => 47.58,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 86.5,
+  'amount_bonus' => 86.5,
+  'mpi_eci' => '5',
+  'is_3ds' => true,
+  'create_date' => 1469362531916,
+  'end_date' => 1469362531916,
+  'transaction_id' => 213118375,
+  'code' => 'err_payment',
+)
+2016.07.24 15:15:33> При оплате заказа  723  получен статус failure.
+
+                            Возможные значения:
+                            success - успешный платеж
+                            failure - неуспешный платеж
+                            wait_secure - платеж на проверке
+                            wait_accept - Деньги с клиента списаны, но магазин еще не прошел проверку
+                            wait_lc - Аккредитив. Деньги с клиента списаны, ожидается подтверждение доставки товара
+                            processing - Платеж обрабатывается
+                            sandbox - тестовый платеж
+                            subscribed - Подписка успешно оформлена
+                            unsubscribed - Подписка успешно деактивирована
+                            reversed - Возврат клиенту после списания
+                            cash_wait - Ожидание оплаты счета клиентом в терминале
+
+                     Подробнее о статусах: https://www.liqpay.com/ru/doc#callback 
+2016.08.09 16:34:08> >>>  log callback data
+2016.08.09 16:34:08> array (
+  'signature' => 'b9+DW/IjcJeABskjyOAuxW7DPVQ=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjoyMjI2ODAyMzksInN0YXR1cyI6InN1Y2Nlc3MiLCJ2ZXJzaW9uIjozLCJ0eXBlIjoiYnV5IiwicGF5dHlwZSI6ImNhcmQiLCJwdWJsaWNfa2V5IjoiaTI0MTE4MTQzODA5IiwiYWNxX2lkIjo0MTQ5NjMsIm9yZGVyX2lkIjoiNzcyIiwibGlxcGF5X29yZGVyX2lkIjoiQzdDOE1TN1YxNDcwNzQ5NjQwOTIxNTIzIiwiZGVzY3JpcHRpb24iOiLQn9C70LDRgtGW0LYg0LfQsCDQt9Cw0LzQvtCy0LvQtdC90L3RjyIsInNlbmRlcl9jYXJkX21hc2syIjoiNTQ1NzA4Kjc5Iiwic2VuZGVyX2NhcmRfYmFuayI6InBiIiwic2VuZGVyX2NhcmRfdHlwZSI6Im1jIiwic2VuZGVyX2NhcmRfY291bnRyeSI6ODA0LCJpcCI6Ijc4LjE1NC4xNzQuMjQyIiwiYW1vdW50IjoyODMuMCwiY3VycmVuY3kiOiJVQUgiLCJzZW5kZXJfY29tbWlzc2lvbiI6MC4wLCJyZWNlaXZlcl9jb21taXNzaW9uIjo3Ljc4LCJhZ2VudF9jb21taXNzaW9uIjowLjAsImFtb3VudF9kZWJpdCI6MjgzLjAsImFtb3VudF9jcmVkaXQiOjI4My4wLCJjb21taXNzaW9uX2RlYml0IjowLjAsImNvbW1pc3Npb25fY3JlZGl0Ijo3Ljc4LCJjdXJyZW5jeV9kZWJpdCI6IlVBSCIsImN1cnJlbmN5X2NyZWRpdCI6IlVBSCIsInNlbmRlcl9ib251cyI6MTQuMTUsImFtb3VudF9ib251cyI6MTQuMTUsImF1dGhjb2RlX2RlYml0IjoiNzYyMDYwIiwicnJuX2RlYml0IjoiMDIwMTM0MzM5NDA3IiwibXBpX2VjaSI6IjUiLCJpc18zZHMiOnRydWUsImNyZWF0ZV9kYXRlIjoxNDcwNzQ5NjQ3ODIyLCJlbmRfZGF0ZSI6MTQ3MDc0OTY0NzgyMiwidHJhbnNhY3Rpb25faWQiOjIyMjY4MDIzOX0=',
+)
+2016.08.09 16:34:08> verify signature begin
+2016.08.09 16:34:08> Callback signature OK
+2016.08.09 16:34:08> log data
+2016.08.09 16:34:08> array (
+  'action' => 'pay',
+  'payment_id' => 222680239,
+  'status' => 'success',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'card',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '772',
+  'liqpay_order_id' => 'C7C8MS7V1470749640921523',
+  'description' => 'Платіж за замовлення',
+  'sender_card_mask2' => '545708*79',
+  'sender_card_bank' => 'pb',
+  'sender_card_type' => 'mc',
+  'sender_card_country' => 804,
+  'ip' => '78.154.174.242',
+  'amount' => 283,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 7.78,
+  'agent_commission' => 0,
+  'amount_debit' => 283,
+  'amount_credit' => 283,
+  'commission_debit' => 0,
+  'commission_credit' => 7.78,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 14.15,
+  'amount_bonus' => 14.15,
+  'authcode_debit' => '762060',
+  'rrn_debit' => '020134339407',
+  'mpi_eci' => '5',
+  'is_3ds' => true,
+  'create_date' => 1470749647822,
+  'end_date' => 1470749647822,
+  'transaction_id' => 222680239,
+)
+2016.08.09 16:34:08> повідомлення замовнику
+2016.08.09 16:34:08> Order 772 processed as successfull sale
+2016.08.09 16:34:08> OK
+2016.09.05 21:19:42> >>>  log callback data
+2016.09.05 21:19:42> array (
+  'signature' => 'LbvwXvAO2MRZt7UPEzX2I7ZiUV4=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjoyMzg1OTY4NTcsInN0YXR1cyI6ImZhaWx1cmUiLCJlcnJfY29kZSI6ImVycl9wYXltZW50IiwiZXJyX2Rlc2NyaXB0aW9uIjoiRXJyb3IgcGF5bWVudCIsInZlcnNpb24iOjMsInR5cGUiOiJidXkiLCJwYXl0eXBlIjoicHJpdmF0MjQiLCJwdWJsaWNfa2V5IjoiaTI0MTE4MTQzODA5IiwiYWNxX2lkIjo0MTQ5NjMsIm9yZGVyX2lkIjoiNzkwIiwibGlxcGF5X29yZGVyX2lkIjoiVDlVMFJBUTcxNDczMDk5NTc2MDg3OTYxIiwiZGVzY3JpcHRpb24iOiLQn9C70LDRgtGW0LYg0LfQsCDQt9Cw0LzQvtCy0LvQtdC90L3RjyIsInNlbmRlcl9waG9uZSI6IjM4MDk3MjQ5MjEyNiIsInNlbmRlcl9jYXJkX21hc2syIjoiNDczMTE4KjMyIiwic2VuZGVyX2NhcmRfYmFuayI6InBiIiwic2VuZGVyX2NhcmRfdHlwZSI6InZpc2EiLCJzZW5kZXJfY2FyZF9jb3VudHJ5Ijo4MDQsImlwIjoiNDYuMTYwLjY1LjIzNyIsImFtb3VudCI6NTUuMCwiY3VycmVuY3kiOiJVQUgiLCJzZW5kZXJfY29tbWlzc2lvbiI6MC4wLCJyZWNlaXZlcl9jb21taXNzaW9uIjoxLjUxLCJhZ2VudF9jb21taXNzaW9uIjowLjAsImFtb3VudF9kZWJpdCI6NTUuMCwiYW1vdW50X2NyZWRpdCI6NTUuMCwiY29tbWlzc2lvbl9kZWJpdCI6MC4wLCJjb21taXNzaW9uX2NyZWRpdCI6MS41MSwiY3VycmVuY3lfZGViaXQiOiJVQUgiLCJjdXJyZW5jeV9jcmVkaXQiOiJVQUgiLCJzZW5kZXJfYm9udXMiOjIuNzUsImFtb3VudF9ib251cyI6Mi43NSwibXBpX2VjaSI6IjciLCJpc18zZHMiOmZhbHNlLCJjcmVhdGVfZGF0ZSI6MTQ3MzA5OTU4MjI3NSwiZW5kX2RhdGUiOjE0NzMwOTk1ODIyNzUsInRyYW5zYWN0aW9uX2lkIjoyMzg1OTY4NTcsImNvZGUiOiJlcnJfcGF5bWVudCJ9',
+)
+2016.09.05 21:19:42> verify signature begin
+2016.09.05 21:19:42> Callback signature OK
+2016.09.05 21:19:42> log data
+2016.09.05 21:19:42> array (
+  'action' => 'pay',
+  'payment_id' => 238596857,
+  'status' => 'failure',
+  'err_code' => 'err_payment',
+  'err_description' => 'Error payment',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'privat24',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '790',
+  'liqpay_order_id' => 'T9U0RAQ71473099576087961',
+  'description' => 'Платіж за замовлення',
+  'sender_phone' => '380972492126',
+  'sender_card_mask2' => '473118*32',
+  'sender_card_bank' => 'pb',
+  'sender_card_type' => 'visa',
+  'sender_card_country' => 804,
+  'ip' => '46.160.65.237',
+  'amount' => 55,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 1.51,
+  'agent_commission' => 0,
+  'amount_debit' => 55,
+  'amount_credit' => 55,
+  'commission_debit' => 0,
+  'commission_credit' => 1.51,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 2.75,
+  'amount_bonus' => 2.75,
+  'mpi_eci' => '7',
+  'is_3ds' => false,
+  'create_date' => 1473099582275,
+  'end_date' => 1473099582275,
+  'transaction_id' => 238596857,
+  'code' => 'err_payment',
+)
+2016.09.05 21:19:42> При оплате заказа  790  получен статус failure.
+
+                            Возможные значения:
+                            success - успешный платеж
+                            failure - неуспешный платеж
+                            wait_secure - платеж на проверке
+                            wait_accept - Деньги с клиента списаны, но магазин еще не прошел проверку
+                            wait_lc - Аккредитив. Деньги с клиента списаны, ожидается подтверждение доставки товара
+                            processing - Платеж обрабатывается
+                            sandbox - тестовый платеж
+                            subscribed - Подписка успешно оформлена
+                            unsubscribed - Подписка успешно деактивирована
+                            reversed - Возврат клиенту после списания
+                            cash_wait - Ожидание оплаты счета клиентом в терминале
+
+                     Подробнее о статусах: https://www.liqpay.com/ru/doc#callback 
+2016.09.06 15:23:20> >>>  log callback data
+2016.09.06 15:23:20> array (
+  'signature' => 'gBNDASw27nFoLycqQnTokNSlcnU=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjoyMzkwMDcxMTAsInN0YXR1cyI6InN1Y2Nlc3MiLCJ2ZXJzaW9uIjozLCJ0eXBlIjoiYnV5IiwicGF5dHlwZSI6ImNhcmQiLCJwdWJsaWNfa2V5IjoiaTI0MTE4MTQzODA5IiwiYWNxX2lkIjo0MTQ5NjMsIm9yZGVyX2lkIjoiNzkyIiwibGlxcGF5X29yZGVyX2lkIjoiV01XUU9RS1kxNDczMTY0NTkzMDM5OTYzIiwiZGVzY3JpcHRpb24iOiLQn9C70LDRgtGW0LYg0LfQsCDQt9Cw0LzQvtCy0LvQtdC90L3RjyIsInNlbmRlcl9jYXJkX21hc2syIjoiNTE2ODc1KjQ5Iiwic2VuZGVyX2NhcmRfYmFuayI6InBiIiwic2VuZGVyX2NhcmRfdHlwZSI6Im1jIiwic2VuZGVyX2NhcmRfY291bnRyeSI6ODA0LCJpcCI6IjE5NC40NC4xOTQuMTE0IiwiYW1vdW50IjoxNi4wLCJjdXJyZW5jeSI6IlVBSCIsInNlbmRlcl9jb21taXNzaW9uIjowLjAsInJlY2VpdmVyX2NvbW1pc3Npb24iOjAuNDQsImFnZW50X2NvbW1pc3Npb24iOjAuMCwiYW1vdW50X2RlYml0IjoxNi4wLCJhbW91bnRfY3JlZGl0IjoxNi4wLCJjb21taXNzaW9uX2RlYml0IjowLjAsImNvbW1pc3Npb25fY3JlZGl0IjowLjQ0LCJjdXJyZW5jeV9kZWJpdCI6IlVBSCIsImN1cnJlbmN5X2NyZWRpdCI6IlVBSCIsInNlbmRlcl9ib251cyI6MC44LCJhbW91bnRfYm9udXMiOjAuOCwiYXV0aGNvZGVfZGViaXQiOiI3ODUxNzQiLCJycm5fZGViaXQiOiIwMjA0NDM5NDA3MDEiLCJtcGlfZWNpIjoiNyIsImlzXzNkcyI6ZmFsc2UsImNyZWF0ZV9kYXRlIjoxNDczMTY0NjAwMDk5LCJlbmRfZGF0ZSI6MTQ3MzE2NDYwMDA5OSwidHJhbnNhY3Rpb25faWQiOjIzOTAwNzExMH0=',
+)
+2016.09.06 15:23:20> verify signature begin
+2016.09.06 15:23:20> Callback signature OK
+2016.09.06 15:23:20> log data
+2016.09.06 15:23:20> array (
+  'action' => 'pay',
+  'payment_id' => 239007110,
+  'status' => 'success',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'card',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '792',
+  'liqpay_order_id' => 'WMWQOQKY1473164593039963',
+  'description' => 'Платіж за замовлення',
+  'sender_card_mask2' => '516875*49',
+  'sender_card_bank' => 'pb',
+  'sender_card_type' => 'mc',
+  'sender_card_country' => 804,
+  'ip' => '194.44.194.114',
+  'amount' => 16,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 0.44,
+  'agent_commission' => 0,
+  'amount_debit' => 16,
+  'amount_credit' => 16,
+  'commission_debit' => 0,
+  'commission_credit' => 0.44,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 0.8,
+  'amount_bonus' => 0.8,
+  'authcode_debit' => '785174',
+  'rrn_debit' => '020443940701',
+  'mpi_eci' => '7',
+  'is_3ds' => false,
+  'create_date' => 1473164600099,
+  'end_date' => 1473164600099,
+  'transaction_id' => 239007110,
+)
+2016.09.06 15:23:20> повідомлення замовнику
+2016.09.06 15:23:21> Order 792 processed as successfull sale
+2016.09.06 15:23:21> OK
+2016.09.12 16:47:46> >>>  log callback data
+2016.09.12 16:47:46> array (
+  'signature' => 'oR4q6DQAxO5304cfxWcThZONrYo=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjoyNDI2NjEzNTAsInN0YXR1cyI6ImZhaWx1cmUiLCJlcnJfY29kZSI6ImV4cGlyZWQiLCJlcnJfZGVzY3JpcHRpb24iOiLQmNGB0YLQtdC60LvQviDQstGA0LXQvNGPINC30LDQstC10YDRiNC10L3QuNGPINC/0LvQsNGC0LXQttCwIiwidmVyc2lvbiI6MywidHlwZSI6ImJ1eSIsInBheXR5cGUiOiJjYXJkIiwicHVibGljX2tleSI6ImkyNDExODE0MzgwOSIsImFjcV9pZCI6NDE0OTYzLCJvcmRlcl9pZCI6IjgwMSIsImxpcXBheV9vcmRlcl9pZCI6IktPVVRMRVNPMTQ3MzY4MDg2Mjk4NzUxNSIsImRlc2NyaXB0aW9uIjoi0J/Qu9Cw0YLRltC2INC30LAg0LfQsNC80L7QstC70LXQvdC90Y8iLCJzZW5kZXJfY2FyZF9tYXNrMiI6IjUxNjg3NSo0OSIsInNlbmRlcl9jYXJkX2JhbmsiOiJwYiIsInNlbmRlcl9jYXJkX3R5cGUiOiJtYyIsInNlbmRlcl9jYXJkX2NvdW50cnkiOjgwNCwiaXAiOiIxOTQuNDQuMTk0LjExNCIsImFtb3VudCI6MjQuMCwiY3VycmVuY3kiOiJVQUgiLCJzZW5kZXJfY29tbWlzc2lvbiI6MC4wLCJyZWNlaXZlcl9jb21taXNzaW9uIjowLjY2LCJhZ2VudF9jb21taXNzaW9uIjowLjAsImFtb3VudF9kZWJpdCI6MjQuMCwiYW1vdW50X2NyZWRpdCI6MjQuMCwiY29tbWlzc2lvbl9kZWJpdCI6MC4wLCJjb21taXNzaW9uX2NyZWRpdCI6MC42NiwiY3VycmVuY3lfZGViaXQiOiJVQUgiLCJjdXJyZW5jeV9jcmVkaXQiOiJVQUgiLCJzZW5kZXJfYm9udXMiOjEuMiwiYW1vdW50X2JvbnVzIjoxLjIsIm1waV9lY2kiOiI3IiwiaXNfM2RzIjpmYWxzZSwiY3JlYXRlX2RhdGUiOjE0NzM2ODA4NjI5ODksImVuZF9kYXRlIjoxNDczNjg4MDY2NDQ0LCJ0cmFuc2FjdGlvbl9pZCI6MjQyNjYxMzUwLCJjb2RlIjoiZXhwaXJlZCJ9',
+)
+2016.09.12 16:47:46> verify signature begin
+2016.09.12 16:47:46> Callback signature OK
+2016.09.12 16:47:46> log data
+2016.09.12 16:47:46> array (
+  'action' => 'pay',
+  'payment_id' => 242661350,
+  'status' => 'failure',
+  'err_code' => 'expired',
+  'err_description' => 'Истекло время завершения платежа',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'card',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '801',
+  'liqpay_order_id' => 'KOUTLESO1473680862987515',
+  'description' => 'Платіж за замовлення',
+  'sender_card_mask2' => '516875*49',
+  'sender_card_bank' => 'pb',
+  'sender_card_type' => 'mc',
+  'sender_card_country' => 804,
+  'ip' => '194.44.194.114',
+  'amount' => 24,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 0.66,
+  'agent_commission' => 0,
+  'amount_debit' => 24,
+  'amount_credit' => 24,
+  'commission_debit' => 0,
+  'commission_credit' => 0.66,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 1.2,
+  'amount_bonus' => 1.2,
+  'mpi_eci' => '7',
+  'is_3ds' => false,
+  'create_date' => 1473680862989,
+  'end_date' => 1473688066444,
+  'transaction_id' => 242661350,
+  'code' => 'expired',
+)
+2016.09.12 16:47:46> При оплате заказа  801  получен статус failure.
+
+                            Возможные значения:
+                            success - успешный платеж
+                            failure - неуспешный платеж
+                            wait_secure - платеж на проверке
+                            wait_accept - Деньги с клиента списаны, но магазин еще не прошел проверку
+                            wait_lc - Аккредитив. Деньги с клиента списаны, ожидается подтверждение доставки товара
+                            processing - Платеж обрабатывается
+                            sandbox - тестовый платеж
+                            subscribed - Подписка успешно оформлена
+                            unsubscribed - Подписка успешно деактивирована
+                            reversed - Возврат клиенту после списания
+                            cash_wait - Ожидание оплаты счета клиентом в терминале
+
+                     Подробнее о статусах: https://www.liqpay.com/ru/doc#callback 
+2016.10.12 15:10:30> >>>  log callback data
+2016.10.12 15:10:30> array (
+  'signature' => 'QNDAowFMbyOEdKWC43osaUud1bE=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjoyNjIxMzYzOTIsInN0YXR1cyI6ImZhaWx1cmUiLCJlcnJfY29kZSI6ImVycl9wYXltZW50IiwiZXJyX2Rlc2NyaXB0aW9uIjoiRXJyb3IgcGF5bWVudCIsInZlcnNpb24iOjMsInR5cGUiOiJidXkiLCJwYXl0eXBlIjoiY2FyZCIsInB1YmxpY19rZXkiOiJpMjQxMTgxNDM4MDkiLCJhY3FfaWQiOjQxNDk2Mywib3JkZXJfaWQiOiI4MzkiLCJsaXFwYXlfb3JkZXJfaWQiOiJaWjRXNjhKVzE0NzYyNzQyMjM4NjA5MDYiLCJkZXNjcmlwdGlvbiI6ItCf0LvQsNGC0ZbQtiDQt9CwINC30LDQvNC+0LLQu9C10L3QvdGPIiwic2VuZGVyX3Bob25lIjoiMzgwOTc0NzY4ODU2Iiwic2VuZGVyX2NhcmRfbWFzazIiOiI1MTY4NzUqNDkiLCJzZW5kZXJfY2FyZF9iYW5rIjoicGIiLCJzZW5kZXJfY2FyZF90eXBlIjoibWMiLCJzZW5kZXJfY2FyZF9jb3VudHJ5Ijo4MDQsImlwIjoiMTk0LjQ0LjE5NC4xMTQiLCJhbW91bnQiOjIzOS4wLCJjdXJyZW5jeSI6IlVBSCIsInNlbmRlcl9jb21taXNzaW9uIjowLjAsInJlY2VpdmVyX2NvbW1pc3Npb24iOjYuNTcsImFnZW50X2NvbW1pc3Npb24iOjAuMCwiYW1vdW50X2RlYml0IjoyMzkuMCwiYW1vdW50X2NyZWRpdCI6MjM5LjAsImNvbW1pc3Npb25fZGViaXQiOjAuMCwiY29tbWlzc2lvbl9jcmVkaXQiOjYuNTcsImN1cnJlbmN5X2RlYml0IjoiVUFIIiwiY3VycmVuY3lfY3JlZGl0IjoiVUFIIiwic2VuZGVyX2JvbnVzIjoxMS45NSwiYW1vdW50X2JvbnVzIjoxMS45NSwibXBpX2VjaSI6IjciLCJpc18zZHMiOmZhbHNlLCJjcmVhdGVfZGF0ZSI6MTQ3NjI3NDIzMDI3OSwiZW5kX2RhdGUiOjE0NzYyNzQyMzAyNzksInRva2VuIjoiMTQ3NjI3NDExNzg5ODA3Ml8xNzk5NzI4MDRfM2NTNzVXRVl6Yk9mdFlIcm01WDlIdmZIN1gyQ2NSdDM1ejEyR3o2V1VuMkVRcFlTREIiLCJjb25maXJtX3Rva2VuIjoiMTQ3NjI3NDExNzg5ODA3Ml8xNzk5NzI4MDRfM2NTNzVXRVl6Yk9mdFlIcm01WDlIdmZIN1gyQ2NSdDM1ejEyR3o2V1VuMkVRcFlTREIiLCJ0cmFuc2FjdGlvbl9pZCI6MjYyMTM2MzkyLCJjb2RlIjoiZXJyX3BheW1lbnQifQ==',
+)
+2016.10.12 15:10:30> verify signature begin
+2016.10.12 15:10:30> Callback signature OK
+2016.10.12 15:10:30> log data
+2016.10.12 15:10:30> array (
+  'action' => 'pay',
+  'payment_id' => 262136392,
+  'status' => 'failure',
+  'err_code' => 'err_payment',
+  'err_description' => 'Error payment',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'card',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '839',
+  'liqpay_order_id' => 'ZZ4W68JW1476274223860906',
+  'description' => 'Платіж за замовлення',
+  'sender_phone' => '380974768856',
+  'sender_card_mask2' => '516875*49',
+  'sender_card_bank' => 'pb',
+  'sender_card_type' => 'mc',
+  'sender_card_country' => 804,
+  'ip' => '194.44.194.114',
+  'amount' => 239,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 6.57,
+  'agent_commission' => 0,
+  'amount_debit' => 239,
+  'amount_credit' => 239,
+  'commission_debit' => 0,
+  'commission_credit' => 6.57,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 11.95,
+  'amount_bonus' => 11.95,
+  'mpi_eci' => '7',
+  'is_3ds' => false,
+  'create_date' => 1476274230279,
+  'end_date' => 1476274230279,
+  'token' => '1476274117898072_179972804_3cS75WEYzbOftYHrm5X9HvfH7X2CcRt35z12Gz6WUn2EQpYSDB',
+  'confirm_token' => '1476274117898072_179972804_3cS75WEYzbOftYHrm5X9HvfH7X2CcRt35z12Gz6WUn2EQpYSDB',
+  'transaction_id' => 262136392,
+  'code' => 'err_payment',
+)
+2016.10.12 15:10:30> При оплате заказа  839  получен статус failure.
+
+                            Возможные значения:
+                            success - успешный платеж
+                            failure - неуспешный платеж
+                            wait_secure - платеж на проверке
+                            wait_accept - Деньги с клиента списаны, но магазин еще не прошел проверку
+                            wait_lc - Аккредитив. Деньги с клиента списаны, ожидается подтверждение доставки товара
+                            processing - Платеж обрабатывается
+                            sandbox - тестовый платеж
+                            subscribed - Подписка успешно оформлена
+                            unsubscribed - Подписка успешно деактивирована
+                            reversed - Возврат клиенту после списания
+                            cash_wait - Ожидание оплаты счета клиентом в терминале
+
+                     Подробнее о статусах: https://www.liqpay.com/ru/doc#callback 
+2016.10.12 15:58:44> >>>  log callback data
+2016.10.12 15:58:44> array (
+  'signature' => 'R0eh1NDnoz3hRIPA3QeiagRvSA0=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjoyNjIxNjYyNDAsInN0YXR1cyI6InN1Y2Nlc3MiLCJ2ZXJzaW9uIjozLCJ0eXBlIjoiYnV5IiwicGF5dHlwZSI6ImNhcmQiLCJwdWJsaWNfa2V5IjoiaTI0MTE4MTQzODA5IiwiYWNxX2lkIjo0MTQ5NjMsIm9yZGVyX2lkIjoiODQwIiwibGlxcGF5X29yZGVyX2lkIjoiRlRWTllaVU8xNDc2Mjc3MTE1Njc2NTg0IiwiZGVzY3JpcHRpb24iOiLQn9C70LDRgtGW0LYg0LfQsCDQt9Cw0LzQvtCy0LvQtdC90L3RjyIsInNlbmRlcl9waG9uZSI6IjM4MDk3NDc2ODg1NiIsInNlbmRlcl9jYXJkX21hc2syIjoiNTE2ODc1KjQ5Iiwic2VuZGVyX2NhcmRfYmFuayI6InBiIiwic2VuZGVyX2NhcmRfdHlwZSI6Im1jIiwic2VuZGVyX2NhcmRfY291bnRyeSI6ODA0LCJpcCI6IjE5NC40NC4xOTQuMTE0IiwiYW1vdW50IjoxOC4wLCJjdXJyZW5jeSI6IlVBSCIsInNlbmRlcl9jb21taXNzaW9uIjowLjAsInJlY2VpdmVyX2NvbW1pc3Npb24iOjAuNSwiYWdlbnRfY29tbWlzc2lvbiI6MC4wLCJhbW91bnRfZGViaXQiOjE4LjAsImFtb3VudF9jcmVkaXQiOjE4LjAsImNvbW1pc3Npb25fZGViaXQiOjAuMCwiY29tbWlzc2lvbl9jcmVkaXQiOjAuNSwiY3VycmVuY3lfZGViaXQiOiJVQUgiLCJjdXJyZW5jeV9jcmVkaXQiOiJVQUgiLCJzZW5kZXJfYm9udXMiOjAuOSwiYW1vdW50X2JvbnVzIjowLjksImF1dGhjb2RlX2RlYml0IjoiMzU2MjA4IiwicnJuX2RlYml0IjoiMDIwODU3MDIwNDk3IiwibXBpX2VjaSI6IjciLCJpc18zZHMiOmZhbHNlLCJjcmVhdGVfZGF0ZSI6MTQ3NjI3NzEyMzg4MCwiZW5kX2RhdGUiOjE0NzYyNzcxMjM4ODAsInRva2VuIjoiYzgxNDg4X241NzBmOWM4OWQzOTNjOTJjMTkwYzViYTdfdDU3ZmUzMmMzYmIyZjU0MTg3ZWQyNjUxZiIsImNvbmZpcm1fdG9rZW4iOiJjODE0ODhfbjU3MGY5Yzg5ZDM5M2M5MmMxOTBjNWJhN190NTdmZTMyYzNiYjJmNTQxODdlZDI2NTFmIiwidHJhbnNhY3Rpb25faWQiOjI2MjE2NjI0MH0=',
+)
+2016.10.12 15:58:44> verify signature begin
+2016.10.12 15:58:44> Callback signature OK
+2016.10.12 15:58:44> log data
+2016.10.12 15:58:44> array (
+  'action' => 'pay',
+  'payment_id' => 262166240,
+  'status' => 'success',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'card',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '840',
+  'liqpay_order_id' => 'FTVNYZUO1476277115676584',
+  'description' => 'Платіж за замовлення',
+  'sender_phone' => '380974768856',
+  'sender_card_mask2' => '516875*49',
+  'sender_card_bank' => 'pb',
+  'sender_card_type' => 'mc',
+  'sender_card_country' => 804,
+  'ip' => '194.44.194.114',
+  'amount' => 18,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 0.5,
+  'agent_commission' => 0,
+  'amount_debit' => 18,
+  'amount_credit' => 18,
+  'commission_debit' => 0,
+  'commission_credit' => 0.5,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 0.9,
+  'amount_bonus' => 0.9,
+  'authcode_debit' => '356208',
+  'rrn_debit' => '020857020497',
+  'mpi_eci' => '7',
+  'is_3ds' => false,
+  'create_date' => 1476277123880,
+  'end_date' => 1476277123880,
+  'token' => 'c81488_n570f9c89d393c92c190c5ba7_t57fe32c3bb2f54187ed2651f',
+  'confirm_token' => 'c81488_n570f9c89d393c92c190c5ba7_t57fe32c3bb2f54187ed2651f',
+  'transaction_id' => 262166240,
+)
+2016.10.12 15:58:44> повідомлення замовнику
+2016.10.12 15:58:44> Order 840 processed as successfull sale
+2016.10.12 15:58:44> OK
+2016.10.12 16:08:02> >>>  log callback data
+2016.10.12 16:08:02> array (
+  'signature' => '2CNGffyRXE+jS4waubSt5x+olYc=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjoyNjIxNzQzODQsInN0YXR1cyI6InN1Y2Nlc3MiLCJ2ZXJzaW9uIjozLCJ0eXBlIjoiYnV5IiwicGF5dHlwZSI6ImNhcmQiLCJwdWJsaWNfa2V5IjoiaTI0MTE4MTQzODA5IiwiYWNxX2lkIjo0MTQ5NjMsIm9yZGVyX2lkIjoiODQxIiwibGlxcGF5X29yZGVyX2lkIjoiMUFIQVE2OFcxNDc2Mjc3NjcyNTkyNDU0IiwiZGVzY3JpcHRpb24iOiLQn9C70LDRgtGW0LYg0LfQsCDQt9Cw0LzQvtCy0LvQtdC90L3RjyIsInNlbmRlcl9waG9uZSI6IjM4MDk3NDc2ODg1NiIsInNlbmRlcl9jYXJkX21hc2syIjoiNTE2ODc1KjQ5Iiwic2VuZGVyX2NhcmRfYmFuayI6InBiIiwic2VuZGVyX2NhcmRfdHlwZSI6Im1jIiwic2VuZGVyX2NhcmRfY291bnRyeSI6ODA0LCJpcCI6IjE5NC40NC4xOTQuMTE0IiwiYW1vdW50IjoyMzkuMCwiY3VycmVuY3kiOiJVQUgiLCJzZW5kZXJfY29tbWlzc2lvbiI6MC4wLCJyZWNlaXZlcl9jb21taXNzaW9uIjo2LjU3LCJhZ2VudF9jb21taXNzaW9uIjowLjAsImFtb3VudF9kZWJpdCI6MjM5LjAsImFtb3VudF9jcmVkaXQiOjIzOS4wLCJjb21taXNzaW9uX2RlYml0IjowLjAsImNvbW1pc3Npb25fY3JlZGl0Ijo2LjU3LCJjdXJyZW5jeV9kZWJpdCI6IlVBSCIsImN1cnJlbmN5X2NyZWRpdCI6IlVBSCIsInNlbmRlcl9ib251cyI6MTEuOTUsImFtb3VudF9ib251cyI6MTEuOTUsImF1dGhjb2RlX2RlYml0IjoiMTI2MjA5IiwicnJuX2RlYml0IjoiMDIwODU3MTQ0OTY1IiwibXBpX2VjaSI6IjciLCJpc18zZHMiOmZhbHNlLCJjcmVhdGVfZGF0ZSI6MTQ3NjI3NzY4MTkxNCwiZW5kX2RhdGUiOjE0NzYyNzc2ODE5MTQsInRyYW5zYWN0aW9uX2lkIjoyNjIxNzQzODR9',
+)
+2016.10.12 16:08:02> verify signature begin
+2016.10.12 16:08:02> Callback signature OK
+2016.10.12 16:08:02> log data
+2016.10.12 16:08:02> array (
+  'action' => 'pay',
+  'payment_id' => 262174384,
+  'status' => 'success',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'card',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '841',
+  'liqpay_order_id' => '1AHAQ68W1476277672592454',
+  'description' => 'Платіж за замовлення',
+  'sender_phone' => '380974768856',
+  'sender_card_mask2' => '516875*49',
+  'sender_card_bank' => 'pb',
+  'sender_card_type' => 'mc',
+  'sender_card_country' => 804,
+  'ip' => '194.44.194.114',
+  'amount' => 239,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 6.57,
+  'agent_commission' => 0,
+  'amount_debit' => 239,
+  'amount_credit' => 239,
+  'commission_debit' => 0,
+  'commission_credit' => 6.57,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 11.95,
+  'amount_bonus' => 11.95,
+  'authcode_debit' => '126209',
+  'rrn_debit' => '020857144965',
+  'mpi_eci' => '7',
+  'is_3ds' => false,
+  'create_date' => 1476277681914,
+  'end_date' => 1476277681914,
+  'transaction_id' => 262174384,
+)
+2016.10.12 16:08:02> повідомлення замовнику
+2016.10.12 16:08:02> Order 841 processed as successfull sale
+2016.10.12 16:08:02> OK
+2016.10.16 15:28:45> >>>  log callback data
+2016.10.16 15:28:45> array (
+  'signature' => 'EWrZh3wpLngC16E+xl5aXqpqX9E=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjoyNjQ1Mzk3MDUsInN0YXR1cyI6InN1Y2Nlc3MiLCJ2ZXJzaW9uIjozLCJ0eXBlIjoiYnV5IiwicGF5dHlwZSI6ImNhcmQiLCJwdWJsaWNfa2V5IjoiaTI0MTE4MTQzODA5IiwiYWNxX2lkIjo0MTQ5NjMsIm9yZGVyX2lkIjoiODQ0IiwibGlxcGF5X29yZGVyX2lkIjoiSEswTUFCUUwxNDc2NjIwOTE2OTkwNDM0IiwiZGVzY3JpcHRpb24iOiLQn9C70LDRgtGW0LYg0LfQsCDQt9Cw0LzQvtCy0LvQtdC90L3RjyIsInNlbmRlcl9jYXJkX21hc2syIjoiNTQxNzMzKjEzIiwic2VuZGVyX2NhcmRfYmFuayI6IlBVQkxJQyBKU0MgRklSU1QgVUtSQUlOSUFOIElOVCIsInNlbmRlcl9jYXJkX3R5cGUiOiJtYyIsInNlbmRlcl9jYXJkX2NvdW50cnkiOjgwNCwiaXAiOiI5Mi4xMTMuMjA2Ljc5IiwiYW1vdW50Ijo2NjQuMCwiY3VycmVuY3kiOiJVQUgiLCJzZW5kZXJfY29tbWlzc2lvbiI6MC4wLCJyZWNlaXZlcl9jb21taXNzaW9uIjoxOC4yNiwiYWdlbnRfY29tbWlzc2lvbiI6MC4wLCJhbW91bnRfZGViaXQiOjY2NC4wLCJhbW91bnRfY3JlZGl0Ijo2NjQuMCwiY29tbWlzc2lvbl9kZWJpdCI6MC4wLCJjb21taXNzaW9uX2NyZWRpdCI6MTguMjYsImN1cnJlbmN5X2RlYml0IjoiVUFIIiwiY3VycmVuY3lfY3JlZGl0IjoiVUFIIiwic2VuZGVyX2JvbnVzIjowLjAsImFtb3VudF9ib251cyI6MC4wLCJhdXRoY29kZV9kZWJpdCI6IjgyMDc4OSIsInJybl9kZWJpdCI6IjAwMDQ3NDQ1MTg2NyIsIm1waV9lY2kiOiI2IiwiaXNfM2RzIjpmYWxzZSwiY3JlYXRlX2RhdGUiOjE0NzY2MjA5MjQ4MTAsImVuZF9kYXRlIjoxNDc2NjIwOTI0ODEwLCJ0cmFuc2FjdGlvbl9pZCI6MjY0NTM5NzA1fQ==',
+)
+2016.10.16 15:28:45> verify signature begin
+2016.10.16 15:28:45> Callback signature OK
+2016.10.16 15:28:45> log data
+2016.10.16 15:28:45> array (
+  'action' => 'pay',
+  'payment_id' => 264539705,
+  'status' => 'success',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'card',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '844',
+  'liqpay_order_id' => 'HK0MABQL1476620916990434',
+  'description' => 'Платіж за замовлення',
+  'sender_card_mask2' => '541733*13',
+  'sender_card_bank' => 'PUBLIC JSC FIRST UKRAINIAN INT',
+  'sender_card_type' => 'mc',
+  'sender_card_country' => 804,
+  'ip' => '92.113.206.79',
+  'amount' => 664,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 18.26,
+  'agent_commission' => 0,
+  'amount_debit' => 664,
+  'amount_credit' => 664,
+  'commission_debit' => 0,
+  'commission_credit' => 18.26,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 0,
+  'amount_bonus' => 0,
+  'authcode_debit' => '820789',
+  'rrn_debit' => '000474451867',
+  'mpi_eci' => '6',
+  'is_3ds' => false,
+  'create_date' => 1476620924810,
+  'end_date' => 1476620924810,
+  'transaction_id' => 264539705,
+)
+2016.10.16 15:28:45> повідомлення замовнику
+2016.10.16 15:28:45> Order 844 processed as successfull sale
+2016.10.16 15:28:45> OK
+2016.10.20 13:06:54> >>>  log callback data
+2016.10.20 13:06:54> array (
+  'signature' => 'jkgYLg/p6puReg4QzowFRYbOmL0=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjoyNjcwMzI5MTgsInN0YXR1cyI6ImZhaWx1cmUiLCJlcnJfY29kZSI6ImV4cGlyZWQiLCJlcnJfZGVzY3JpcHRpb24iOiLQmNGB0YLQtdC60LvQviDQstGA0LXQvNGPINC30LDQstC10YDRiNC10L3QuNGPINC/0LvQsNGC0LXQttCwIiwidmVyc2lvbiI6MywidHlwZSI6ImJ1eSIsInBheXR5cGUiOiJjYXJkIiwicHVibGljX2tleSI6ImkyNDExODE0MzgwOSIsImFjcV9pZCI6NDE0OTYzLCJvcmRlcl9pZCI6Ijg1MyIsImxpcXBheV9vcmRlcl9pZCI6IjJCNVREMVM0MTQ3Njk1MDgwODgwMTQ3MyIsImRlc2NyaXB0aW9uIjoi0J/Qu9Cw0YLRltC2INC30LAg0LfQsNC80L7QstC70LXQvdC90Y8iLCJzZW5kZXJfY2FyZF9tYXNrMiI6IjUxNjg3NSo0OSIsInNlbmRlcl9jYXJkX2JhbmsiOiJwYiIsInNlbmRlcl9jYXJkX3R5cGUiOiJtYyIsInNlbmRlcl9jYXJkX2NvdW50cnkiOjgwNCwiaXAiOiIxOTQuNDQuMTk0LjExNCIsImFtb3VudCI6OTkxLjAsImN1cnJlbmN5IjoiVUFIIiwic2VuZGVyX2NvbW1pc3Npb24iOjAuMCwicmVjZWl2ZXJfY29tbWlzc2lvbiI6MjcuMjUsImFnZW50X2NvbW1pc3Npb24iOjAuMCwiYW1vdW50X2RlYml0Ijo5OTEuMCwiYW1vdW50X2NyZWRpdCI6OTkxLjAsImNvbW1pc3Npb25fZGViaXQiOjAuMCwiY29tbWlzc2lvbl9jcmVkaXQiOjI3LjI1LCJjdXJyZW5jeV9kZWJpdCI6IlVBSCIsImN1cnJlbmN5X2NyZWRpdCI6IlVBSCIsInNlbmRlcl9ib251cyI6NDkuNTUsImFtb3VudF9ib251cyI6NDkuNTUsIm1waV9lY2kiOiI3IiwiaXNfM2RzIjpmYWxzZSwiY3JlYXRlX2RhdGUiOjE0NzY5NTA4MDg4MDQsImVuZF9kYXRlIjoxNDc2OTU4MDEzOTY4LCJ0cmFuc2FjdGlvbl9pZCI6MjY3MDMyOTE4LCJjb2RlIjoiZXhwaXJlZCJ9',
+)
+2016.10.20 13:06:54> verify signature begin
+2016.10.20 13:06:54> Callback signature OK
+2016.10.20 13:06:54> log data
+2016.10.20 13:06:54> array (
+  'action' => 'pay',
+  'payment_id' => 267032918,
+  'status' => 'failure',
+  'err_code' => 'expired',
+  'err_description' => 'Истекло время завершения платежа',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'card',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '853',
+  'liqpay_order_id' => '2B5TD1S41476950808801473',
+  'description' => 'Платіж за замовлення',
+  'sender_card_mask2' => '516875*49',
+  'sender_card_bank' => 'pb',
+  'sender_card_type' => 'mc',
+  'sender_card_country' => 804,
+  'ip' => '194.44.194.114',
+  'amount' => 991,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 27.25,
+  'agent_commission' => 0,
+  'amount_debit' => 991,
+  'amount_credit' => 991,
+  'commission_debit' => 0,
+  'commission_credit' => 27.25,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 49.55,
+  'amount_bonus' => 49.55,
+  'mpi_eci' => '7',
+  'is_3ds' => false,
+  'create_date' => 1476950808804,
+  'end_date' => 1476958013968,
+  'transaction_id' => 267032918,
+  'code' => 'expired',
+)
+2016.10.20 13:06:54> При оплате заказа  853  получен статус failure.
+
+                            Возможные значения:
+                            success - успешный платеж
+                            failure - неуспешный платеж
+                            wait_secure - платеж на проверке
+                            wait_accept - Деньги с клиента списаны, но магазин еще не прошел проверку
+                            wait_lc - Аккредитив. Деньги с клиента списаны, ожидается подтверждение доставки товара
+                            processing - Платеж обрабатывается
+                            sandbox - тестовый платеж
+                            subscribed - Подписка успешно оформлена
+                            unsubscribed - Подписка успешно деактивирована
+                            reversed - Возврат клиенту после списания
+                            cash_wait - Ожидание оплаты счета клиентом в терминале
+
+                     Подробнее о статусах: https://www.liqpay.com/ru/doc#callback 
+2016.10.20 17:43:47> >>>  log callback data
+2016.10.20 17:43:47> array (
+  'signature' => 'LNnhnJV95jtN3G5d9LgNWccD1nQ=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjoyNjczMTgyNjksInN0YXR1cyI6InN1Y2Nlc3MiLCJ2ZXJzaW9uIjozLCJ0eXBlIjoiYnV5IiwicGF5dHlwZSI6ImNhcmQiLCJwdWJsaWNfa2V5IjoiaTI0MTE4MTQzODA5IiwiYWNxX2lkIjo0MTQ5NjMsIm9yZGVyX2lkIjoiODU1IiwibGlxcGF5X29yZGVyX2lkIjoiRkxPU0VDWDgxNDc2OTc0NjE5ODEzMzQ3IiwiZGVzY3JpcHRpb24iOiLQn9C70LDRgtGW0LYg0LfQsCDQt9Cw0LzQvtCy0LvQtdC90L3RjyIsInNlbmRlcl9waG9uZSI6IjM4MDk1NDYwNzc3NyIsInNlbmRlcl9jYXJkX21hc2syIjoiNTQ1NzA5KjgxIiwic2VuZGVyX2NhcmRfYmFuayI6InBiIiwic2VuZGVyX2NhcmRfdHlwZSI6Im1jIiwic2VuZGVyX2NhcmRfY291bnRyeSI6ODA0LCJpcCI6IjE3OC4yMTkuMTkyLjE5IiwiYW1vdW50IjoyNTQ5LjAsImN1cnJlbmN5IjoiVUFIIiwic2VuZGVyX2NvbW1pc3Npb24iOjAuMCwicmVjZWl2ZXJfY29tbWlzc2lvbiI6NzAuMSwiYWdlbnRfY29tbWlzc2lvbiI6MC4wLCJhbW91bnRfZGViaXQiOjI1NDkuMCwiYW1vdW50X2NyZWRpdCI6MjU0OS4wLCJjb21taXNzaW9uX2RlYml0IjowLjAsImNvbW1pc3Npb25fY3JlZGl0Ijo3MC4xLCJjdXJyZW5jeV9kZWJpdCI6IlVBSCIsImN1cnJlbmN5X2NyZWRpdCI6IlVBSCIsInNlbmRlcl9ib251cyI6MTI3LjQ1LCJhbW91bnRfYm9udXMiOjEyNy40NSwiYXV0aGNvZGVfZGViaXQiOiIxMTYwMTIiLCJycm5fZGViaXQiOiIwMjA5NDY5MzYwODQiLCJtcGlfZWNpIjoiNyIsImlzXzNkcyI6ZmFsc2UsImNyZWF0ZV9kYXRlIjoxNDc2OTc0NjI3Njc5LCJlbmRfZGF0ZSI6MTQ3Njk3NDYyNzY3OSwidHJhbnNhY3Rpb25faWQiOjI2NzMxODI2OX0=',
+)
+2016.10.20 17:43:47> verify signature begin
+2016.10.20 17:43:47> Callback signature OK
+2016.10.20 17:43:47> log data
+2016.10.20 17:43:47> array (
+  'action' => 'pay',
+  'payment_id' => 267318269,
+  'status' => 'success',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'card',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '855',
+  'liqpay_order_id' => 'FLOSECX81476974619813347',
+  'description' => 'Платіж за замовлення',
+  'sender_phone' => '380954607777',
+  'sender_card_mask2' => '545709*81',
+  'sender_card_bank' => 'pb',
+  'sender_card_type' => 'mc',
+  'sender_card_country' => 804,
+  'ip' => '178.219.192.19',
+  'amount' => 2549,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 70.1,
+  'agent_commission' => 0,
+  'amount_debit' => 2549,
+  'amount_credit' => 2549,
+  'commission_debit' => 0,
+  'commission_credit' => 70.1,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 127.45,
+  'amount_bonus' => 127.45,
+  'authcode_debit' => '116012',
+  'rrn_debit' => '020946936084',
+  'mpi_eci' => '7',
+  'is_3ds' => false,
+  'create_date' => 1476974627679,
+  'end_date' => 1476974627679,
+  'transaction_id' => 267318269,
+)
+2016.10.20 17:43:47> повідомлення замовнику
+2016.10.20 17:43:48> Order 855 processed as successfull sale
+2016.10.20 17:43:48> OK
+2016.11.14 17:26:50> >>>  log callback data
+2016.11.14 17:26:50> array (
+  'signature' => '07pg5eNkckjusH8mDHkzuWwwVgI=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjoyODQyNzE3NDUsInN0YXR1cyI6InN1Y2Nlc3MiLCJ2ZXJzaW9uIjozLCJ0eXBlIjoiYnV5IiwicGF5dHlwZSI6ImNhcmQiLCJwdWJsaWNfa2V5IjoiaTI0MTE4MTQzODA5IiwiYWNxX2lkIjo0MTQ5NjMsIm9yZGVyX2lkIjoiODgzIiwibGlxcGF5X29yZGVyX2lkIjoiVU9DOEpNQ1QxNDc5MTM3MTk1ODU0MzAzIiwiZGVzY3JpcHRpb24iOiLQn9C70LDRgtGW0LYg0LfQsCDQt9Cw0LzQvtCy0LvQtdC90L3RjyIsInNlbmRlcl9waG9uZSI6IjM4MDk3NDQzNzM0MCIsInNlbmRlcl9jYXJkX21hc2syIjoiNTE2ODc0KjMzIiwic2VuZGVyX2NhcmRfYmFuayI6InBiIiwic2VuZGVyX2NhcmRfdHlwZSI6Im1jIiwic2VuZGVyX2NhcmRfY291bnRyeSI6ODA0LCJpcCI6Ijk0LjIzMS4xODMuMTM0IiwiYW1vdW50Ijo5Ny4wLCJjdXJyZW5jeSI6IlVBSCIsInNlbmRlcl9jb21taXNzaW9uIjowLjAsInJlY2VpdmVyX2NvbW1pc3Npb24iOjIuNjcsImFnZW50X2NvbW1pc3Npb24iOjAuMCwiYW1vdW50X2RlYml0Ijo5Ny4wLCJhbW91bnRfY3JlZGl0Ijo5Ny4wLCJjb21taXNzaW9uX2RlYml0IjowLjAsImNvbW1pc3Npb25fY3JlZGl0IjoyLjY3LCJjdXJyZW5jeV9kZWJpdCI6IlVBSCIsImN1cnJlbmN5X2NyZWRpdCI6IlVBSCIsInNlbmRlcl9ib251cyI6NC44NSwiYW1vdW50X2JvbnVzIjo0Ljg1LCJib251c190eXBlIjoiYm9udXNwbHVzIiwiYXV0aGNvZGVfZGViaXQiOiIyNTkxMzIiLCJycm5fZGViaXQiOiIwMjEyMjc5OTc1NzYiLCJtcGlfZWNpIjoiNyIsImlzXzNkcyI6ZmFsc2UsImNyZWF0ZV9kYXRlIjoxNDc5MTM3MjEwNTc1LCJlbmRfZGF0ZSI6MTQ3OTEzNzIxMDU3NSwidHJhbnNhY3Rpb25faWQiOjI4NDI3MTc0NX0=',
+)
+2016.11.14 17:26:50> verify signature begin
+2016.11.14 17:26:50> Callback signature OK
+2016.11.14 17:26:50> log data
+2016.11.14 17:26:50> array (
+  'action' => 'pay',
+  'payment_id' => 284271745,
+  'status' => 'success',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'card',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '883',
+  'liqpay_order_id' => 'UOC8JMCT1479137195854303',
+  'description' => 'Платіж за замовлення',
+  'sender_phone' => '380974437340',
+  'sender_card_mask2' => '516874*33',
+  'sender_card_bank' => 'pb',
+  'sender_card_type' => 'mc',
+  'sender_card_country' => 804,
+  'ip' => '94.231.183.134',
+  'amount' => 97,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 2.67,
+  'agent_commission' => 0,
+  'amount_debit' => 97,
+  'amount_credit' => 97,
+  'commission_debit' => 0,
+  'commission_credit' => 2.67,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 4.85,
+  'amount_bonus' => 4.85,
+  'bonus_type' => 'bonusplus',
+  'authcode_debit' => '259132',
+  'rrn_debit' => '021227997576',
+  'mpi_eci' => '7',
+  'is_3ds' => false,
+  'create_date' => 1479137210575,
+  'end_date' => 1479137210575,
+  'transaction_id' => 284271745,
+)
+2016.11.14 17:26:50> повідомлення замовнику
+2016.11.14 17:26:51> Order 883 processed as successfull sale
+2016.11.14 17:26:51> OK
+2016.11.24 23:51:09> >>>  log callback data
+2016.11.24 23:51:09> array (
+  'signature' => 'aSfC76SmC9DNS0Rfgkccn+sKDdI=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjoyOTEzNzM3NjAsInN0YXR1cyI6InN1Y2Nlc3MiLCJ2ZXJzaW9uIjozLCJ0eXBlIjoiYnV5IiwicGF5dHlwZSI6InByaXZhdDI0IiwicHVibGljX2tleSI6ImkyNDExODE0MzgwOSIsImFjcV9pZCI6NDE0OTYzLCJvcmRlcl9pZCI6Ijg5NiIsImxpcXBheV9vcmRlcl9pZCI6IjdTT1k3T1hCMTQ4MDAyNDI2MDE0NzM4NCIsImRlc2NyaXB0aW9uIjoi0J/Qu9Cw0YLRltC2INC30LAg0LfQsNC80L7QstC70LXQvdC90Y8iLCJzZW5kZXJfcGhvbmUiOiIzODA1MDUyNTc5OTMiLCJzZW5kZXJfY2FyZF9tYXNrMiI6IjQ3MzEyMSozNyIsInNlbmRlcl9jYXJkX2JhbmsiOiJwYiIsInNlbmRlcl9jYXJkX3R5cGUiOiJ2aXNhIiwic2VuZGVyX2NhcmRfY291bnRyeSI6ODA0LCJpcCI6IjIxMy4xMTEuNjkuMzUiLCJhbW91bnQiOjQxOS4wLCJjdXJyZW5jeSI6IlVBSCIsInNlbmRlcl9jb21taXNzaW9uIjowLjAsInJlY2VpdmVyX2NvbW1pc3Npb24iOjExLjUyLCJhZ2VudF9jb21taXNzaW9uIjowLjAsImFtb3VudF9kZWJpdCI6NDE5LjAsImFtb3VudF9jcmVkaXQiOjQxOS4wLCJjb21taXNzaW9uX2RlYml0IjowLjAsImNvbW1pc3Npb25fY3JlZGl0IjoxMS41MiwiY3VycmVuY3lfZGViaXQiOiJVQUgiLCJjdXJyZW5jeV9jcmVkaXQiOiJVQUgiLCJzZW5kZXJfYm9udXMiOjIwLjk1LCJhbW91bnRfYm9udXMiOjIwLjk1LCJib251c190eXBlIjoiYm9udXNwbHVzIiwiYm9udXNfcHJvY2VudCI6NS4wLCJhdXRoY29kZV9kZWJpdCI6Ijg0NjQwNiIsInJybl9kZWJpdCI6IjAyMTM1Mzc1MzEzNCIsIm1waV9lY2kiOiI3IiwiaXNfM2RzIjpmYWxzZSwiY3JlYXRlX2RhdGUiOjE0ODAwMjQyNjg3OTUsImVuZF9kYXRlIjoxNDgwMDI0MjY4Nzk1LCJ0cmFuc2FjdGlvbl9pZCI6MjkxMzczNzYwfQ==',
+)
+2016.11.24 23:51:09> verify signature begin
+2016.11.24 23:51:09> Callback signature OK
+2016.11.24 23:51:09> log data
+2016.11.24 23:51:09> array (
+  'action' => 'pay',
+  'payment_id' => 291373760,
+  'status' => 'success',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'privat24',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '896',
+  'liqpay_order_id' => '7SOY7OXB1480024260147384',
+  'description' => 'Платіж за замовлення',
+  'sender_phone' => '380505257993',
+  'sender_card_mask2' => '473121*37',
+  'sender_card_bank' => 'pb',
+  'sender_card_type' => 'visa',
+  'sender_card_country' => 804,
+  'ip' => '213.111.69.35',
+  'amount' => 419,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 11.52,
+  'agent_commission' => 0,
+  'amount_debit' => 419,
+  'amount_credit' => 419,
+  'commission_debit' => 0,
+  'commission_credit' => 11.52,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 20.95,
+  'amount_bonus' => 20.95,
+  'bonus_type' => 'bonusplus',
+  'bonus_procent' => 5,
+  'authcode_debit' => '846406',
+  'rrn_debit' => '021353753134',
+  'mpi_eci' => '7',
+  'is_3ds' => false,
+  'create_date' => 1480024268795,
+  'end_date' => 1480024268795,
+  'transaction_id' => 291373760,
+)
+2016.11.24 23:51:09> повідомлення замовнику
+2016.11.24 23:51:09> Order 896 processed as successfull sale
+2016.11.24 23:51:09> OK
+2016.11.25 13:54:40> >>>  log callback data
+2016.11.25 13:54:40> array (
+  'signature' => 'MieO4Gs0yc6+ziqZGLqxJR7uqs4=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjoyOTE3MDQwMjcsInN0YXR1cyI6InN1Y2Nlc3MiLCJ2ZXJzaW9uIjozLCJ0eXBlIjoiYnV5IiwicGF5dHlwZSI6ImNhcmQiLCJwdWJsaWNfa2V5IjoiaTI0MTE4MTQzODA5IiwiYWNxX2lkIjo0MTQ5NjMsIm9yZGVyX2lkIjoiOTAzIiwibGlxcGF5X29yZGVyX2lkIjoiSTE5WU9QOFQxNDgwMDc0ODY3MTEzMTY5IiwiZGVzY3JpcHRpb24iOiLQn9C70LDRgtGW0LYg0LfQsCDQt9Cw0LzQvtCy0LvQtdC90L3RjyIsInNlbmRlcl9waG9uZSI6IjM4MDk4NjU0MjAzMSIsInNlbmRlcl9jYXJkX21hc2syIjoiNTE2ODc1Kjg0Iiwic2VuZGVyX2NhcmRfYmFuayI6InBiIiwic2VuZGVyX2NhcmRfdHlwZSI6Im1jIiwic2VuZGVyX2NhcmRfY291bnRyeSI6ODA0LCJpcCI6IjE4OC4yMzAuNTAuNjciLCJhbW91bnQiOjE0Ny4wLCJjdXJyZW5jeSI6IlVBSCIsInNlbmRlcl9jb21taXNzaW9uIjowLjAsInJlY2VpdmVyX2NvbW1pc3Npb24iOjQuMDQsImFnZW50X2NvbW1pc3Npb24iOjAuMCwiYW1vdW50X2RlYml0IjoxNDcuMCwiYW1vdW50X2NyZWRpdCI6MTQ3LjAsImNvbW1pc3Npb25fZGViaXQiOjAuMCwiY29tbWlzc2lvbl9jcmVkaXQiOjQuMDQsImN1cnJlbmN5X2RlYml0IjoiVUFIIiwiY3VycmVuY3lfY3JlZGl0IjoiVUFIIiwic2VuZGVyX2JvbnVzIjo3LjM1LCJhbW91bnRfYm9udXMiOjcuMzUsImJvbnVzX3R5cGUiOiJib251c3BsdXMiLCJib251c19wcm9jZW50Ijo1LjAsImF1dGhjb2RlX2RlYml0IjoiMjUxMDQ0IiwicnJuX2RlYml0IjoiMDIxMzYxMTQ3NjM1IiwibXBpX2VjaSI6IjciLCJpc18zZHMiOmZhbHNlLCJjcmVhdGVfZGF0ZSI6MTQ4MDA3NDg4MDM0NCwiZW5kX2RhdGUiOjE0ODAwNzQ4ODAzNDQsInRyYW5zYWN0aW9uX2lkIjoyOTE3MDQwMjd9',
+)
+2016.11.25 13:54:40> verify signature begin
+2016.11.25 13:54:40> Callback signature OK
+2016.11.25 13:54:40> log data
+2016.11.25 13:54:40> array (
+  'action' => 'pay',
+  'payment_id' => 291704027,
+  'status' => 'success',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'card',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '903',
+  'liqpay_order_id' => 'I19YOP8T1480074867113169',
+  'description' => 'Платіж за замовлення',
+  'sender_phone' => '380986542031',
+  'sender_card_mask2' => '516875*84',
+  'sender_card_bank' => 'pb',
+  'sender_card_type' => 'mc',
+  'sender_card_country' => 804,
+  'ip' => '188.230.50.67',
+  'amount' => 147,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 4.04,
+  'agent_commission' => 0,
+  'amount_debit' => 147,
+  'amount_credit' => 147,
+  'commission_debit' => 0,
+  'commission_credit' => 4.04,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 7.35,
+  'amount_bonus' => 7.35,
+  'bonus_type' => 'bonusplus',
+  'bonus_procent' => 5,
+  'authcode_debit' => '251044',
+  'rrn_debit' => '021361147635',
+  'mpi_eci' => '7',
+  'is_3ds' => false,
+  'create_date' => 1480074880344,
+  'end_date' => 1480074880344,
+  'transaction_id' => 291704027,
+)
+2016.11.25 13:54:40> повідомлення замовнику
+2016.11.25 13:54:40> Order 903 processed as successfull sale
+2016.11.25 13:54:40> OK
+2016.11.25 14:05:31> >>>  log callback data
+2016.11.25 14:05:31> array (
+  'signature' => 'cQv6a+RmLtriZN6nHFoVYFo+7X0=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjoyOTE3MTE5ODAsInN0YXR1cyI6InN1Y2Nlc3MiLCJ2ZXJzaW9uIjozLCJ0eXBlIjoiYnV5IiwicGF5dHlwZSI6ImNhcmQiLCJwdWJsaWNfa2V5IjoiaTI0MTE4MTQzODA5IiwiYWNxX2lkIjo0MTQ5NjMsIm9yZGVyX2lkIjoiOTA0IiwibGlxcGF5X29yZGVyX2lkIjoiSDY1WVAxTDgxNDgwMDc1NTE2NDgyODMzIiwiZGVzY3JpcHRpb24iOiLQn9C70LDRgtGW0LYg0LfQsCDQt9Cw0LzQvtCy0LvQtdC90L3RjyIsInNlbmRlcl9waG9uZSI6IjM4MDkzMTUwMTU1NSIsInNlbmRlcl9jYXJkX21hc2syIjoiNTQ1NzA4KjE5Iiwic2VuZGVyX2NhcmRfYmFuayI6InBiIiwic2VuZGVyX2NhcmRfdHlwZSI6Im1jIiwic2VuZGVyX2NhcmRfY291bnRyeSI6ODA0LCJpcCI6IjE5My41My44My4xNTEiLCJhbW91bnQiOjEwNzcuMCwiY3VycmVuY3kiOiJVQUgiLCJzZW5kZXJfY29tbWlzc2lvbiI6MC4wLCJyZWNlaXZlcl9jb21taXNzaW9uIjoyOS42MiwiYWdlbnRfY29tbWlzc2lvbiI6MC4wLCJhbW91bnRfZGViaXQiOjEwNzcuMCwiYW1vdW50X2NyZWRpdCI6MTA3Ny4wLCJjb21taXNzaW9uX2RlYml0IjowLjAsImNvbW1pc3Npb25fY3JlZGl0IjoyOS42MiwiY3VycmVuY3lfZGViaXQiOiJVQUgiLCJjdXJyZW5jeV9jcmVkaXQiOiJVQUgiLCJzZW5kZXJfYm9udXMiOjUzLjg1LCJhbW91bnRfYm9udXMiOjUzLjg1LCJib251c190eXBlIjoiYm9udXNwbHVzIiwiYm9udXNfcHJvY2VudCI6NS4wLCJhdXRoY29kZV9kZWJpdCI6IjMwMDAyNSIsInJybl9kZWJpdCI6IjAyMTM2MTM0NTkxOCIsIm1waV9lY2kiOiI3IiwiaXNfM2RzIjpmYWxzZSwiY3JlYXRlX2RhdGUiOjE0ODAwNzU1MzEyNjYsImVuZF9kYXRlIjoxNDgwMDc1NTMxMjY2LCJ0cmFuc2FjdGlvbl9pZCI6MjkxNzExOTgwfQ==',
+)
+2016.11.25 14:05:31> verify signature begin
+2016.11.25 14:05:31> Callback signature OK
+2016.11.25 14:05:31> log data
+2016.11.25 14:05:31> array (
+  'action' => 'pay',
+  'payment_id' => 291711980,
+  'status' => 'success',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'card',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '904',
+  'liqpay_order_id' => 'H65YP1L81480075516482833',
+  'description' => 'Платіж за замовлення',
+  'sender_phone' => '380931501555',
+  'sender_card_mask2' => '545708*19',
+  'sender_card_bank' => 'pb',
+  'sender_card_type' => 'mc',
+  'sender_card_country' => 804,
+  'ip' => '193.53.83.151',
+  'amount' => 1077,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 29.62,
+  'agent_commission' => 0,
+  'amount_debit' => 1077,
+  'amount_credit' => 1077,
+  'commission_debit' => 0,
+  'commission_credit' => 29.62,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 53.85,
+  'amount_bonus' => 53.85,
+  'bonus_type' => 'bonusplus',
+  'bonus_procent' => 5,
+  'authcode_debit' => '300025',
+  'rrn_debit' => '021361345918',
+  'mpi_eci' => '7',
+  'is_3ds' => false,
+  'create_date' => 1480075531266,
+  'end_date' => 1480075531266,
+  'transaction_id' => 291711980,
+)
+2016.11.25 14:05:31> повідомлення замовнику
+2016.11.25 14:05:31> Order 904 processed as successfull sale
+2016.11.25 14:05:31> OK
+2016.12.15 21:57:09> >>>  log callback data
+2016.12.15 21:57:09> array (
+  'signature' => 'XpW4C+Jc5HgbLCSbAa6SurG57+0=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjozMDY2NDUwMDgsInN0YXR1cyI6InN1Y2Nlc3MiLCJ2ZXJzaW9uIjozLCJ0eXBlIjoiYnV5IiwicGF5dHlwZSI6ImNhcmQiLCJwdWJsaWNfa2V5IjoiaTI0MTE4MTQzODA5IiwiYWNxX2lkIjo0MTQ5NjMsIm9yZGVyX2lkIjoiOTUxIiwibGlxcGF5X29yZGVyX2lkIjoiNFFGQkhJQUsxNDgxODMxODIzMDUxMTA0IiwiZGVzY3JpcHRpb24iOiLQn9C70LDRgtGW0LYg0LfQsCDQt9Cw0LzQvtCy0LvQtdC90L3RjyIsInNlbmRlcl9waG9uZSI6IjM4MDY3NzI0NzAxOCIsInNlbmRlcl9jYXJkX21hc2syIjoiNTE2OTE1Kjc2Iiwic2VuZGVyX2NhcmRfYmFuayI6ImFiYW5rIiwic2VuZGVyX2NhcmRfdHlwZSI6Im1jIiwic2VuZGVyX2NhcmRfY291bnRyeSI6ODA0LCJpcCI6IjkzLjc1LjIzMy4yNTUiLCJhbW91bnQiOjYyNS4wLCJjdXJyZW5jeSI6IlVBSCIsInNlbmRlcl9jb21taXNzaW9uIjowLjAsInJlY2VpdmVyX2NvbW1pc3Npb24iOjE3LjE5LCJhZ2VudF9jb21taXNzaW9uIjowLjAsImFtb3VudF9kZWJpdCI6NjI1LjAsImFtb3VudF9jcmVkaXQiOjYyNS4wLCJjb21taXNzaW9uX2RlYml0IjowLjAsImNvbW1pc3Npb25fY3JlZGl0IjoxNy4xOSwiY3VycmVuY3lfZGViaXQiOiJVQUgiLCJjdXJyZW5jeV9jcmVkaXQiOiJVQUgiLCJzZW5kZXJfYm9udXMiOjAuMCwiYW1vdW50X2JvbnVzIjowLjAsImF1dGhjb2RlX2RlYml0IjoiODQzMDQxIiwicnJuX2RlYml0IjoiMDAwNTEzMzc3MTU3IiwibXBpX2VjaSI6IjUiLCJpc18zZHMiOnRydWUsImNyZWF0ZV9kYXRlIjoxNDgxODMxODI5NTk0LCJlbmRfZGF0ZSI6MTQ4MTgzMTgyOTU5NCwidHJhbnNhY3Rpb25faWQiOjMwNjY0NTAwOH0=',
+)
+2016.12.15 21:57:09> verify signature begin
+2016.12.15 21:57:09> Callback signature OK
+2016.12.15 21:57:09> log data
+2016.12.15 21:57:09> array (
+  'action' => 'pay',
+  'payment_id' => 306645008,
+  'status' => 'success',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'card',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '951',
+  'liqpay_order_id' => '4QFBHIAK1481831823051104',
+  'description' => 'Платіж за замовлення',
+  'sender_phone' => '380677247018',
+  'sender_card_mask2' => '516915*76',
+  'sender_card_bank' => 'abank',
+  'sender_card_type' => 'mc',
+  'sender_card_country' => 804,
+  'ip' => '93.75.233.255',
+  'amount' => 625,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 17.19,
+  'agent_commission' => 0,
+  'amount_debit' => 625,
+  'amount_credit' => 625,
+  'commission_debit' => 0,
+  'commission_credit' => 17.19,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 0,
+  'amount_bonus' => 0,
+  'authcode_debit' => '843041',
+  'rrn_debit' => '000513377157',
+  'mpi_eci' => '5',
+  'is_3ds' => true,
+  'create_date' => 1481831829594,
+  'end_date' => 1481831829594,
+  'transaction_id' => 306645008,
+)
+2016.12.15 21:57:09> повідомлення замовнику
+2016.12.15 21:57:09> Order 951 processed as successfull sale
+2016.12.15 21:57:09> OK
+2016.12.19 15:19:40> >>>  log callback data
+2016.12.19 15:19:40> array (
+  'signature' => 'eiZtvywe9I/miEJ+y/B1velOklY=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjozMDkxNTg1MDIsInN0YXR1cyI6ImZhaWx1cmUiLCJlcnJfY29kZSI6ImVycl9wYXltZW50IiwiZXJyX2Rlc2NyaXB0aW9uIjoiRXJyb3IgcGF5bWVudCIsInZlcnNpb24iOjMsInR5cGUiOiJidXkiLCJwYXl0eXBlIjoiY2FyZCIsInB1YmxpY19rZXkiOiJpMjQxMTgxNDM4MDkiLCJhY3FfaWQiOjQxNDk2Mywib3JkZXJfaWQiOiI5NjciLCJsaXFwYXlfb3JkZXJfaWQiOiJJSVA2VlNERjE0ODIxNTM1NjUxMzQ3NTUiLCJkZXNjcmlwdGlvbiI6ItCf0LvQsNGC0ZbQtiDQt9CwINC30LDQvNC+0LLQu9C10L3QvdGPIiwic2VuZGVyX3Bob25lIjoiMzgwOTM4NDQ4MzAyIiwic2VuZGVyX2NhcmRfbWFzazIiOiI0MTQ5NDkqMzQiLCJzZW5kZXJfY2FyZF9iYW5rIjoicGIiLCJzZW5kZXJfY2FyZF90eXBlIjoidmlzYSIsInNlbmRlcl9jYXJkX2NvdW50cnkiOjgwNCwiaXAiOiIzNy4yMjkuODEuMjI4IiwiYW1vdW50Ijo0MzguMCwiY3VycmVuY3kiOiJVQUgiLCJzZW5kZXJfY29tbWlzc2lvbiI6MC4wLCJyZWNlaXZlcl9jb21taXNzaW9uIjoxMi4wNSwiYWdlbnRfY29tbWlzc2lvbiI6MC4wLCJhbW91bnRfZGViaXQiOjQzOC4wLCJhbW91bnRfY3JlZGl0Ijo0MzguMCwiY29tbWlzc2lvbl9kZWJpdCI6MC4wLCJjb21taXNzaW9uX2NyZWRpdCI6MTIuMDUsImN1cnJlbmN5X2RlYml0IjoiVUFIIiwiY3VycmVuY3lfY3JlZGl0IjoiVUFIIiwic2VuZGVyX2JvbnVzIjoyMS45LCJhbW91bnRfYm9udXMiOjIxLjksImJvbnVzX3R5cGUiOiJib251c3BsdXMiLCJib251c19wcm9jZW50Ijo1LjAsIm1waV9lY2kiOiI3IiwiaXNfM2RzIjpmYWxzZSwiY3JlYXRlX2RhdGUiOjE0ODIxNTM1ODA2NzUsImVuZF9kYXRlIjoxNDgyMTUzNTgwNjc1LCJ0cmFuc2FjdGlvbl9pZCI6MzA5MTU4NTAyLCJjb2RlIjoiZXJyX3BheW1lbnQifQ==',
+)
+2016.12.19 15:19:40> verify signature begin
+2016.12.19 15:19:40> Callback signature OK
+2016.12.19 15:19:40> log data
+2016.12.19 15:19:40> array (
+  'action' => 'pay',
+  'payment_id' => 309158502,
+  'status' => 'failure',
+  'err_code' => 'err_payment',
+  'err_description' => 'Error payment',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'card',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '967',
+  'liqpay_order_id' => 'IIP6VSDF1482153565134755',
+  'description' => 'Платіж за замовлення',
+  'sender_phone' => '380938448302',
+  'sender_card_mask2' => '414949*34',
+  'sender_card_bank' => 'pb',
+  'sender_card_type' => 'visa',
+  'sender_card_country' => 804,
+  'ip' => '37.229.81.228',
+  'amount' => 438,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 12.05,
+  'agent_commission' => 0,
+  'amount_debit' => 438,
+  'amount_credit' => 438,
+  'commission_debit' => 0,
+  'commission_credit' => 12.05,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 21.9,
+  'amount_bonus' => 21.9,
+  'bonus_type' => 'bonusplus',
+  'bonus_procent' => 5,
+  'mpi_eci' => '7',
+  'is_3ds' => false,
+  'create_date' => 1482153580675,
+  'end_date' => 1482153580675,
+  'transaction_id' => 309158502,
+  'code' => 'err_payment',
+)
+2016.12.19 15:19:40> При оплате заказа  967  получен статус failure.
+
+                            Возможные значения:
+                            success - успешный платеж
+                            failure - неуспешный платеж
+                            wait_secure - платеж на проверке
+                            wait_accept - Деньги с клиента списаны, но магазин еще не прошел проверку
+                            wait_lc - Аккредитив. Деньги с клиента списаны, ожидается подтверждение доставки товара
+                            processing - Платеж обрабатывается
+                            sandbox - тестовый платеж
+                            subscribed - Подписка успешно оформлена
+                            unsubscribed - Подписка успешно деактивирована
+                            reversed - Возврат клиенту после списания
+                            cash_wait - Ожидание оплаты счета клиентом в терминале
+
+                     Подробнее о статусах: https://www.liqpay.com/ru/doc#callback 
+2016.12.26 10:54:23> >>>  log callback data
+2016.12.26 10:54:23> array (
+  'signature' => 'p1wsdZUMhyLOU9FbRliuNZUASkI=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjozMTM2MzYzNzgsInN0YXR1cyI6InN1Y2Nlc3MiLCJ2ZXJzaW9uIjozLCJ0eXBlIjoiYnV5IiwicGF5dHlwZSI6ImNhcmQiLCJwdWJsaWNfa2V5IjoiaTI0MTE4MTQzODA5IiwiYWNxX2lkIjo0MTQ5NjMsIm9yZGVyX2lkIjoiOTY5IiwibGlxcGF5X29yZGVyX2lkIjoiSE40Mzg4V1AxNDgyNzQyNDQxNDc0OTYzIiwiZGVzY3JpcHRpb24iOiLQn9C70LDRgtGW0LYg0LfQsCDQt9Cw0LzQvtCy0LvQtdC90L3RjyIsInNlbmRlcl9waG9uZSI6IjM4MDY3MzAwNjMzNyIsInNlbmRlcl9maXJzdF9uYW1lIjoi0JXQutCw0YLQtdGA0LjQvdCwIiwic2VuZGVyX2xhc3RfbmFtZSI6ItCa0L7Qu9Cz0YPRiNC+0LLQsCIsInNlbmRlcl9jYXJkX21hc2syIjoiNTE2ODc1KjA0Iiwic2VuZGVyX2NhcmRfYmFuayI6InBiIiwic2VuZGVyX2NhcmRfdHlwZSI6Im1jIiwic2VuZGVyX2NhcmRfY291bnRyeSI6ODA0LCJpcCI6IjE3Ni4yNDEuMTU0LjE3MCIsImFtb3VudCI6MTU5LjAsImN1cnJlbmN5IjoiVUFIIiwic2VuZGVyX2NvbW1pc3Npb24iOjAuMCwicmVjZWl2ZXJfY29tbWlzc2lvbiI6NC4zNywiYWdlbnRfY29tbWlzc2lvbiI6MC4wLCJhbW91bnRfZGViaXQiOjE1OS4wLCJhbW91bnRfY3JlZGl0IjoxNTkuMCwiY29tbWlzc2lvbl9kZWJpdCI6MC4wLCJjb21taXNzaW9uX2NyZWRpdCI6NC4zNywiY3VycmVuY3lfZGViaXQiOiJVQUgiLCJjdXJyZW5jeV9jcmVkaXQiOiJVQUgiLCJzZW5kZXJfYm9udXMiOjcuOTUsImFtb3VudF9ib251cyI6Ny45NSwiYm9udXNfdHlwZSI6ImJvbnVzcGx1cyIsImJvbnVzX3Byb2NlbnQiOjUuMCwiYXV0aGNvZGVfZGViaXQiOiI5MDgyMjMiLCJycm5fZGViaXQiOiIwMjE3MjgzNjQ1MTciLCJtcGlfZWNpIjoiNyIsImlzXzNkcyI6ZmFsc2UsImNyZWF0ZV9kYXRlIjoxNDgyNzQyNDYyODkxLCJlbmRfZGF0ZSI6MTQ4Mjc0MjQ2Mjg5MSwidHJhbnNhY3Rpb25faWQiOjMxMzYzNjM3OH0=',
+)
+2016.12.26 10:54:23> verify signature begin
+2016.12.26 10:54:23> Callback signature OK
+2016.12.26 10:54:23> log data
+2016.12.26 10:54:23> array (
+  'action' => 'pay',
+  'payment_id' => 313636378,
+  'status' => 'success',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'card',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '969',
+  'liqpay_order_id' => 'HN4388WP1482742441474963',
+  'description' => 'Платіж за замовлення',
+  'sender_phone' => '380673006337',
+  'sender_first_name' => 'Екатерина',
+  'sender_last_name' => 'Колгушова',
+  'sender_card_mask2' => '516875*04',
+  'sender_card_bank' => 'pb',
+  'sender_card_type' => 'mc',
+  'sender_card_country' => 804,
+  'ip' => '176.241.154.170',
+  'amount' => 159,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 4.37,
+  'agent_commission' => 0,
+  'amount_debit' => 159,
+  'amount_credit' => 159,
+  'commission_debit' => 0,
+  'commission_credit' => 4.37,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 7.95,
+  'amount_bonus' => 7.95,
+  'bonus_type' => 'bonusplus',
+  'bonus_procent' => 5,
+  'authcode_debit' => '908223',
+  'rrn_debit' => '021728364517',
+  'mpi_eci' => '7',
+  'is_3ds' => false,
+  'create_date' => 1482742462891,
+  'end_date' => 1482742462891,
+  'transaction_id' => 313636378,
+)
+2016.12.26 10:54:23> повідомлення замовнику
+2016.12.26 10:54:23> Order 969 processed as successfull sale
+2016.12.26 10:54:23> OK
+2016.12.26 20:29:02> >>>  log callback data
+2016.12.26 20:29:02> array (
+  'signature' => 'uSHnpsum+plHycNFLc6HjkCU380=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjozMTQwNzkyOTgsInN0YXR1cyI6InN1Y2Nlc3MiLCJ2ZXJzaW9uIjozLCJ0eXBlIjoiYnV5IiwicGF5dHlwZSI6ImNhcmQiLCJwdWJsaWNfa2V5IjoiaTI0MTE4MTQzODA5IiwiYWNxX2lkIjo0MTQ5NjMsIm9yZGVyX2lkIjoiOTcxIiwibGlxcGF5X29yZGVyX2lkIjoiQzBHUVhDVDYxNDgyNzc2OTM0MzY2OTk5IiwiZGVzY3JpcHRpb24iOiLQn9C70LDRgtGW0LYg0LfQsCDQt9Cw0LzQvtCy0LvQtdC90L3RjyIsInNlbmRlcl9waG9uZSI6IjM4MDY3NzI0NzAxOCIsInNlbmRlcl9jYXJkX21hc2syIjoiNTE2OTE1Kjc2Iiwic2VuZGVyX2NhcmRfYmFuayI6ImFiYW5rIiwic2VuZGVyX2NhcmRfdHlwZSI6Im1jIiwic2VuZGVyX2NhcmRfY291bnRyeSI6ODA0LCJpcCI6IjE5NC40NC4xOTQuMTE0IiwiYW1vdW50Ijo4MTkuMCwiY3VycmVuY3kiOiJVQUgiLCJzZW5kZXJfY29tbWlzc2lvbiI6MC4wLCJyZWNlaXZlcl9jb21taXNzaW9uIjoyMi41MiwiYWdlbnRfY29tbWlzc2lvbiI6MC4wLCJhbW91bnRfZGViaXQiOjgxOS4wLCJhbW91bnRfY3JlZGl0Ijo4MTkuMCwiY29tbWlzc2lvbl9kZWJpdCI6MC4wLCJjb21taXNzaW9uX2NyZWRpdCI6MjIuNTIsImN1cnJlbmN5X2RlYml0IjoiVUFIIiwiY3VycmVuY3lfY3JlZGl0IjoiVUFIIiwic2VuZGVyX2JvbnVzIjowLjAsImFtb3VudF9ib251cyI6MC4wLCJhdXRoY29kZV9kZWJpdCI6IjM2OTA0MiIsInJybl9kZWJpdCI6IjAwMDUyMDQ1MzU3NCIsIm1waV9lY2kiOiI1IiwiaXNfM2RzIjp0cnVlLCJjcmVhdGVfZGF0ZSI6MTQ4Mjc3Njk0MTM1MCwiZW5kX2RhdGUiOjE0ODI3NzY5NDEzNTAsInRyYW5zYWN0aW9uX2lkIjozMTQwNzkyOTh9',
+)
+2016.12.26 20:29:02> verify signature begin
+2016.12.26 20:29:02> Callback signature OK
+2016.12.26 20:29:02> log data
+2016.12.26 20:29:02> array (
+  'action' => 'pay',
+  'payment_id' => 314079298,
+  'status' => 'success',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'card',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '971',
+  'liqpay_order_id' => 'C0GQXCT61482776934366999',
+  'description' => 'Платіж за замовлення',
+  'sender_phone' => '380677247018',
+  'sender_card_mask2' => '516915*76',
+  'sender_card_bank' => 'abank',
+  'sender_card_type' => 'mc',
+  'sender_card_country' => 804,
+  'ip' => '194.44.194.114',
+  'amount' => 819,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 22.52,
+  'agent_commission' => 0,
+  'amount_debit' => 819,
+  'amount_credit' => 819,
+  'commission_debit' => 0,
+  'commission_credit' => 22.52,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 0,
+  'amount_bonus' => 0,
+  'authcode_debit' => '369042',
+  'rrn_debit' => '000520453574',
+  'mpi_eci' => '5',
+  'is_3ds' => true,
+  'create_date' => 1482776941350,
+  'end_date' => 1482776941350,
+  'transaction_id' => 314079298,
+)
+2016.12.26 20:29:02> повідомлення замовнику
+2016.12.26 20:29:02> Order 971 processed as successfull sale
+2016.12.26 20:29:02> OK
+2017.01.08 11:03:21> >>>  log callback data
+2017.01.08 11:03:21> array (
+  'signature' => '+Lrx0yIJ9z8mOxzkLRSJVqOK//Q=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjozMjIyMzc1NzEsInN0YXR1cyI6InN1Y2Nlc3MiLCJ2ZXJzaW9uIjozLCJ0eXBlIjoiYnV5IiwicGF5dHlwZSI6ImNhcmQiLCJwdWJsaWNfa2V5IjoiaTI0MTE4MTQzODA5IiwiYWNxX2lkIjo0MTQ5NjMsIm9yZGVyX2lkIjoiOTc5IiwibGlxcGF5X29yZGVyX2lkIjoiQkRCS0gxTzcxNDgzODY2MTkzMjEzNjY5IiwiZGVzY3JpcHRpb24iOiLQn9C70LDRgtGW0LYg0LfQsCDQt9Cw0LzQvtCy0LvQtdC90L3RjyIsInNlbmRlcl9waG9uZSI6IjM4MDk2OTQyNTg1NiIsInNlbmRlcl9jYXJkX21hc2syIjoiNTE2ODc0KjkxIiwic2VuZGVyX2NhcmRfYmFuayI6InBiIiwic2VuZGVyX2NhcmRfdHlwZSI6Im1jIiwic2VuZGVyX2NhcmRfY291bnRyeSI6ODA0LCJpcCI6IjE3Ni4xMTguMTQ3LjEyOCIsImFtb3VudCI6MzYwLjAsImN1cnJlbmN5IjoiVUFIIiwic2VuZGVyX2NvbW1pc3Npb24iOjAuMCwicmVjZWl2ZXJfY29tbWlzc2lvbiI6OS45LCJhZ2VudF9jb21taXNzaW9uIjowLjAsImFtb3VudF9kZWJpdCI6MzYwLjAsImFtb3VudF9jcmVkaXQiOjM2MC4wLCJjb21taXNzaW9uX2RlYml0IjowLjAsImNvbW1pc3Npb25fY3JlZGl0Ijo5LjksImN1cnJlbmN5X2RlYml0IjoiVUFIIiwiY3VycmVuY3lfY3JlZGl0IjoiVUFIIiwic2VuZGVyX2JvbnVzIjoxOC4wLCJhbW91bnRfYm9udXMiOjE4LjAsImJvbnVzX3R5cGUiOiJib251c3BsdXMiLCJib251c19wcm9jZW50Ijo1LjAsImF1dGhjb2RlX2RlYml0IjoiODc0MzMzIiwicnJuX2RlYml0IjoiMDIxODU4OTUwMjM2IiwibXBpX2VjaSI6IjciLCJpc18zZHMiOmZhbHNlLCJjcmVhdGVfZGF0ZSI6MTQ4Mzg2NjIwMTczOSwiZW5kX2RhdGUiOjE0ODM4NjYyMDE3MzksInRyYW5zYWN0aW9uX2lkIjozMjIyMzc1NzF9',
+)
+2017.01.08 11:03:21> verify signature begin
+2017.01.08 11:03:21> Callback signature OK
+2017.01.08 11:03:21> log data
+2017.01.08 11:03:21> array (
+  'action' => 'pay',
+  'payment_id' => 322237571,
+  'status' => 'success',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'card',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '979',
+  'liqpay_order_id' => 'BDBKH1O71483866193213669',
+  'description' => 'Платіж за замовлення',
+  'sender_phone' => '380969425856',
+  'sender_card_mask2' => '516874*91',
+  'sender_card_bank' => 'pb',
+  'sender_card_type' => 'mc',
+  'sender_card_country' => 804,
+  'ip' => '176.118.147.128',
+  'amount' => 360,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 9.9,
+  'agent_commission' => 0,
+  'amount_debit' => 360,
+  'amount_credit' => 360,
+  'commission_debit' => 0,
+  'commission_credit' => 9.9,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 18,
+  'amount_bonus' => 18,
+  'bonus_type' => 'bonusplus',
+  'bonus_procent' => 5,
+  'authcode_debit' => '874333',
+  'rrn_debit' => '021858950236',
+  'mpi_eci' => '7',
+  'is_3ds' => false,
+  'create_date' => 1483866201739,
+  'end_date' => 1483866201739,
+  'transaction_id' => 322237571,
+)
+2017.01.08 11:03:21> повідомлення замовнику
+2017.01.08 11:03:22> Order 979 processed as successfull sale
+2017.01.08 11:03:22> OK
+2017.02.01 11:01:00> >>>  log callback data
+2017.02.01 11:01:00> array (
+  'signature' => 'KXH+MSS0eTUJfJjxPR0pCOY32pA=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjozMzgxMTI1NTUsInN0YXR1cyI6InN1Y2Nlc3MiLCJ2ZXJzaW9uIjozLCJ0eXBlIjoiYnV5IiwicGF5dHlwZSI6ImNhcmQiLCJwdWJsaWNfa2V5IjoiaTI0MTE4MTQzODA5IiwiYWNxX2lkIjo0MTQ5NjMsIm9yZGVyX2lkIjoiMTAwMCIsImxpcXBheV9vcmRlcl9pZCI6IjJZMFpXRVlZMTQ4NTkzOTY0ODkwNDI3OCIsImRlc2NyaXB0aW9uIjoi0J/Qu9Cw0YLRltC2INC30LAg0LfQsNC80L7QstC70LXQvdC90Y8iLCJzZW5kZXJfcGhvbmUiOiIzODA5MzAyOTQwMjkiLCJzZW5kZXJfY2FyZF9tYXNrMiI6IjQxNDk0OSo3MCIsInNlbmRlcl9jYXJkX2JhbmsiOiJwYiIsInNlbmRlcl9jYXJkX3R5cGUiOiJ2aXNhIiwic2VuZGVyX2NhcmRfY291bnRyeSI6ODA0LCJpcCI6IjE5NC40NC4yMzkuMjI2IiwiYW1vdW50IjoyNjcuMCwiY3VycmVuY3kiOiJVQUgiLCJzZW5kZXJfY29tbWlzc2lvbiI6MC4wLCJyZWNlaXZlcl9jb21taXNzaW9uIjo3LjM0LCJhZ2VudF9jb21taXNzaW9uIjowLjAsImFtb3VudF9kZWJpdCI6MjY3LjAsImFtb3VudF9jcmVkaXQiOjI2Ny4wLCJjb21taXNzaW9uX2RlYml0IjowLjAsImNvbW1pc3Npb25fY3JlZGl0Ijo3LjM0LCJjdXJyZW5jeV9kZWJpdCI6IlVBSCIsImN1cnJlbmN5X2NyZWRpdCI6IlVBSCIsInNlbmRlcl9ib251cyI6MTMuMzUsImFtb3VudF9ib251cyI6MTMuMzUsImJvbnVzX3R5cGUiOiJib251c3BsdXMiLCJib251c19wcm9jZW50Ijo1LjAsImF1dGhjb2RlX2RlYml0IjoiOTYwMDY1IiwicnJuX2RlYml0IjoiMDIyMTEyOTQxNTE3IiwibXBpX2VjaSI6IjciLCJpc18zZHMiOmZhbHNlLCJjcmVhdGVfZGF0ZSI6MTQ4NTkzOTY2MDAzMiwiZW5kX2RhdGUiOjE0ODU5Mzk2NjAwMzIsInRyYW5zYWN0aW9uX2lkIjozMzgxMTI1NTV9',
+)
+2017.02.01 11:01:00> verify signature begin
+2017.02.01 11:01:00> Callback signature OK
+2017.02.01 11:01:00> log data
+2017.02.01 11:01:00> array (
+  'action' => 'pay',
+  'payment_id' => 338112555,
+  'status' => 'success',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'card',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '1000',
+  'liqpay_order_id' => '2Y0ZWEYY1485939648904278',
+  'description' => 'Платіж за замовлення',
+  'sender_phone' => '380930294029',
+  'sender_card_mask2' => '414949*70',
+  'sender_card_bank' => 'pb',
+  'sender_card_type' => 'visa',
+  'sender_card_country' => 804,
+  'ip' => '194.44.239.226',
+  'amount' => 267,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 7.34,
+  'agent_commission' => 0,
+  'amount_debit' => 267,
+  'amount_credit' => 267,
+  'commission_debit' => 0,
+  'commission_credit' => 7.34,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 13.35,
+  'amount_bonus' => 13.35,
+  'bonus_type' => 'bonusplus',
+  'bonus_procent' => 5,
+  'authcode_debit' => '960065',
+  'rrn_debit' => '022112941517',
+  'mpi_eci' => '7',
+  'is_3ds' => false,
+  'create_date' => 1485939660032,
+  'end_date' => 1485939660032,
+  'transaction_id' => 338112555,
+)
+2017.02.01 11:01:00> повідомлення замовнику
+2017.02.01 11:01:00> Order 1000 processed as successfull sale
+2017.02.01 11:01:00> OK
+2017.02.16 22:08:34> >>>  log callback data
+2017.02.16 22:08:34> array (
+  'signature' => 'SbjA03fLVrB3RZvlF1tg+4II73c=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjozNDkxODU0NDEsInN0YXR1cyI6InN1Y2Nlc3MiLCJ2ZXJzaW9uIjozLCJ0eXBlIjoiYnV5IiwicGF5dHlwZSI6ImNhcmQiLCJwdWJsaWNfa2V5IjoiaTI0MTE4MTQzODA5IiwiYWNxX2lkIjo0MTQ5NjMsIm9yZGVyX2lkIjoiMTAyNCIsImxpcXBheV9vcmRlcl9pZCI6IjQ1MVpQU1gwMTQ4NzI3NTcwMDI3OTEzMSIsImRlc2NyaXB0aW9uIjoi0J/Qu9Cw0YLRltC2INC30LAg0LfQsNC80L7QstC70LXQvdC90Y8iLCJzZW5kZXJfcGhvbmUiOiIzODA5MzE0MTU4NTciLCJzZW5kZXJfY2FyZF9tYXNrMiI6IjUzNjM1NCo3NCIsInNlbmRlcl9jYXJkX2JhbmsiOiJwYiIsInNlbmRlcl9jYXJkX3R5cGUiOiJtYyIsInNlbmRlcl9jYXJkX2NvdW50cnkiOjgwNCwiaXAiOiIxNzYuMzYuMTQ0LjEwMyIsImFtb3VudCI6NzQ5LjAsImN1cnJlbmN5IjoiVUFIIiwic2VuZGVyX2NvbW1pc3Npb24iOjAuMCwicmVjZWl2ZXJfY29tbWlzc2lvbiI6MjAuNiwiYWdlbnRfY29tbWlzc2lvbiI6MC4wLCJhbW91bnRfZGViaXQiOjc0OS4wLCJhbW91bnRfY3JlZGl0Ijo3NDkuMCwiY29tbWlzc2lvbl9kZWJpdCI6MC4wLCJjb21taXNzaW9uX2NyZWRpdCI6MjAuNiwiY3VycmVuY3lfZGViaXQiOiJVQUgiLCJjdXJyZW5jeV9jcmVkaXQiOiJVQUgiLCJzZW5kZXJfYm9udXMiOjM3LjQ1LCJhbW91bnRfYm9udXMiOjM3LjQ1LCJib251c190eXBlIjoiYm9udXNwbHVzIiwiYm9udXNfcHJvY2VudCI6NS4wLCJhdXRoY29kZV9kZWJpdCI6IjI5MTE0MyIsInJybl9kZWJpdCI6IjAyMjI5MzMyMDU2NyIsIm1waV9lY2kiOiI3IiwiaXNfM2RzIjpmYWxzZSwiY3JlYXRlX2RhdGUiOjE0ODcyNzU3MTQzMDAsImVuZF9kYXRlIjoxNDg3Mjc1NzE0MzAwLCJ0cmFuc2FjdGlvbl9pZCI6MzQ5MTg1NDQxfQ==',
+)
+2017.02.16 22:08:34> verify signature begin
+2017.02.16 22:08:34> Callback signature OK
+2017.02.16 22:08:34> log data
+2017.02.16 22:08:34> array (
+  'action' => 'pay',
+  'payment_id' => 349185441,
+  'status' => 'success',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'card',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '1024',
+  'liqpay_order_id' => '451ZPSX01487275700279131',
+  'description' => 'Платіж за замовлення',
+  'sender_phone' => '380931415857',
+  'sender_card_mask2' => '536354*74',
+  'sender_card_bank' => 'pb',
+  'sender_card_type' => 'mc',
+  'sender_card_country' => 804,
+  'ip' => '176.36.144.103',
+  'amount' => 749,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 20.6,
+  'agent_commission' => 0,
+  'amount_debit' => 749,
+  'amount_credit' => 749,
+  'commission_debit' => 0,
+  'commission_credit' => 20.6,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 37.45,
+  'amount_bonus' => 37.45,
+  'bonus_type' => 'bonusplus',
+  'bonus_procent' => 5,
+  'authcode_debit' => '291143',
+  'rrn_debit' => '022293320567',
+  'mpi_eci' => '7',
+  'is_3ds' => false,
+  'create_date' => 1487275714300,
+  'end_date' => 1487275714300,
+  'transaction_id' => 349185441,
+)
+2017.02.16 22:08:34> повідомлення замовнику
+2017.02.16 22:08:34> Order 1024 processed as successfull sale
+2017.02.16 22:08:34> OK
+2017.02.27 17:29:24> >>>  log callback data
+2017.02.27 17:29:24> array (
+  'signature' => 'KyYtF/uV9JgehYRsGV7LAdoOE0o=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjozNTY0NzM0NDksInN0YXR1cyI6InN1Y2Nlc3MiLCJ2ZXJzaW9uIjozLCJ0eXBlIjoiYnV5IiwicGF5dHlwZSI6ImNhcmQiLCJwdWJsaWNfa2V5IjoiaTI0MTE4MTQzODA5IiwiYWNxX2lkIjo0MTQ5NjMsIm9yZGVyX2lkIjoiMTA0OSIsImxpcXBheV9vcmRlcl9pZCI6IjFPMDY0OFBPMTQ4ODIwOTM1Mzk1MjM5NCIsImRlc2NyaXB0aW9uIjoi0J/Qu9Cw0YLRltC2INC30LAg0LfQsNC80L7QstC70LXQvdC90Y8iLCJzZW5kZXJfcGhvbmUiOiIzODA5ODY1NDIwMzEiLCJzZW5kZXJfY2FyZF9tYXNrMiI6IjUxNjg3NCo3MCIsInNlbmRlcl9jYXJkX2JhbmsiOiJwYiIsInNlbmRlcl9jYXJkX3R5cGUiOiJtYyIsInNlbmRlcl9jYXJkX2NvdW50cnkiOjgwNCwiaXAiOiIxODguMjMwLjUwLjY3IiwiYW1vdW50IjozMzEuMCwiY3VycmVuY3kiOiJVQUgiLCJzZW5kZXJfY29tbWlzc2lvbiI6MC4wLCJyZWNlaXZlcl9jb21taXNzaW9uIjo5LjEsImFnZW50X2NvbW1pc3Npb24iOjAuMCwiYW1vdW50X2RlYml0IjozMzEuMCwiYW1vdW50X2NyZWRpdCI6MzMxLjAsImNvbW1pc3Npb25fZGViaXQiOjAuMCwiY29tbWlzc2lvbl9jcmVkaXQiOjkuMSwiY3VycmVuY3lfZGViaXQiOiJVQUgiLCJjdXJyZW5jeV9jcmVkaXQiOiJVQUgiLCJzZW5kZXJfYm9udXMiOjE2LjU1LCJhbW91bnRfYm9udXMiOjE2LjU1LCJib251c190eXBlIjoiYm9udXNwbHVzIiwiYm9udXNfcHJvY2VudCI6NS4wLCJhdXRoY29kZV9kZWJpdCI6IjE0ODAzNSIsInJybl9kZWJpdCI6IjAyMjQxOTYzOTE2NyIsIm1waV9lY2kiOiI3IiwiaXNfM2RzIjpmYWxzZSwiY3JlYXRlX2RhdGUiOjE0ODgyMDkzNjQxNTIsImVuZF9kYXRlIjoxNDg4MjA5MzY0MTUyLCJ0cmFuc2FjdGlvbl9pZCI6MzU2NDczNDQ5fQ==',
+)
+2017.02.27 17:29:24> verify signature begin
+2017.02.27 17:29:24> Callback signature OK
+2017.02.27 17:29:24> log data
+2017.02.27 17:29:24> array (
+  'action' => 'pay',
+  'payment_id' => 356473449,
+  'status' => 'success',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'card',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '1049',
+  'liqpay_order_id' => '1O0648PO1488209353952394',
+  'description' => 'Платіж за замовлення',
+  'sender_phone' => '380986542031',
+  'sender_card_mask2' => '516874*70',
+  'sender_card_bank' => 'pb',
+  'sender_card_type' => 'mc',
+  'sender_card_country' => 804,
+  'ip' => '188.230.50.67',
+  'amount' => 331,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 9.1,
+  'agent_commission' => 0,
+  'amount_debit' => 331,
+  'amount_credit' => 331,
+  'commission_debit' => 0,
+  'commission_credit' => 9.1,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 16.55,
+  'amount_bonus' => 16.55,
+  'bonus_type' => 'bonusplus',
+  'bonus_procent' => 5,
+  'authcode_debit' => '148035',
+  'rrn_debit' => '022419639167',
+  'mpi_eci' => '7',
+  'is_3ds' => false,
+  'create_date' => 1488209364152,
+  'end_date' => 1488209364152,
+  'transaction_id' => 356473449,
+)
+2017.02.27 17:29:24> повідомлення замовнику
+2017.02.27 17:29:24> Order 1049 processed as successfull sale
+2017.02.27 17:29:24> OK
+2017.03.07 10:36:26> >>>  log callback data
+2017.03.07 10:36:26> array (
+  'signature' => 'SFK76G9glfsXAL/f/jv9oa0o50g=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjozNjIzMTI0MDIsInN0YXR1cyI6InN1Y2Nlc3MiLCJ2ZXJzaW9uIjozLCJ0eXBlIjoiYnV5IiwicGF5dHlwZSI6ImNhcmQiLCJwdWJsaWNfa2V5IjoiaTI0MTE4MTQzODA5IiwiYWNxX2lkIjo0MTQ5NjMsIm9yZGVyX2lkIjoiMTA1NCIsImxpcXBheV9vcmRlcl9pZCI6IkdPOUxOOUFOMTQ4ODg3NTc3NjgyMzA1OSIsImRlc2NyaXB0aW9uIjoi0J/Qu9Cw0YLRltC2INC30LAg0LfQsNC80L7QstC70LXQvdC90Y8iLCJzZW5kZXJfY2FyZF9tYXNrMiI6IjQ3MjQ3Mio3NiIsInNlbmRlcl9jYXJkX2JhbmsiOiJQSlNDIFBpcmFldXMgQmFuayBJY2IiLCJzZW5kZXJfY2FyZF90eXBlIjoidmlzYSIsInNlbmRlcl9jYXJkX2NvdW50cnkiOjgwNCwiaXAiOiI5MS4yMTkuMjUyLjEwNyIsImFtb3VudCI6Mjg4LjAsImN1cnJlbmN5IjoiVUFIIiwic2VuZGVyX2NvbW1pc3Npb24iOjAuMCwicmVjZWl2ZXJfY29tbWlzc2lvbiI6Ny45MiwiYWdlbnRfY29tbWlzc2lvbiI6MC4wLCJhbW91bnRfZGViaXQiOjI4OC4wLCJhbW91bnRfY3JlZGl0IjoyODguMCwiY29tbWlzc2lvbl9kZWJpdCI6MC4wLCJjb21taXNzaW9uX2NyZWRpdCI6Ny45MiwiY3VycmVuY3lfZGViaXQiOiJVQUgiLCJjdXJyZW5jeV9jcmVkaXQiOiJVQUgiLCJzZW5kZXJfYm9udXMiOjAuMCwiYW1vdW50X2JvbnVzIjowLjAsImF1dGhjb2RlX2RlYml0IjoiMDUyMDk0IiwicnJuX2RlYml0IjoiMDAwNTY1MDQ4MzI1IiwibXBpX2VjaSI6IjYiLCJpc18zZHMiOmZhbHNlLCJjcmVhdGVfZGF0ZSI6MTQ4ODg3NTc4NjA2NSwiZW5kX2RhdGUiOjE0ODg4NzU3ODYwNjUsInRyYW5zYWN0aW9uX2lkIjozNjIzMTI0MDJ9',
+)
+2017.03.07 10:36:26> verify signature begin
+2017.03.07 10:36:26> Callback signature OK
+2017.03.07 10:36:26> log data
+2017.03.07 10:36:26> array (
+  'action' => 'pay',
+  'payment_id' => 362312402,
+  'status' => 'success',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'card',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '1054',
+  'liqpay_order_id' => 'GO9LN9AN1488875776823059',
+  'description' => 'Платіж за замовлення',
+  'sender_card_mask2' => '472472*76',
+  'sender_card_bank' => 'PJSC Piraeus Bank Icb',
+  'sender_card_type' => 'visa',
+  'sender_card_country' => 804,
+  'ip' => '91.219.252.107',
+  'amount' => 288,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 7.92,
+  'agent_commission' => 0,
+  'amount_debit' => 288,
+  'amount_credit' => 288,
+  'commission_debit' => 0,
+  'commission_credit' => 7.92,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 0,
+  'amount_bonus' => 0,
+  'authcode_debit' => '052094',
+  'rrn_debit' => '000565048325',
+  'mpi_eci' => '6',
+  'is_3ds' => false,
+  'create_date' => 1488875786065,
+  'end_date' => 1488875786065,
+  'transaction_id' => 362312402,
+)
+2017.03.07 10:36:26> повідомлення замовнику
+2017.03.07 10:36:26> Order 1054 processed as successfull sale
+2017.03.07 10:36:26> OK
+2017.04.04 12:38:27> >>>  log callback data
+2017.04.04 12:38:27> array (
+  'signature' => 'OLRbX4AIklj9Ddr7oYAR06pgSu0=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjozODE3NDQ2NTgsInN0YXR1cyI6InN1Y2Nlc3MiLCJ2ZXJzaW9uIjozLCJ0eXBlIjoiYnV5IiwicGF5dHlwZSI6ImNhcmQiLCJwdWJsaWNfa2V5IjoiaTI0MTE4MTQzODA5IiwiYWNxX2lkIjo0MTQ5NjMsIm9yZGVyX2lkIjoiMTA4NCIsImxpcXBheV9vcmRlcl9pZCI6IjRNNjdDRDZaMTQ5MTI5ODY5NzI5OTA4MiIsImRlc2NyaXB0aW9uIjoi0J/Qu9Cw0YLRltC2INC30LAg0LfQsNC80L7QstC70LXQvdC90Y8iLCJzZW5kZXJfcGhvbmUiOiIzODA5NjYwMDA5OTYiLCJzZW5kZXJfY2FyZF9tYXNrMiI6IjUxNjg3NCo4NiIsInNlbmRlcl9jYXJkX2JhbmsiOiJwYiIsInNlbmRlcl9jYXJkX3R5cGUiOiJtYyIsInNlbmRlcl9jYXJkX2NvdW50cnkiOjgwNCwiaXAiOiIxOTQuNjAuNzcuMTMzIiwiYW1vdW50IjoyMTQ4LjAsImN1cnJlbmN5IjoiVUFIIiwic2VuZGVyX2NvbW1pc3Npb24iOjAuMCwicmVjZWl2ZXJfY29tbWlzc2lvbiI6NTkuMDcsImFnZW50X2NvbW1pc3Npb24iOjAuMCwiYW1vdW50X2RlYml0IjoyMTQ4LjAsImFtb3VudF9jcmVkaXQiOjIxNDguMCwiY29tbWlzc2lvbl9kZWJpdCI6MC4wLCJjb21taXNzaW9uX2NyZWRpdCI6NTkuMDcsImN1cnJlbmN5X2RlYml0IjoiVUFIIiwiY3VycmVuY3lfY3JlZGl0IjoiVUFIIiwic2VuZGVyX2JvbnVzIjoxMDcuNCwiYW1vdW50X2JvbnVzIjoxMDcuNCwiYm9udXNfdHlwZSI6ImJvbnVzcGx1cyIsImJvbnVzX3Byb2NlbnQiOjUuMCwiYXV0aGNvZGVfZGViaXQiOiIxMjcwMTQiLCJycm5fZGViaXQiOiIwMjI4NDk3NTEyODIiLCJtcGlfZWNpIjoiNyIsImlzXzNkcyI6ZmFsc2UsImNyZWF0ZV9kYXRlIjoxNDkxMjk4NzA3MTg1LCJlbmRfZGF0ZSI6MTQ5MTI5ODcwNzE4NSwidHJhbnNhY3Rpb25faWQiOjM4MTc0NDY1OH0=',
+)
+2017.04.04 12:38:27> verify signature begin
+2017.04.04 12:38:27> Callback signature OK
+2017.04.04 12:38:27> log data
+2017.04.04 12:38:27> array (
+  'action' => 'pay',
+  'payment_id' => 381744658,
+  'status' => 'success',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'card',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '1084',
+  'liqpay_order_id' => '4M67CD6Z1491298697299082',
+  'description' => 'Платіж за замовлення',
+  'sender_phone' => '380966000996',
+  'sender_card_mask2' => '516874*86',
+  'sender_card_bank' => 'pb',
+  'sender_card_type' => 'mc',
+  'sender_card_country' => 804,
+  'ip' => '194.60.77.133',
+  'amount' => 2148,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 59.07,
+  'agent_commission' => 0,
+  'amount_debit' => 2148,
+  'amount_credit' => 2148,
+  'commission_debit' => 0,
+  'commission_credit' => 59.07,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 107.4,
+  'amount_bonus' => 107.4,
+  'bonus_type' => 'bonusplus',
+  'bonus_procent' => 5,
+  'authcode_debit' => '127014',
+  'rrn_debit' => '022849751282',
+  'mpi_eci' => '7',
+  'is_3ds' => false,
+  'create_date' => 1491298707185,
+  'end_date' => 1491298707185,
+  'transaction_id' => 381744658,
+)
+2017.04.04 12:38:27> повідомлення замовнику
+2017.04.04 12:38:27> Order 1084 processed as successfull sale
+2017.04.04 12:38:27> OK
+2017.04.12 11:25:29> >>>  log callback data
+2017.04.12 11:25:29> array (
+  'signature' => '8b7ITbtV/cM95TBq1TcuCHb+uPU=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjozODcxNTE3NDUsInN0YXR1cyI6InN1Y2Nlc3MiLCJ2ZXJzaW9uIjozLCJ0eXBlIjoiYnV5IiwicGF5dHlwZSI6ImNhcmQiLCJwdWJsaWNfa2V5IjoiaTI0MTE4MTQzODA5IiwiYWNxX2lkIjo0MTQ5NjMsIm9yZGVyX2lkIjoiMTA5MCIsImxpcXBheV9vcmRlcl9pZCI6IkRIRVdDRFRZMTQ5MTk4NTUxNzMzNTI1OCIsImRlc2NyaXB0aW9uIjoi0J/Qu9Cw0YLRltC2INC30LAg0LfQsNC80L7QstC70LXQvdC90Y8iLCJzZW5kZXJfY2FyZF9tYXNrMiI6IjQ2NzgwOCoyOSIsInNlbmRlcl9jYXJkX2JhbmsiOiJSYWlmZmVpc2VuIEJhbmsgQXZhbCBQSlNDIiwic2VuZGVyX2NhcmRfdHlwZSI6InZpc2EiLCJzZW5kZXJfY2FyZF9jb3VudHJ5Ijo4MDQsImlwIjoiMjE3LjI1LjE5Mi4yMTMiLCJhbW91bnQiOjQ1MC4wLCJjdXJyZW5jeSI6IlVBSCIsInNlbmRlcl9jb21taXNzaW9uIjowLjAsInJlY2VpdmVyX2NvbW1pc3Npb24iOjEyLjM4LCJhZ2VudF9jb21taXNzaW9uIjowLjAsImFtb3VudF9kZWJpdCI6NDUwLjAsImFtb3VudF9jcmVkaXQiOjQ1MC4wLCJjb21taXNzaW9uX2RlYml0IjowLjAsImNvbW1pc3Npb25fY3JlZGl0IjoxMi4zOCwiY3VycmVuY3lfZGViaXQiOiJVQUgiLCJjdXJyZW5jeV9jcmVkaXQiOiJVQUgiLCJzZW5kZXJfYm9udXMiOjAuMCwiYW1vdW50X2JvbnVzIjowLjAsImF1dGhjb2RlX2RlYml0IjoiNDAyMzUxIiwicnJuX2RlYml0IjoiMDAwNTg5MjIxNzkyIiwibXBpX2VjaSI6IjUiLCJpc18zZHMiOnRydWUsImNyZWF0ZV9kYXRlIjoxNDkxOTg1NTI4ODYxLCJlbmRfZGF0ZSI6MTQ5MTk4NTUyODg2MSwidHJhbnNhY3Rpb25faWQiOjM4NzE1MTc0NX0=',
+)
+2017.04.12 11:25:29> verify signature begin
+2017.04.12 11:25:29> Callback signature OK
+2017.04.12 11:25:29> log data
+2017.04.12 11:25:29> array (
+  'action' => 'pay',
+  'payment_id' => 387151745,
+  'status' => 'success',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'card',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '1090',
+  'liqpay_order_id' => 'DHEWCDTY1491985517335258',
+  'description' => 'Платіж за замовлення',
+  'sender_card_mask2' => '467808*29',
+  'sender_card_bank' => 'Raiffeisen Bank Aval PJSC',
+  'sender_card_type' => 'visa',
+  'sender_card_country' => 804,
+  'ip' => '217.25.192.213',
+  'amount' => 450,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 12.38,
+  'agent_commission' => 0,
+  'amount_debit' => 450,
+  'amount_credit' => 450,
+  'commission_debit' => 0,
+  'commission_credit' => 12.38,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 0,
+  'amount_bonus' => 0,
+  'authcode_debit' => '402351',
+  'rrn_debit' => '000589221792',
+  'mpi_eci' => '5',
+  'is_3ds' => true,
+  'create_date' => 1491985528861,
+  'end_date' => 1491985528861,
+  'transaction_id' => 387151745,
+)
+2017.04.12 11:25:29> повідомлення замовнику
+2017.04.12 11:25:29> Order 1090 processed as successfull sale
+2017.04.12 11:25:29> OK
+2017.04.26 16:34:48> >>>  log callback data
+2017.04.26 16:34:48> array (
+  'signature' => 'ryxEvMKeh3nHRMdchJp/RMh5QFk=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjozOTc0Nzk4NjgsInN0YXR1cyI6InN1Y2Nlc3MiLCJ2ZXJzaW9uIjozLCJ0eXBlIjoiYnV5IiwicGF5dHlwZSI6ImNhcmQiLCJwdWJsaWNfa2V5IjoiaTI0MTE4MTQzODA5IiwiYWNxX2lkIjo0MTQ5NjMsIm9yZGVyX2lkIjoiMTExNyIsImxpcXBheV9vcmRlcl9pZCI6IjdFUjc4R0NYMTQ5MzIxMzY3NTE5NTE3OSIsImRlc2NyaXB0aW9uIjoi0J/Qu9Cw0YLRltC2INC30LAg0LfQsNC80L7QstC70LXQvdC90Y8iLCJzZW5kZXJfcGhvbmUiOiIzODA5NzQ3Njg4NTYiLCJzZW5kZXJfY2FyZF9tYXNrMiI6IjUxNjg3NSo0OSIsInNlbmRlcl9jYXJkX2JhbmsiOiJwYiIsInNlbmRlcl9jYXJkX3R5cGUiOiJtYyIsInNlbmRlcl9jYXJkX2NvdW50cnkiOjgwNCwiaXAiOiIxOTQuNDQuMTk0LjExNCIsImFtb3VudCI6MTYuMCwiY3VycmVuY3kiOiJVQUgiLCJzZW5kZXJfY29tbWlzc2lvbiI6MC4wLCJyZWNlaXZlcl9jb21taXNzaW9uIjowLjQ0LCJhZ2VudF9jb21taXNzaW9uIjowLjAsImFtb3VudF9kZWJpdCI6MTYuMCwiYW1vdW50X2NyZWRpdCI6MTYuMCwiY29tbWlzc2lvbl9kZWJpdCI6MC4wLCJjb21taXNzaW9uX2NyZWRpdCI6MC40NCwiY3VycmVuY3lfZGViaXQiOiJVQUgiLCJjdXJyZW5jeV9jcmVkaXQiOiJVQUgiLCJzZW5kZXJfYm9udXMiOjAuOCwiYW1vdW50X2JvbnVzIjowLjgsImJvbnVzX3R5cGUiOiJib251c3BsdXMiLCJib251c19wcm9jZW50Ijo1LjAsImF1dGhjb2RlX2RlYml0IjoiNTA3MzgwIiwicnJuX2RlYml0IjoiMDIzMTE0Mjc5MjAzIiwibXBpX2VjaSI6IjciLCJpc18zZHMiOmZhbHNlLCJjcmVhdGVfZGF0ZSI6MTQ5MzIxMzY4ODY4NywiZW5kX2RhdGUiOjE0OTMyMTM2ODg2ODcsInRyYW5zYWN0aW9uX2lkIjozOTc0Nzk4Njh9',
+)
+2017.04.26 16:34:48> verify signature begin
+2017.04.26 16:34:48> Callback signature OK
+2017.04.26 16:34:48> log data
+2017.04.26 16:34:48> array (
+  'action' => 'pay',
+  'payment_id' => 397479868,
+  'status' => 'success',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'card',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '1117',
+  'liqpay_order_id' => '7ER78GCX1493213675195179',
+  'description' => 'Платіж за замовлення',
+  'sender_phone' => '380974768856',
+  'sender_card_mask2' => '516875*49',
+  'sender_card_bank' => 'pb',
+  'sender_card_type' => 'mc',
+  'sender_card_country' => 804,
+  'ip' => '194.44.194.114',
+  'amount' => 16,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 0.44,
+  'agent_commission' => 0,
+  'amount_debit' => 16,
+  'amount_credit' => 16,
+  'commission_debit' => 0,
+  'commission_credit' => 0.44,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 0.8,
+  'amount_bonus' => 0.8,
+  'bonus_type' => 'bonusplus',
+  'bonus_procent' => 5,
+  'authcode_debit' => '507380',
+  'rrn_debit' => '023114279203',
+  'mpi_eci' => '7',
+  'is_3ds' => false,
+  'create_date' => 1493213688687,
+  'end_date' => 1493213688687,
+  'transaction_id' => 397479868,
+)
+2017.04.26 16:34:48> повідомлення замовнику
+2017.04.26 16:34:49> Order 1117 processed as successfull sale
+2017.04.26 16:34:49> OK
+2017.06.15 11:36:09> >>>  log callback data
+2017.06.15 11:36:09> array (
+  'signature' => 'C4rLH6An2lPl1dbD8DySU8+IKIY=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjo0MzQ2MzMxNDksInN0YXR1cyI6InN1Y2Nlc3MiLCJ2ZXJzaW9uIjozLCJ0eXBlIjoiYnV5IiwicGF5dHlwZSI6ImNhcmQiLCJwdWJsaWNfa2V5IjoiaTI0MTE4MTQzODA5IiwiYWNxX2lkIjo0MTQ5NjMsIm9yZGVyX2lkIjoiMTE1OSIsImxpcXBheV9vcmRlcl9pZCI6Ikg0NEtESFFZMTQ5NzUxNTc1NzcwMjQ2MiIsImRlc2NyaXB0aW9uIjoi0J/Qu9Cw0YLRltC2INC30LAg0LfQsNC80L7QstC70LXQvdC90Y8iLCJzZW5kZXJfY2FyZF9tYXNrMiI6IjUyODk0NCo4MSIsInNlbmRlcl9jYXJkX2JhbmsiOiJQVUJMSUMgSk9JTlQgU1RPQ0sgQ09NUEFOWSBcIlVLIiwic2VuZGVyX2NhcmRfdHlwZSI6Im1jIiwic2VuZGVyX2NhcmRfY291bnRyeSI6ODA0LCJpcCI6Ijc3LjEyMC40MC4zMiIsImFtb3VudCI6MTMzNC4wLCJjdXJyZW5jeSI6IlVBSCIsInNlbmRlcl9jb21taXNzaW9uIjowLjAsInJlY2VpdmVyX2NvbW1pc3Npb24iOjM2LjY5LCJhZ2VudF9jb21taXNzaW9uIjowLjAsImFtb3VudF9kZWJpdCI6MTMzNC4wLCJhbW91bnRfY3JlZGl0IjoxMzM0LjAsImNvbW1pc3Npb25fZGViaXQiOjAuMCwiY29tbWlzc2lvbl9jcmVkaXQiOjM2LjY5LCJjdXJyZW5jeV9kZWJpdCI6IlVBSCIsImN1cnJlbmN5X2NyZWRpdCI6IlVBSCIsInNlbmRlcl9ib251cyI6MC4wLCJhbW91bnRfYm9udXMiOjAuMCwiYXV0aGNvZGVfZGViaXQiOiI5NjQxMTkiLCJycm5fZGViaXQiOiIwMDA2MzE4NDIxOTYiLCJtcGlfZWNpIjoiNSIsImlzXzNkcyI6dHJ1ZSwiY3JlYXRlX2RhdGUiOjE0OTc1MTU3NjkyNTUsImVuZF9kYXRlIjoxNDk3NTE1NzY5MjU1LCJ0cmFuc2FjdGlvbl9pZCI6NDM0NjMzMTQ5fQ==',
+)
+2017.06.15 11:36:09> verify signature begin
+2017.06.15 11:36:09> Callback signature OK
+2017.06.15 11:36:09> log data
+2017.06.15 11:36:09> array (
+  'action' => 'pay',
+  'payment_id' => 434633149,
+  'status' => 'success',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'card',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '1159',
+  'liqpay_order_id' => 'H44KDHQY1497515757702462',
+  'description' => 'Платіж за замовлення',
+  'sender_card_mask2' => '528944*81',
+  'sender_card_bank' => 'PUBLIC JOINT STOCK COMPANY "UK',
+  'sender_card_type' => 'mc',
+  'sender_card_country' => 804,
+  'ip' => '77.120.40.32',
+  'amount' => 1334,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 36.69,
+  'agent_commission' => 0,
+  'amount_debit' => 1334,
+  'amount_credit' => 1334,
+  'commission_debit' => 0,
+  'commission_credit' => 36.69,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 0,
+  'amount_bonus' => 0,
+  'authcode_debit' => '964119',
+  'rrn_debit' => '000631842196',
+  'mpi_eci' => '5',
+  'is_3ds' => true,
+  'create_date' => 1497515769255,
+  'end_date' => 1497515769255,
+  'transaction_id' => 434633149,
+)
+2017.06.15 11:36:09> повідомлення замовнику
+2017.06.15 11:36:09> Order 1159 processed as successfull sale
+2017.06.15 11:36:09> OK
+2017.06.22 17:18:51> >>>  log callback data
+2017.06.22 17:18:51> array (
+  'signature' => 'L0Dabw4RJG84WI6UGzdxu/37A2Y=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjo0NDAzMjgyODUsInN0YXR1cyI6InN1Y2Nlc3MiLCJ2ZXJzaW9uIjozLCJ0eXBlIjoiYnV5IiwicGF5dHlwZSI6ImNhcmQiLCJwdWJsaWNfa2V5IjoiaTI0MTE4MTQzODA5IiwiYWNxX2lkIjo0MTQ5NjMsIm9yZGVyX2lkIjoiMTE2OCIsImxpcXBheV9vcmRlcl9pZCI6IklNQ0FNMjNVMTQ5ODE0MTA5MTI3NTI2MyIsImRlc2NyaXB0aW9uIjoi0J/Qu9Cw0YLRltC2INC30LAg0LfQsNC80L7QstC70LXQvdC90Y8iLCJzZW5kZXJfcGhvbmUiOiIzODA2NzU0NTY1OTgiLCJzZW5kZXJfY2FyZF9tYXNrMiI6IjU0NTcwOCo1MiIsInNlbmRlcl9jYXJkX2JhbmsiOiJwYiIsInNlbmRlcl9jYXJkX3R5cGUiOiJtYyIsInNlbmRlcl9jYXJkX2NvdW50cnkiOjgwNCwiaXAiOiI5MS4yMDguMTUzLjEiLCJhbW91bnQiOjIwNjAuMCwiY3VycmVuY3kiOiJVQUgiLCJzZW5kZXJfY29tbWlzc2lvbiI6MC4wLCJyZWNlaXZlcl9jb21taXNzaW9uIjo1Ni42NSwiYWdlbnRfY29tbWlzc2lvbiI6MC4wLCJhbW91bnRfZGViaXQiOjIwNjAuMCwiYW1vdW50X2NyZWRpdCI6MjA2MC4wLCJjb21taXNzaW9uX2RlYml0IjowLjAsImNvbW1pc3Npb25fY3JlZGl0Ijo1Ni42NSwiY3VycmVuY3lfZGViaXQiOiJVQUgiLCJjdXJyZW5jeV9jcmVkaXQiOiJVQUgiLCJzZW5kZXJfYm9udXMiOjEwMy4wLCJhbW91bnRfYm9udXMiOjEwMy4wLCJib251c190eXBlIjoiYm9udXNwbHVzIiwiYm9udXNfcHJvY2VudCI6NS4wLCJhdXRoY29kZV9kZWJpdCI6IjE3OTc5NSIsInJybl9kZWJpdCI6IjAyMzgwOTQwODg0NSIsIm1waV9lY2kiOiI3IiwiaXNfM2RzIjpmYWxzZSwiY3JlYXRlX2RhdGUiOjE0OTgxNDExMzEwMTIsImVuZF9kYXRlIjoxNDk4MTQxMTMxMDEyLCJtb21lbnRfcGFydCI6dHJ1ZSwidHJhbnNhY3Rpb25faWQiOjQ0MDMyODI4NX0=',
+)
+2017.06.22 17:18:51> verify signature begin
+2017.06.22 17:18:51> Callback signature OK
+2017.06.22 17:18:51> log data
+2017.06.22 17:18:51> array (
+  'action' => 'pay',
+  'payment_id' => 440328285,
+  'status' => 'success',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'card',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '1168',
+  'liqpay_order_id' => 'IMCAM23U1498141091275263',
+  'description' => 'Платіж за замовлення',
+  'sender_phone' => '380675456598',
+  'sender_card_mask2' => '545708*52',
+  'sender_card_bank' => 'pb',
+  'sender_card_type' => 'mc',
+  'sender_card_country' => 804,
+  'ip' => '91.208.153.1',
+  'amount' => 2060,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 56.65,
+  'agent_commission' => 0,
+  'amount_debit' => 2060,
+  'amount_credit' => 2060,
+  'commission_debit' => 0,
+  'commission_credit' => 56.65,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 103,
+  'amount_bonus' => 103,
+  'bonus_type' => 'bonusplus',
+  'bonus_procent' => 5,
+  'authcode_debit' => '179795',
+  'rrn_debit' => '023809408845',
+  'mpi_eci' => '7',
+  'is_3ds' => false,
+  'create_date' => 1498141131012,
+  'end_date' => 1498141131012,
+  'moment_part' => true,
+  'transaction_id' => 440328285,
+)
+2017.06.22 17:18:51> повідомлення замовнику
+2017.06.22 17:18:51> Order 1168 processed as successfull sale
+2017.06.22 17:18:51> OK
+2017.06.23 11:35:05> >>>  log callback data
+2017.06.23 11:35:05> array (
+  'signature' => '6BzX9u9zQrgd5pzgmaGjCmR7z2w=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjo0NDA3NzQ3MDQsInN0YXR1cyI6InN1Y2Nlc3MiLCJ2ZXJzaW9uIjozLCJ0eXBlIjoiYnV5IiwicGF5dHlwZSI6ImNhcmQiLCJwdWJsaWNfa2V5IjoiaTI0MTE4MTQzODA5IiwiYWNxX2lkIjo0MTQ5NjMsIm9yZGVyX2lkIjoiMTE3MCIsImxpcXBheV9vcmRlcl9pZCI6IkJKTE0wRlBCMTQ5ODIwNjg3ODQ2ODg2NSIsImRlc2NyaXB0aW9uIjoi0J/Qu9Cw0YLRltC2INC30LAg0LfQsNC80L7QstC70LXQvdC90Y8iLCJzZW5kZXJfcGhvbmUiOiIzODA2NzU0NTY1OTgiLCJzZW5kZXJfY2FyZF9tYXNrMiI6IjU0NTcwOCo1MiIsInNlbmRlcl9jYXJkX2JhbmsiOiJwYiIsInNlbmRlcl9jYXJkX3R5cGUiOiJtYyIsInNlbmRlcl9jYXJkX2NvdW50cnkiOjgwNCwiaXAiOiI5MS4yMDguMTUzLjEiLCJhbW91bnQiOjQ1OC4wLCJjdXJyZW5jeSI6IlVBSCIsInNlbmRlcl9jb21taXNzaW9uIjowLjAsInJlY2VpdmVyX2NvbW1pc3Npb24iOjEyLjYsImFnZW50X2NvbW1pc3Npb24iOjAuMCwiYW1vdW50X2RlYml0Ijo0NTguMCwiYW1vdW50X2NyZWRpdCI6NDU4LjAsImNvbW1pc3Npb25fZGViaXQiOjAuMCwiY29tbWlzc2lvbl9jcmVkaXQiOjEyLjYsImN1cnJlbmN5X2RlYml0IjoiVUFIIiwiY3VycmVuY3lfY3JlZGl0IjoiVUFIIiwic2VuZGVyX2JvbnVzIjoyMi45LCJhbW91bnRfYm9udXMiOjIyLjksImJvbnVzX3R5cGUiOiJib251c3BsdXMiLCJib251c19wcm9jZW50Ijo1LjAsImF1dGhjb2RlX2RlYml0IjoiNzM3Nzk3IiwicnJuX2RlYml0IjoiMDIzODE3NjkyMDQ0IiwibXBpX2VjaSI6IjciLCJpc18zZHMiOmZhbHNlLCJjcmVhdGVfZGF0ZSI6MTQ5ODIwNjkwNTE2NywiZW5kX2RhdGUiOjE0OTgyMDY5MDUxNjcsInRyYW5zYWN0aW9uX2lkIjo0NDA3NzQ3MDR9',
+)
+2017.06.23 11:35:05> verify signature begin
+2017.06.23 11:35:05> Callback signature OK
+2017.06.23 11:35:05> log data
+2017.06.23 11:35:05> array (
+  'action' => 'pay',
+  'payment_id' => 440774704,
+  'status' => 'success',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'card',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '1170',
+  'liqpay_order_id' => 'BJLM0FPB1498206878468865',
+  'description' => 'Платіж за замовлення',
+  'sender_phone' => '380675456598',
+  'sender_card_mask2' => '545708*52',
+  'sender_card_bank' => 'pb',
+  'sender_card_type' => 'mc',
+  'sender_card_country' => 804,
+  'ip' => '91.208.153.1',
+  'amount' => 458,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 12.6,
+  'agent_commission' => 0,
+  'amount_debit' => 458,
+  'amount_credit' => 458,
+  'commission_debit' => 0,
+  'commission_credit' => 12.6,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 22.9,
+  'amount_bonus' => 22.9,
+  'bonus_type' => 'bonusplus',
+  'bonus_procent' => 5,
+  'authcode_debit' => '737797',
+  'rrn_debit' => '023817692044',
+  'mpi_eci' => '7',
+  'is_3ds' => false,
+  'create_date' => 1498206905167,
+  'end_date' => 1498206905167,
+  'transaction_id' => 440774704,
+)
+2017.06.23 11:35:05> повідомлення замовнику
+2017.06.23 11:35:05> Order 1170 processed as successfull sale
+2017.06.23 11:35:05> OK
+2017.07.04 15:21:40> >>>  log callback data
+2017.07.04 15:21:40> array (
+  'signature' => 'eUQdwLrAlfRWIjcv3bSsiqaEYqE=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjo0NDk1MjQ4MDcsInN0YXR1cyI6InN1Y2Nlc3MiLCJ2ZXJzaW9uIjozLCJ0eXBlIjoiYnV5IiwicGF5dHlwZSI6ImNhcmQiLCJwdWJsaWNfa2V5IjoiaTI0MTE4MTQzODA5IiwiYWNxX2lkIjo0MTQ5NjMsIm9yZGVyX2lkIjoiMTE4NSIsImxpcXBheV9vcmRlcl9pZCI6IkZaSlFMWkVXMTQ5OTE3MDg4ODEyMjUzMyIsImRlc2NyaXB0aW9uIjoi0J/Qu9Cw0YLRltC2INC30LAg0LfQsNC80L7QstC70LXQvdC90Y8iLCJzZW5kZXJfcGhvbmUiOiIzODA2NzU0NTY1OTgiLCJzZW5kZXJfY2FyZF9tYXNrMiI6IjU0NTcwOCo1MiIsInNlbmRlcl9jYXJkX2JhbmsiOiJwYiIsInNlbmRlcl9jYXJkX3R5cGUiOiJtYyIsInNlbmRlcl9jYXJkX2NvdW50cnkiOjgwNCwiaXAiOiI5MS4yMDguMTUzLjEiLCJhbW91bnQiOjc5Ni4wLCJjdXJyZW5jeSI6IlVBSCIsInNlbmRlcl9jb21taXNzaW9uIjowLjAsInJlY2VpdmVyX2NvbW1pc3Npb24iOjIxLjg5LCJhZ2VudF9jb21taXNzaW9uIjowLjAsImFtb3VudF9kZWJpdCI6Nzk2LjAsImFtb3VudF9jcmVkaXQiOjc5Ni4wLCJjb21taXNzaW9uX2RlYml0IjowLjAsImNvbW1pc3Npb25fY3JlZGl0IjoyMS44OSwiY3VycmVuY3lfZGViaXQiOiJVQUgiLCJjdXJyZW5jeV9jcmVkaXQiOiJVQUgiLCJzZW5kZXJfYm9udXMiOjM5LjgsImFtb3VudF9ib251cyI6MzkuOCwiYm9udXNfdHlwZSI6ImJvbnVzcGx1cyIsImJvbnVzX3Byb2NlbnQiOjUuMCwiYXV0aGNvZGVfZGViaXQiOiI3NTg4MTkiLCJycm5fZGViaXQiOiIwMjM5NDY4OTc2MDAiLCJtcGlfZWNpIjoiNyIsImlzXzNkcyI6ZmFsc2UsImNyZWF0ZV9kYXRlIjoxNDk5MTcwOTAwNzExLCJlbmRfZGF0ZSI6MTQ5OTE3MDkwMDcxMSwidHJhbnNhY3Rpb25faWQiOjQ0OTUyNDgwN30=',
+)
+2017.07.04 15:21:40> verify signature begin
+2017.07.04 15:21:40> Callback signature OK
+2017.07.04 15:21:40> log data
+2017.07.04 15:21:40> array (
+  'action' => 'pay',
+  'payment_id' => 449524807,
+  'status' => 'success',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'card',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '1185',
+  'liqpay_order_id' => 'FZJQLZEW1499170888122533',
+  'description' => 'Платіж за замовлення',
+  'sender_phone' => '380675456598',
+  'sender_card_mask2' => '545708*52',
+  'sender_card_bank' => 'pb',
+  'sender_card_type' => 'mc',
+  'sender_card_country' => 804,
+  'ip' => '91.208.153.1',
+  'amount' => 796,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 21.89,
+  'agent_commission' => 0,
+  'amount_debit' => 796,
+  'amount_credit' => 796,
+  'commission_debit' => 0,
+  'commission_credit' => 21.89,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 39.8,
+  'amount_bonus' => 39.8,
+  'bonus_type' => 'bonusplus',
+  'bonus_procent' => 5,
+  'authcode_debit' => '758819',
+  'rrn_debit' => '023946897600',
+  'mpi_eci' => '7',
+  'is_3ds' => false,
+  'create_date' => 1499170900711,
+  'end_date' => 1499170900711,
+  'transaction_id' => 449524807,
+)
+2017.07.04 15:21:40> повідомлення замовнику
+2017.07.04 15:21:41> Order 1185 processed as successfull sale
+2017.07.04 15:21:41> OK
+2017.07.11 06:22:52> >>>  log callback data
+2017.07.11 06:22:52> array (
+  'signature' => 'HyIFbQVlc9UT0mgNm8JSVRTSpg0=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjo0NTQzOTA2NzcsInN0YXR1cyI6InN1Y2Nlc3MiLCJ2ZXJzaW9uIjozLCJ0eXBlIjoiYnV5IiwicGF5dHlwZSI6InByaXZhdDI0IiwicHVibGljX2tleSI6ImkyNDExODE0MzgwOSIsImFjcV9pZCI6NDE0OTYzLCJvcmRlcl9pZCI6IjExOTEiLCJsaXFwYXlfb3JkZXJfaWQiOiJQUTEyOVFUNzE0OTk3NDMzNTY5MTkzNzAiLCJkZXNjcmlwdGlvbiI6ItCf0LvQsNGC0ZbQtiDQt9CwINC30LDQvNC+0LLQu9C10L3QvdGPIiwic2VuZGVyX3Bob25lIjoiMzgwNjcyNDQ0MTQ0Iiwic2VuZGVyX2ZpcnN0X25hbWUiOiLQotC10YLRj9C90LAiLCJzZW5kZXJfbGFzdF9uYW1lIjoi0JDRidGW0Y/QvSIsInNlbmRlcl9jYXJkX21hc2syIjoiNTIxODU3Kjk3Iiwic2VuZGVyX2NhcmRfYmFuayI6InBiIiwic2VuZGVyX2NhcmRfdHlwZSI6Im1jIiwic2VuZGVyX2NhcmRfY291bnRyeSI6ODA0LCJpcCI6IjE3Ni4zNi4xNDAuMiIsImFtb3VudCI6MjQ4Ny4wLCJjdXJyZW5jeSI6IlVBSCIsInNlbmRlcl9jb21taXNzaW9uIjowLjAsInJlY2VpdmVyX2NvbW1pc3Npb24iOjY4LjM5LCJhZ2VudF9jb21taXNzaW9uIjowLjAsImFtb3VudF9kZWJpdCI6MjQ4Ny4wLCJhbW91bnRfY3JlZGl0IjoyNDg3LjAsImNvbW1pc3Npb25fZGViaXQiOjAuMCwiY29tbWlzc2lvbl9jcmVkaXQiOjY4LjM5LCJjdXJyZW5jeV9kZWJpdCI6IlVBSCIsImN1cnJlbmN5X2NyZWRpdCI6IlVBSCIsInNlbmRlcl9ib251cyI6MTI0LjM1LCJhbW91bnRfYm9udXMiOjEyNC4zNSwiYm9udXNfdHlwZSI6ImJvbnVzcGx1cyIsImJvbnVzX3Byb2NlbnQiOjUuMCwiYXV0aGNvZGVfZGViaXQiOiIyMTg1MjciLCJycm5fZGViaXQiOiIwMjQwMjY3Mzg3ODkiLCJtcGlfZWNpIjoiNyIsImlzXzNkcyI6ZmFsc2UsImNyZWF0ZV9kYXRlIjoxNDk5NzQzMzcyNDk1LCJlbmRfZGF0ZSI6MTQ5OTc0MzM3MjQ5NSwidHJhbnNhY3Rpb25faWQiOjQ1NDM5MDY3N30=',
+)
+2017.07.11 06:22:52> verify signature begin
+2017.07.11 06:22:52> Callback signature OK
+2017.07.11 06:22:52> log data
+2017.07.11 06:22:52> array (
+  'action' => 'pay',
+  'payment_id' => 454390677,
+  'status' => 'success',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'privat24',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '1191',
+  'liqpay_order_id' => 'PQ129QT71499743356919370',
+  'description' => 'Платіж за замовлення',
+  'sender_phone' => '380672444144',
+  'sender_first_name' => 'Тетяна',
+  'sender_last_name' => 'Ащіян',
+  'sender_card_mask2' => '521857*97',
+  'sender_card_bank' => 'pb',
+  'sender_card_type' => 'mc',
+  'sender_card_country' => 804,
+  'ip' => '176.36.140.2',
+  'amount' => 2487,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 68.39,
+  'agent_commission' => 0,
+  'amount_debit' => 2487,
+  'amount_credit' => 2487,
+  'commission_debit' => 0,
+  'commission_credit' => 68.39,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 124.35,
+  'amount_bonus' => 124.35,
+  'bonus_type' => 'bonusplus',
+  'bonus_procent' => 5,
+  'authcode_debit' => '218527',
+  'rrn_debit' => '024026738789',
+  'mpi_eci' => '7',
+  'is_3ds' => false,
+  'create_date' => 1499743372495,
+  'end_date' => 1499743372495,
+  'transaction_id' => 454390677,
+)
+2017.07.11 06:22:52> повідомлення замовнику
+2017.07.11 06:22:52> Order 1191 processed as successfull sale
+2017.07.11 06:22:52> OK
+2017.07.13 15:08:48> >>>  log callback data
+2017.07.13 15:08:48> array (
+  'signature' => 'MkEyG6bfs22AAF620NEtOwIC4bg=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjo0NTYzNzAyMzgsInN0YXR1cyI6InN1Y2Nlc3MiLCJ2ZXJzaW9uIjozLCJ0eXBlIjoiYnV5IiwicGF5dHlwZSI6ImNhcmQiLCJwdWJsaWNfa2V5IjoiaTI0MTE4MTQzODA5IiwiYWNxX2lkIjo0MTQ5NjMsIm9yZGVyX2lkIjoiMTE5NCIsImxpcXBheV9vcmRlcl9pZCI6IjZQQ1hMTVJKMTQ5OTk0NzcxNjE2ODk1NCIsImRlc2NyaXB0aW9uIjoi0J/Qu9Cw0YLRltC2INC30LAg0LfQsNC80L7QstC70LXQvdC90Y8iLCJzZW5kZXJfcGhvbmUiOiIzODA2ODUwMDAzODAiLCJzZW5kZXJfY2FyZF9tYXNrMiI6IjUxNjc5OCo0OCIsInNlbmRlcl9jYXJkX2JhbmsiOiJwYiIsInNlbmRlcl9jYXJkX3R5cGUiOiJtYyIsInNlbmRlcl9jYXJkX2NvdW50cnkiOjgwNCwiaXAiOiIxODguMTYzLjcyLjMiLCJhbW91bnQiOjg5LjAsImN1cnJlbmN5IjoiVUFIIiwic2VuZGVyX2NvbW1pc3Npb24iOjAuMCwicmVjZWl2ZXJfY29tbWlzc2lvbiI6Mi40NSwiYWdlbnRfY29tbWlzc2lvbiI6MC4wLCJhbW91bnRfZGViaXQiOjg5LjAsImFtb3VudF9jcmVkaXQiOjg5LjAsImNvbW1pc3Npb25fZGViaXQiOjAuMCwiY29tbWlzc2lvbl9jcmVkaXQiOjIuNDUsImN1cnJlbmN5X2RlYml0IjoiVUFIIiwiY3VycmVuY3lfY3JlZGl0IjoiVUFIIiwic2VuZGVyX2JvbnVzIjo0LjQ1LCJhbW91bnRfYm9udXMiOjQuNDUsImJvbnVzX3R5cGUiOiJib251c3BsdXMiLCJib251c19wcm9jZW50Ijo1LjAsImF1dGhjb2RlX2RlYml0IjoiMTc2MDE3IiwicnJuX2RlYml0IjoiMDI0MDU5NzY1NTc2IiwibXBpX2VjaSI6IjciLCJpc18zZHMiOmZhbHNlLCJjcmVhdGVfZGF0ZSI6MTQ5OTk0NzcyODM4NSwiZW5kX2RhdGUiOjE0OTk5NDc3MjgzODUsInRva2VuIjoiMTQ5OTk0NzYwOTcxNzA4M180ODY3MTQyNl9NUnFKM1RVaGVZT3pWSWpsamZEdll3b3IzbHBhRTZaOTYwUXRGTU1ab2tiemNJdmtxNSIsImNvbmZpcm1fdG9rZW4iOiIxNDk5OTQ3NjA5NzE3MDgzXzQ4NjcxNDI2X01ScUozVFVoZVlPelZJamxqZkR2WXdvcjNscGFFNlo5NjBRdEZNTVpva2J6Y0l2a3E1IiwidHJhbnNhY3Rpb25faWQiOjQ1NjM3MDIzOH0=',
+)
+2017.07.13 15:08:48> verify signature begin
+2017.07.13 15:08:48> Callback signature OK
+2017.07.13 15:08:48> log data
+2017.07.13 15:08:48> array (
+  'action' => 'pay',
+  'payment_id' => 456370238,
+  'status' => 'success',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'card',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '1194',
+  'liqpay_order_id' => '6PCXLMRJ1499947716168954',
+  'description' => 'Платіж за замовлення',
+  'sender_phone' => '380685000380',
+  'sender_card_mask2' => '516798*48',
+  'sender_card_bank' => 'pb',
+  'sender_card_type' => 'mc',
+  'sender_card_country' => 804,
+  'ip' => '188.163.72.3',
+  'amount' => 89,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 2.45,
+  'agent_commission' => 0,
+  'amount_debit' => 89,
+  'amount_credit' => 89,
+  'commission_debit' => 0,
+  'commission_credit' => 2.45,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 4.45,
+  'amount_bonus' => 4.45,
+  'bonus_type' => 'bonusplus',
+  'bonus_procent' => 5,
+  'authcode_debit' => '176017',
+  'rrn_debit' => '024059765576',
+  'mpi_eci' => '7',
+  'is_3ds' => false,
+  'create_date' => 1499947728385,
+  'end_date' => 1499947728385,
+  'token' => '1499947609717083_48671426_MRqJ3TUheYOzVIjljfDvYwor3lpaE6Z960QtFMMZokbzcIvkq5',
+  'confirm_token' => '1499947609717083_48671426_MRqJ3TUheYOzVIjljfDvYwor3lpaE6Z960QtFMMZokbzcIvkq5',
+  'transaction_id' => 456370238,
+)
+2017.07.13 15:08:48> повідомлення замовнику
+2017.07.13 15:08:48> Order 1194 processed as successfull sale
+2017.07.13 15:08:48> OK
+2017.07.18 11:10:58> >>>  log callback data
+2017.07.18 11:10:58> array (
+  'signature' => 'NoNbF7xY7G+oBi38EQgYQ73gwow=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjo0NTk3MDY1NzIsInN0YXR1cyI6InN1Y2Nlc3MiLCJ2ZXJzaW9uIjozLCJ0eXBlIjoiYnV5IiwicGF5dHlwZSI6ImNhcmQiLCJwdWJsaWNfa2V5IjoiaTI0MTE4MTQzODA5IiwiYWNxX2lkIjo0MTQ5NjMsIm9yZGVyX2lkIjoiMTE5NyIsImxpcXBheV9vcmRlcl9pZCI6IlNTM0VEVTNEMTUwMDM2NTQ0MjYyMjg5NyIsImRlc2NyaXB0aW9uIjoi0J/Qu9Cw0YLRltC2INC30LAg0LfQsNC80L7QstC70LXQvdC90Y8iLCJzZW5kZXJfcGhvbmUiOiIzODA5NzQ3Njg4NTYiLCJzZW5kZXJfY2FyZF9tYXNrMiI6IjUxNjg3NSo0OSIsInNlbmRlcl9jYXJkX2JhbmsiOiJwYiIsInNlbmRlcl9jYXJkX3R5cGUiOiJtYyIsInNlbmRlcl9jYXJkX2NvdW50cnkiOjgwNCwiaXAiOiI5NS40Ny41Ni42MCIsImFtb3VudCI6MjIuMCwiY3VycmVuY3kiOiJVQUgiLCJzZW5kZXJfY29tbWlzc2lvbiI6MC4wLCJyZWNlaXZlcl9jb21taXNzaW9uIjowLjYxLCJhZ2VudF9jb21taXNzaW9uIjowLjAsImFtb3VudF9kZWJpdCI6MjIuMCwiYW1vdW50X2NyZWRpdCI6MjIuMCwiY29tbWlzc2lvbl9kZWJpdCI6MC4wLCJjb21taXNzaW9uX2NyZWRpdCI6MC42MSwiY3VycmVuY3lfZGViaXQiOiJVQUgiLCJjdXJyZW5jeV9jcmVkaXQiOiJVQUgiLCJzZW5kZXJfYm9udXMiOjEuMSwiYW1vdW50X2JvbnVzIjoxLjEsImJvbnVzX3R5cGUiOiJib251c3BsdXMiLCJib251c19wcm9jZW50Ijo1LjAsImF1dGhjb2RlX2RlYml0IjoiMjg1NDUxIiwicnJuX2RlYml0IjoiMDI0MTE1NzAxMTQ4IiwibXBpX2VjaSI6IjciLCJpc18zZHMiOmZhbHNlLCJjcmVhdGVfZGF0ZSI6MTUwMDM2NTQ1ODA0NiwiZW5kX2RhdGUiOjE1MDAzNjU0NTgwNDYsInRyYW5zYWN0aW9uX2lkIjo0NTk3MDY1NzJ9',
+)
+2017.07.18 11:10:58> verify signature begin
+2017.07.18 11:10:58> Callback signature OK
+2017.07.18 11:10:58> log data
+2017.07.18 11:10:58> array (
+  'action' => 'pay',
+  'payment_id' => 459706572,
+  'status' => 'success',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'card',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '1197',
+  'liqpay_order_id' => 'SS3EDU3D1500365442622897',
+  'description' => 'Платіж за замовлення',
+  'sender_phone' => '380974768856',
+  'sender_card_mask2' => '516875*49',
+  'sender_card_bank' => 'pb',
+  'sender_card_type' => 'mc',
+  'sender_card_country' => 804,
+  'ip' => '95.47.56.60',
+  'amount' => 22,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 0.61,
+  'agent_commission' => 0,
+  'amount_debit' => 22,
+  'amount_credit' => 22,
+  'commission_debit' => 0,
+  'commission_credit' => 0.61,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 1.1,
+  'amount_bonus' => 1.1,
+  'bonus_type' => 'bonusplus',
+  'bonus_procent' => 5,
+  'authcode_debit' => '285451',
+  'rrn_debit' => '024115701148',
+  'mpi_eci' => '7',
+  'is_3ds' => false,
+  'create_date' => 1500365458046,
+  'end_date' => 1500365458046,
+  'transaction_id' => 459706572,
+)
+2017.07.18 11:10:58> повідомлення замовнику
+2017.07.18 11:10:58> Order 1197 processed as successfull sale
+2017.07.18 11:10:58> OK
+2017.07.18 23:42:21> >>>  log callback data
+2017.07.18 23:42:21> array (
+  'signature' => 'iINMceZgWVT5kMNI7PjaGapwVzY=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjo0NjAyNDA0MTgsInN0YXR1cyI6InN1Y2Nlc3MiLCJ2ZXJzaW9uIjozLCJ0eXBlIjoiYnV5IiwicGF5dHlwZSI6ImNhcmQiLCJwdWJsaWNfa2V5IjoiaTI0MTE4MTQzODA5IiwiYWNxX2lkIjo0MTQ5NjMsIm9yZGVyX2lkIjoiMTE5OCIsImxpcXBheV9vcmRlcl9pZCI6IldTUzNHVVRSMTUwMDQxMDUyOTcwNzQ0OCIsImRlc2NyaXB0aW9uIjoi0J/Qu9Cw0YLRltC2INC30LAg0LfQsNC80L7QstC70LXQvdC90Y8iLCJzZW5kZXJfcGhvbmUiOiIzODA2NzQxMTE0NDYiLCJzZW5kZXJfY2FyZF9tYXNrMiI6IjUxNjg3NCoxOCIsInNlbmRlcl9jYXJkX2JhbmsiOiJwYiIsInNlbmRlcl9jYXJkX3R5cGUiOiJtYyIsInNlbmRlcl9jYXJkX2NvdW50cnkiOjgwNCwiaXAiOiIxODguMjMwLjE1LjU5IiwiYW1vdW50Ijo1NC4wLCJjdXJyZW5jeSI6IlVBSCIsInNlbmRlcl9jb21taXNzaW9uIjowLjAsInJlY2VpdmVyX2NvbW1pc3Npb24iOjEuNDksImFnZW50X2NvbW1pc3Npb24iOjAuMCwiYW1vdW50X2RlYml0Ijo1NC4wLCJhbW91bnRfY3JlZGl0Ijo1NC4wLCJjb21taXNzaW9uX2RlYml0IjowLjAsImNvbW1pc3Npb25fY3JlZGl0IjoxLjQ5LCJjdXJyZW5jeV9kZWJpdCI6IlVBSCIsImN1cnJlbmN5X2NyZWRpdCI6IlVBSCIsInNlbmRlcl9ib251cyI6Mi43LCJhbW91bnRfYm9udXMiOjIuNywiYm9udXNfdHlwZSI6ImJvbnVzcGx1cyIsImJvbnVzX3Byb2NlbnQiOjUuMCwiYXV0aGNvZGVfZGViaXQiOiI0NTI2NTUiLCJycm5fZGViaXQiOiIwMjQxMjUyNTY2NDQiLCJtcGlfZWNpIjoiNyIsImlzXzNkcyI6ZmFsc2UsImNyZWF0ZV9kYXRlIjoxNTAwNDEwNTM5OTUzLCJlbmRfZGF0ZSI6MTUwMDQxMDUzOTk1MywidHJhbnNhY3Rpb25faWQiOjQ2MDI0MDQxOH0=',
+)
+2017.07.18 23:42:21> verify signature begin
+2017.07.18 23:42:21> Callback signature OK
+2017.07.18 23:42:21> log data
+2017.07.18 23:42:21> array (
+  'action' => 'pay',
+  'payment_id' => 460240418,
+  'status' => 'success',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'card',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '1198',
+  'liqpay_order_id' => 'WSS3GUTR1500410529707448',
+  'description' => 'Платіж за замовлення',
+  'sender_phone' => '380674111446',
+  'sender_card_mask2' => '516874*18',
+  'sender_card_bank' => 'pb',
+  'sender_card_type' => 'mc',
+  'sender_card_country' => 804,
+  'ip' => '188.230.15.59',
+  'amount' => 54,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 1.49,
+  'agent_commission' => 0,
+  'amount_debit' => 54,
+  'amount_credit' => 54,
+  'commission_debit' => 0,
+  'commission_credit' => 1.49,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 2.7,
+  'amount_bonus' => 2.7,
+  'bonus_type' => 'bonusplus',
+  'bonus_procent' => 5,
+  'authcode_debit' => '452655',
+  'rrn_debit' => '024125256644',
+  'mpi_eci' => '7',
+  'is_3ds' => false,
+  'create_date' => 1500410539953,
+  'end_date' => 1500410539953,
+  'transaction_id' => 460240418,
+)
+2017.07.18 23:42:21> повідомлення замовнику
+2017.07.18 23:42:21> Order 1198 processed as successfull sale
+2017.07.18 23:42:21> OK
+2017.07.28 23:49:58> >>>  log callback data
+2017.07.28 23:49:58> array (
+  'signature' => 'FIDb/SRPB9NvxMUlGCl5rP4ee3E=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjo0NjczMjk1MTYsInN0YXR1cyI6InN1Y2Nlc3MiLCJ2ZXJzaW9uIjozLCJ0eXBlIjoiYnV5IiwicGF5dHlwZSI6InByaXZhdDI0IiwicHVibGljX2tleSI6ImkyNDExODE0MzgwOSIsImFjcV9pZCI6NDE0OTYzLCJvcmRlcl9pZCI6IjEyMDYiLCJsaXFwYXlfb3JkZXJfaWQiOiJYT1dURVU0SzE1MDEyNzQ5ODQ0NjgyNjUiLCJkZXNjcmlwdGlvbiI6ItCf0LvQsNGC0ZbQtiDQt9CwINC30LDQvNC+0LLQu9C10L3QvdGPIiwic2VuZGVyX3Bob25lIjoiMzgwOTUxODMyNzk3Iiwic2VuZGVyX2ZpcnN0X25hbWUiOiLQotC40LzQvtGE0LXQuSIsInNlbmRlcl9sYXN0X25hbWUiOiLQn9GA0LjQudC80LXQvdC60L4iLCJzZW5kZXJfY2FyZF9tYXNrMiI6IjUxNjg3NCoyOSIsInNlbmRlcl9jYXJkX2JhbmsiOiJwYiIsInNlbmRlcl9jYXJkX3R5cGUiOiJtYyIsInNlbmRlcl9jYXJkX2NvdW50cnkiOjgwNCwiaXAiOiI0Ni4yMTkuMjE0LjE1NyIsImFtb3VudCI6MTg4LjAsImN1cnJlbmN5IjoiVUFIIiwic2VuZGVyX2NvbW1pc3Npb24iOjAuMCwicmVjZWl2ZXJfY29tbWlzc2lvbiI6NS4xNywiYWdlbnRfY29tbWlzc2lvbiI6MC4wLCJhbW91bnRfZGViaXQiOjE4OC4wLCJhbW91bnRfY3JlZGl0IjoxODguMCwiY29tbWlzc2lvbl9kZWJpdCI6MC4wLCJjb21taXNzaW9uX2NyZWRpdCI6NS4xNywiY3VycmVuY3lfZGViaXQiOiJVQUgiLCJjdXJyZW5jeV9jcmVkaXQiOiJVQUgiLCJzZW5kZXJfYm9udXMiOjkuNCwiYW1vdW50X2JvbnVzIjo5LjQsImJvbnVzX3R5cGUiOiJib251c3BsdXMiLCJib251c19wcm9jZW50Ijo1LjAsImF1dGhjb2RlX2RlYml0IjoiODQzMjAwIiwicnJuX2RlYml0IjoiMDI0MjUwNjkyMDg0IiwibXBpX2VjaSI6IjciLCJpc18zZHMiOmZhbHNlLCJjcmVhdGVfZGF0ZSI6MTUwMTI3NDk5ODY2MCwiZW5kX2RhdGUiOjE1MDEyNzQ5OTg2NjAsInRyYW5zYWN0aW9uX2lkIjo0NjczMjk1MTZ9',
+)
+2017.07.28 23:49:58> verify signature begin
+2017.07.28 23:49:58> Callback signature OK
+2017.07.28 23:49:58> log data
+2017.07.28 23:49:58> array (
+  'action' => 'pay',
+  'payment_id' => 467329516,
+  'status' => 'success',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'privat24',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '1206',
+  'liqpay_order_id' => 'XOWTEU4K1501274984468265',
+  'description' => 'Платіж за замовлення',
+  'sender_phone' => '380951832797',
+  'sender_first_name' => 'Тимофей',
+  'sender_last_name' => 'Прийменко',
+  'sender_card_mask2' => '516874*29',
+  'sender_card_bank' => 'pb',
+  'sender_card_type' => 'mc',
+  'sender_card_country' => 804,
+  'ip' => '46.219.214.157',
+  'amount' => 188,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 5.17,
+  'agent_commission' => 0,
+  'amount_debit' => 188,
+  'amount_credit' => 188,
+  'commission_debit' => 0,
+  'commission_credit' => 5.17,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 9.4,
+  'amount_bonus' => 9.4,
+  'bonus_type' => 'bonusplus',
+  'bonus_procent' => 5,
+  'authcode_debit' => '843200',
+  'rrn_debit' => '024250692084',
+  'mpi_eci' => '7',
+  'is_3ds' => false,
+  'create_date' => 1501274998660,
+  'end_date' => 1501274998660,
+  'transaction_id' => 467329516,
+)
+2017.07.28 23:49:58> повідомлення замовнику
+2017.07.28 23:49:58> Order 1206 processed as successfull sale
+2017.07.28 23:49:58> OK
+2017.08.15 09:25:54> >>>  log callback data
+2017.08.15 09:25:54> array (
+  'signature' => 'bLarY/uTput2eyUnzk58foT0Ymc=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjo0Nzk3Mzk3MTcsInN0YXR1cyI6InN1Y2Nlc3MiLCJ2ZXJzaW9uIjozLCJ0eXBlIjoiYnV5IiwicGF5dHlwZSI6ImNhcmQiLCJwdWJsaWNfa2V5IjoiaTI0MTE4MTQzODA5IiwiYWNxX2lkIjo0MTQ5NjMsIm9yZGVyX2lkIjoiMTIyOCIsImxpcXBheV9vcmRlcl9pZCI6IlIxWE5HQ1VGMTUwMjc3ODM0Mjc3NzcxNyIsImRlc2NyaXB0aW9uIjoi0J/Qu9Cw0YLRltC2INC30LAg0LfQsNC80L7QstC70LXQvdC90Y8iLCJzZW5kZXJfcGhvbmUiOiIzODA2NzI5MjI4NDAiLCJzZW5kZXJfY2FyZF9tYXNrMiI6IjQxNDk2Mio0NiIsInNlbmRlcl9jYXJkX2JhbmsiOiJwYiIsInNlbmRlcl9jYXJkX3R5cGUiOiJ2aXNhIiwic2VuZGVyX2NhcmRfY291bnRyeSI6ODA0LCJpcCI6IjE5NC40NC42MS4xNDMiLCJhbW91bnQiOjk4NC4wLCJjdXJyZW5jeSI6IlVBSCIsInNlbmRlcl9jb21taXNzaW9uIjowLjAsInJlY2VpdmVyX2NvbW1pc3Npb24iOjI3LjA2LCJhZ2VudF9jb21taXNzaW9uIjowLjAsImFtb3VudF9kZWJpdCI6OTg0LjAsImFtb3VudF9jcmVkaXQiOjk4NC4wLCJjb21taXNzaW9uX2RlYml0IjowLjAsImNvbW1pc3Npb25fY3JlZGl0IjoyNy4wNiwiY3VycmVuY3lfZGViaXQiOiJVQUgiLCJjdXJyZW5jeV9jcmVkaXQiOiJVQUgiLCJzZW5kZXJfYm9udXMiOjQ5LjIsImFtb3VudF9ib251cyI6NDkuMiwiYm9udXNfdHlwZSI6ImJvbnVzcGx1cyIsImJvbnVzX3Byb2NlbnQiOjUuMCwiYXV0aGNvZGVfZGViaXQiOiIwMjQ1NjgiLCJycm5fZGViaXQiOiIwMjQ0NTE4NjkxMzQiLCJtcGlfZWNpIjoiNyIsImlzXzNkcyI6ZmFsc2UsImNyZWF0ZV9kYXRlIjoxNTAyNzc4MzU0NTY5LCJlbmRfZGF0ZSI6MTUwMjc3ODM1NDU2OSwidHJhbnNhY3Rpb25faWQiOjQ3OTczOTcxN30=',
+)
+2017.08.15 09:25:55> verify signature begin
+2017.08.15 09:25:55> Callback signature OK
+2017.08.15 09:25:55> log data
+2017.08.15 09:25:55> array (
+  'action' => 'pay',
+  'payment_id' => 479739717,
+  'status' => 'success',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'card',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '1228',
+  'liqpay_order_id' => 'R1XNGCUF1502778342777717',
+  'description' => 'Платіж за замовлення',
+  'sender_phone' => '380672922840',
+  'sender_card_mask2' => '414962*46',
+  'sender_card_bank' => 'pb',
+  'sender_card_type' => 'visa',
+  'sender_card_country' => 804,
+  'ip' => '194.44.61.143',
+  'amount' => 984,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 27.06,
+  'agent_commission' => 0,
+  'amount_debit' => 984,
+  'amount_credit' => 984,
+  'commission_debit' => 0,
+  'commission_credit' => 27.06,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 49.2,
+  'amount_bonus' => 49.2,
+  'bonus_type' => 'bonusplus',
+  'bonus_procent' => 5,
+  'authcode_debit' => '024568',
+  'rrn_debit' => '024451869134',
+  'mpi_eci' => '7',
+  'is_3ds' => false,
+  'create_date' => 1502778354569,
+  'end_date' => 1502778354569,
+  'transaction_id' => 479739717,
+)
+2017.08.15 09:25:55> повідомлення замовнику
+2017.08.15 09:25:55> Order 1228 processed as successfull sale
+2017.08.15 09:25:55> OK
+2017.08.16 19:01:06> >>>  log callback data
+2017.08.16 19:01:06> array (
+  'signature' => 'VpDuvayuFdfH2V/AEuXDVJ6mNt8=',
+  'data' => 'eyJhY3Rpb24iOiJwYXkiLCJwYXltZW50X2lkIjo0ODA5OTk4NjksInN0YXR1cyI6InN1Y2Nlc3MiLCJ2ZXJzaW9uIjozLCJ0eXBlIjoiYnV5IiwicGF5dHlwZSI6ImNhcmQiLCJwdWJsaWNfa2V5IjoiaTI0MTE4MTQzODA5IiwiYWNxX2lkIjo0MTQ5NjMsIm9yZGVyX2lkIjoiMTIyOSIsImxpcXBheV9vcmRlcl9pZCI6IlBUNDZUU0RPMTUwMjg5OTI1Njg1Njc4OSIsImRlc2NyaXB0aW9uIjoi0J/Qu9Cw0YLRltC2INC30LAg0LfQsNC80L7QstC70LXQvdC90Y8iLCJzZW5kZXJfY2FyZF9tYXNrMiI6IjQzMjMzNSowMCIsInNlbmRlcl9jYXJkX2JhbmsiOiJhYmFuayIsInNlbmRlcl9jYXJkX3R5cGUiOiJ2aXNhIiwic2VuZGVyX2NhcmRfY291bnRyeSI6ODA0LCJpcCI6IjkyLjExMi4yMzYuMTY4IiwiYW1vdW50IjozODQuMCwiY3VycmVuY3kiOiJVQUgiLCJzZW5kZXJfY29tbWlzc2lvbiI6MC4wLCJyZWNlaXZlcl9jb21taXNzaW9uIjoxMC41NiwiYWdlbnRfY29tbWlzc2lvbiI6MC4wLCJhbW91bnRfZGViaXQiOjM4NC4wLCJhbW91bnRfY3JlZGl0IjozODQuMCwiY29tbWlzc2lvbl9kZWJpdCI6MC4wLCJjb21taXNzaW9uX2NyZWRpdCI6MTAuNTYsImN1cnJlbmN5X2RlYml0IjoiVUFIIiwiY3VycmVuY3lfY3JlZGl0IjoiVUFIIiwic2VuZGVyX2JvbnVzIjowLjAsImFtb3VudF9ib251cyI6MC4wLCJhdXRoY29kZV9kZWJpdCI6Ijc2MzEyNSIsInJybl9kZWJpdCI6IjAwMDY3Mjk2MjYzNCIsIm1waV9lY2kiOiI1IiwiaXNfM2RzIjp0cnVlLCJjcmVhdGVfZGF0ZSI6MTUwMjg5OTI2NTkxNSwiZW5kX2RhdGUiOjE1MDI4OTkyNjU5MTUsInRyYW5zYWN0aW9uX2lkIjo0ODA5OTk4Njl9',
+)
+2017.08.16 19:01:06> verify signature begin
+2017.08.16 19:01:06> Callback signature OK
+2017.08.16 19:01:06> log data
+2017.08.16 19:01:06> array (
+  'action' => 'pay',
+  'payment_id' => 480999869,
+  'status' => 'success',
+  'version' => 3,
+  'type' => 'buy',
+  'paytype' => 'card',
+  'public_key' => 'i24118143809',
+  'acq_id' => 414963,
+  'order_id' => '1229',
+  'liqpay_order_id' => 'PT46TSDO1502899256856789',
+  'description' => 'Платіж за замовлення',
+  'sender_card_mask2' => '432335*00',
+  'sender_card_bank' => 'abank',
+  'sender_card_type' => 'visa',
+  'sender_card_country' => 804,
+  'ip' => '92.112.236.168',
+  'amount' => 384,
+  'currency' => 'UAH',
+  'sender_commission' => 0,
+  'receiver_commission' => 10.56,
+  'agent_commission' => 0,
+  'amount_debit' => 384,
+  'amount_credit' => 384,
+  'commission_debit' => 0,
+  'commission_credit' => 10.56,
+  'currency_debit' => 'UAH',
+  'currency_credit' => 'UAH',
+  'sender_bonus' => 0,
+  'amount_bonus' => 0,
+  'authcode_debit' => '763125',
+  'rrn_debit' => '000672962634',
+  'mpi_eci' => '5',
+  'is_3ds' => true,
+  'create_date' => 1502899265915,
+  'end_date' => 1502899265915,
+  'transaction_id' => 480999869,
+)
+2017.08.16 19:01:06> повідомлення замовнику
+2017.08.16 19:01:06> Order 1229 processed as successfull sale
+2017.08.16 19:01:06> OK

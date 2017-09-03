@@ -1,0 +1,294 @@
+/* line 1, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_main.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 5, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_main.scss */
+.btn-file {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+/* line 10, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_main.scss */
+.btn-file * {
+  cursor: pointer;
+}
+/* line 13, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_main.scss */
+.btn-file input {
+  position: absolute;
+  font-size: 500px;
+  width: 500px;
+  height: 500px;
+  left: -100px;
+  top: -100px;
+  opacity: 0;
+}
+
+/* line 23, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_main.scss */
+.product-thumb {
+  text-align: center;
+}
+/* line 25, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_main.scss */
+.product-thumb img {
+  margin-top: 15px;
+  max-width: 90%;
+  max-height: 135px;
+}
+
+/* line 31, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_main.scss */
+#shop-container {
+  min-height: 300px;
+  position: relative;
+}
+
+/* line 35, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_main.scss */
+#modifications-list {
+  clear: both;
+}
+
+/* line 38, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_main.scss */
+.scroll-container {
+  overflow: auto;
+  margin-top: 10px;
+}
+
+/* line 44, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_main.scss */
+tbody.ui-sortable tr {
+  cursor: move;
+}
+/* line 46, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_main.scss */
+tbody.ui-sortable tr td {
+  background-color: #ffffff;
+}
+
+/* line 51, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_main.scss */
+.lang-label {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+/* line 58, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_main.scss */
+.typeahead,
+.tt-query,
+.tt-hint {
+  /*width: 100%;
+  height: 30px;
+  padding: 8px 12px;
+  font-size: 24px;
+  line-height: 30px;
+  border: 2px solid #ccc;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  outline: none;*/
+}
+
+/* line 71, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_main.scss */
+.typeahead {
+  background-color: #fff;
+}
+
+/* line 75, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_main.scss */
+.typeahead:focus {
+  border: 2px solid #0097cf;
+}
+
+/* line 79, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_main.scss */
+.tt-query {
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+/* line 85, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_main.scss */
+.tt-hint {
+  color: #999999;
+}
+
+/* line 89, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_main.scss */
+.tt-dropdown-menu {
+  width: 100%;
+  margin-top: 12px;
+  padding: 8px 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* line 104, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_main.scss */
+.tt-suggestion {
+  padding: 3px 10px;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+/* line 110, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_main.scss */
+.tt-suggestion.tt-cursor {
+  color: #fff;
+  background-color: #0097cf;
+}
+
+/* line 116, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_main.scss */
+.tt-suggestion p {
+  margin: 0;
+  cursor: pointer;
+}
+
+/* line 122, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_main.scss */
+#linkOrderToCustomer .twitter-typeahead {
+  width: 100%;
+}
+/* line 125, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_main.scss */
+#linkOrderToCustomer button {
+  width: 100%;
+}
+
+/* line 130, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_main.scss */
+#color-selector-modal .modal-body {
+  text-align: center;
+}
+/* line 133, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_main.scss */
+#color-selector-modal canvas {
+  cursor: crosshair;
+}
+/* line 136, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_main.scss */
+#color-selector-modal .btn-file {
+  margin-bottom: 15px;
+}
+/* line 139, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_main.scss */
+#color-selector-modal #color-preview {
+  height: 30px;
+  border: 1px solid #e5e5e5;
+}
+
+/* line 145, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_main.scss */
+.color-select-trigger span {
+  display: block;
+  height: 20px;
+  width: 20px;
+}
+
+/* line 1, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_loader.scss */
+.ajax-loader {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+/* line 8, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_loader.scss */
+.ajax-loader:before {
+  content: ' ';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -25px auto auto -25px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 5px solid rgba(0, 183, 229, 0.9);
+  opacity: .9;
+  border-top: 5px solid rgba(0, 0, 0, 0);
+  border-left: 5px solid rgba(0, 0, 0, 0);
+  border-radius: 50px;
+  box-shadow: 0 0 35px #2187e7;
+  width: 50px;
+  height: 50px;
+  -moz-animation: spin .5s infinite linear;
+  -webkit-animation: spin .5s infinite linear;
+  z-index: 100;
+}
+/* line 28, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_loader.scss */
+.ajax-loader:after {
+  content: ' ';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -15px auto auto -15px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 5px solid rgba(0, 183, 229, 0.9);
+  opacity: .9;
+  border-top: 5px solid rgba(0, 0, 0, 0);
+  border-left: 5px solid rgba(0, 0, 0, 0);
+  border-radius: 50px;
+  box-shadow: 0 0 15px #2187e7;
+  width: 30px;
+  height: 30px;
+  -moz-animation: spinoff .5s infinite linear;
+  -webkit-animation: spinoff .5s infinite linear;
+  z-index: 101;
+}
+
+@-moz-keyframes spin {
+  /* line 51, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_loader.scss */
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+
+  /* line 55, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_loader.scss */
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes spinoff {
+  /* line 61, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_loader.scss */
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+
+  /* line 65, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_loader.scss */
+  100% {
+    -moz-transform: rotate(-360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  /* line 71, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_loader.scss */
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 75, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_loader.scss */
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spinoff {
+  /* line 81, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_loader.scss */
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 85, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_loader.scss */
+  100% {
+    -webkit-transform: rotate(-360deg);
+  }
+}
+
+/* line 2, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_popup.scss */
+#product-selector-modal .modal-body {
+  min-height: 200px;
+}
+/* line 4, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_popup.scss */
+#product-selector-modal .modal-body table {
+  width: 520px;
+  margin: 0;
+}
+/* line 9, D:/Development/Projects/imidg/Source/admin/template/shop/scss/_popup.scss */
+#product-selector-modal .scroll-container {
+  max-height: 300px;
+  overflow: auto;
+}
+
+#inputOffer{
+  width:50px;
+}

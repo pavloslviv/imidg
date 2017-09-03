@@ -1,0 +1,296 @@
+# Translation of Plugins - PDF Embedder - Stable (latest release) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - PDF Embedder - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-06-18 09:37:43+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - PDF Embedder - Stable (latest release)\n"
+
+#: pdf_embedder.php:130
+msgid "The user can also touch and scroll continuously between all pages of the PDF which is much easier than clicking the next/prev buttons to navigate."
+msgstr "使用者還可以在 PDF 頁面間透過觸擊和滑動以進行翻頁，這比按 [下一頁]/[上一頁] 按鈕更容易完成。"
+
+#: pdf_embedder.php:102
+msgid "Allow user to scroll up/down between all pages in the PDF"
+msgstr "允許使用者對 PDF 進行上下捲動翻頁"
+
+#: pdf_embedder.php:100
+msgid "Continous Page Scrolling"
+msgstr "頁面連續捲動"
+
+#: core/core_pdf_embedder.php:380
+msgid "Optionally add a watermark containing the user's name or email address to discourage sharing of screenshots."
+msgstr "可選擇性地在 PDF 檔裡以使用者名稱或電子郵件地址作為浮水印，避免透過螢幕擷圖方式分享 PDF 內容。"
+
+#: pdf_embedder.php:87
+msgid "Open links in a new browser tab/window"
+msgstr "在瀏覽器中以新分頁或新視窗方式開啟連結"
+
+#: pdf_embedder.php:85
+msgid "External Links"
+msgstr "外部連結"
+
+#: pdf_embedder.php:95
+msgid "Count number of views and downloads"
+msgstr "統計下載及檢閱的次數"
+
+#: pdf_embedder.php:80
+msgid "Provide PDF download button on toolbar"
+msgstr "在工具列上提供下載按鈕"
+
+#: pdf_embedder.php:76
+msgid "Options only available in Premium versions"
+msgstr "僅於 Premium 版 (付費版) 中提供的功能"
+
+#: pdf_embedder.php:195
+msgid "Downloads/Views"
+msgstr "下載及檢閱次數"
+
+#: pdf_embedder.php:193
+msgid "Track downloads and views with <a href=\"%s\" target=\"_blank\">PDF Embedder Premium</a>"
+msgstr "以 <a href=\"%s\" target=\"_blank\">PDF Embedder Premium 版</a> 追蹤下載及檢閱次數"
+
+#: pdf_embedder.php:106
+msgid "Find out more about <a href=\"%s\" target=\"_blank\">Premium Versions of the plugin on our website</a>."
+msgstr "請到外掛官網上瞭解更多關於 <a href=\"%s\" target=\"_blank\">Premium 版</a>的資訊。"
+
+#: pdf_embedder.php:93
+msgid "Track Views/Downloads"
+msgstr "追蹤下載及檢視次數"
+
+#. Author of the plugin/theme
+msgid "Dan Lester"
+msgstr "Dan Lester"
+
+#. Description of the plugin/theme
+msgid "Embed PDFs straight into your posts and pages, with flexible width and height. No third-party services required."
+msgstr "這個外掛能以可調整寬度與高度的方式將 PDF 檔嵌入文章與頁面中，且無須其他第三方服務。繁體中文本地化由「<a href=\"https://www.alexclassroom.com/\" target=\"_blank\">阿力獅的教室</a>」站長<a href=\"https://www.facebook.com/captain.alexlion\" target=\"_blank\">阿力獅</a>提供。"
+
+#. #-#-#-#-#  tmp-pdf-embedder.pot (PDF Embedder 3.0.1)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  tmp-pdf-embedder.pot (PDF Embedder 3.0.1)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://wp-pdf.com/"
+msgstr "https://wp-pdf.com/"
+
+#: pdf_embedder.php:121
+msgid ""
+"Our <b>PDF Embedder Premium</b> plugin solves this problem with an intelligent 'full screen' mode.\n"
+"            When the document is smaller than a certain width, the document displays only as a 'thumbnail' with a large\n"
+"            'View in Full Screen' button for the\n"
+"            user to click when they want to study your document.\n"
+"            This opens up the document so it has the full focus of the mobile browser, and the user can move about the\n"
+"            document without hitting other parts of\n"
+"            the web page by mistake. Click Exit to return to the regular web page."
+msgstr "<b>PDF Embedder Premium</b> 外掛能透過感知式全螢幕模式解決這個問題。當文件寬度小於一定寬度時，該文件僅會顯示為具有 [全螢幕檢視] 大型按鈕的文件縮圖，以供使用者想檢閱文件時點擊。這項操作將會開啟文件並佔滿整個行動裝置瀏覽器畫面，使用者可以在不誤觸其他網頁元件的情況下移動文件進行檢視。按一下 [離開] 便可返回一般頁面。"
+
+#: pdf_embedder.php:117
+msgid ""
+"This free version of the plugin should work on most mobile browsers, but it will be cumbersome for users with small screens - it is difficult to position\n"
+"            the document entirely within the screen, and your users' fingers may catch the entire browser page when\n"
+"            they're trying only to move about the document..."
+msgstr "免費版外掛應能相容於絕大多數的行動版瀏覽器，但對於小螢幕裝置的使用者來說可能會遇到一些麻煩，因為很難將 PDF 頁面放入小螢幕中；而小螢幕裝置使用者可能只是移動文件頁面位置，可能就會拖動整個瀏覽器頁面。"
+
+#: pdf_embedder.php:116
+msgid "Mobile-friendly embedding using PDF Embedder Premium"
+msgstr "使用 PDF Embedder Premium 進行適合行動裝置的文件嵌入"
+
+#: pdf_embedder.php:78
+msgid "Download Button"
+msgstr "下載按鈕"
+
+#: core/core_pdf_embedder.php:587
+msgid "Settings"
+msgstr "設定"
+
+#: core/core_pdf_embedder.php:481
+msgid "Settings saved"
+msgstr "設定已儲存"
+
+#: core/core_pdf_embedder.php:435
+msgid "Unspecified error"
+msgstr "無法辨識的錯誤"
+
+#: core/core_pdf_embedder.php:429
+msgid "Height must be \"max\" or an integer (number of pixels)"
+msgstr "高度必須設定為 max 或整數像素值"
+
+#: core/core_pdf_embedder.php:428
+msgid "Width must be \"max\" or an integer (number of pixels)"
+msgstr "寬度必須設定為 max 或整數像素值"
+
+#: core/core_pdf_embedder.php:382 pdf_embedder.php:133
+msgid "See our website <a href=\"%s\">wp-pdf.com</a> for more details and purchase options."
+msgstr "請造訪 <a href=\"%s\">wp-pdf.com</a> 網站以取得更多資訊及訂購方案。"
+
+#: core/core_pdf_embedder.php:378
+msgid "This means that your PDF is unlikely to be shared outside your site where you have no control over who views, prints, or shares it."
+msgstr "這代表你的 PDF 檔案不會分享至不受你控制的外部網站，進而防止不受控的檢閱、列印及分享。"
+
+#: core/core_pdf_embedder.php:375
+msgid ""
+"Our <b>PDF Embedder Premium Secure</b> plugin provides the same simple but elegant viewer for your website visitors, with the added protection that\n"
+"            it is difficult for users to download or print the original PDF document."
+msgstr "<b>PDF Embedder Premium Secure</b> 外掛為你的網站訪客提供了簡潔美觀的檢視器，並透過增加使用者下載或列印的難度以保護原始 PDF 文件。"
+
+#: core/core_pdf_embedder.php:374
+msgid "Protect your PDFs using PDF Embedder Secure"
+msgstr "使用 PDF Embedder Secure 保護 PDF 檔案"
+
+#: core/core_pdf_embedder.php:350
+msgid "You can override these defaults for specific embeds by modifying the shortcodes - see <a href=\"%s\" target=\"_blank\">instructions</a>."
+msgstr "你可以透過修改短代碼的方式變更特定的嵌入方式，請參閱這份<a href=\"%s\" target=\"_blank\">指示</a>。"
+
+#: core/core_pdf_embedder.php:338
+msgid "Toolbar always visible"
+msgstr "永遠顯示工具列"
+
+#: core/core_pdf_embedder.php:333
+msgid "Toolbar appears only on hover over document"
+msgstr "工具列僅顯示於游標停駐於文件上時"
+
+#: core/core_pdf_embedder.php:330
+msgid "Toolbar Hover"
+msgstr "工具列停駐方式"
+
+#: core/core_pdf_embedder.php:324
+msgid "Both"
+msgstr "頂部和底部"
+
+#: core/core_pdf_embedder.php:323
+msgid "Bottom"
+msgstr "底部"
+
+#: core/core_pdf_embedder.php:322
+msgid "Top"
+msgstr "頂部"
+
+#: core/core_pdf_embedder.php:320
+msgid "Toolbar Location"
+msgstr "工具列位置"
+
+#: core/core_pdf_embedder.php:316
+msgid "Enter <b>max</b> or an integer number of pixels"
+msgstr "輸入 <b>max</b> 或整數的像素值"
+
+#: core/core_pdf_embedder.php:312
+msgid "Height"
+msgstr "高度"
+
+#: core/core_pdf_embedder.php:308
+msgid "Width"
+msgstr "寬度"
+
+#: core/core_pdf_embedder.php:306
+msgid "Default Viewer Settings"
+msgstr "預設檢視器設定"
+
+#: core/core_pdf_embedder.php:278
+msgid "Save Changes"
+msgstr "儲存變更"
+
+#: core/core_pdf_embedder.php:250
+msgid "Mobile"
+msgstr "行動版"
+
+#: core/core_pdf_embedder.php:249
+msgid "Main Settings"
+msgstr "主要設定"
+
+#: core/core_pdf_embedder.php:240
+msgid ""
+"From the post editor, click Add Media, and then drag-and-drop your PDF file into the media library.\n"
+"                When you insert the PDF into your post, it will automatically embed using the plugin's viewer."
+msgstr "在文章或頁面編輯器中，按一下 [新增媒體]，然後將 PDF 檔透過拖曳方式加入 [媒體庫] 中。在你將 PDF 檔插入至文章或頁面後，會自動使用外掛的檢視器完成 PDF 檔嵌入。"
+
+#: core/core_pdf_embedder.php:239
+msgid "To use the plugin, just embed PDFs in the same way as you would normally embed images in your posts/pages - but try with a PDF file instead."
+msgstr "使用這個外掛後，嵌入 PDF 檔的方式就跟平常你在文章或頁面中嵌入圖片的方式一樣，只不過是以嵌入 PDF 檔取代嵌入圖片。"
+
+#: core/core_pdf_embedder.php:237
+msgid "PDF Embedder setup"
+msgstr "PDF Embedder 設定"
+
+#. #-#-#-#-#  tmp-pdf-embedder.pot (PDF Embedder 3.0.1)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: core/core_pdf_embedder.php:212 core/core_pdf_embedder.php:217
+msgid "PDF Embedder"
+msgstr "PDF Embedder"
+
+#: core/core_pdf_embedder.php:212 core/core_pdf_embedder.php:217
+msgid "PDF Embedder settings"
+msgstr "PDF Embedder 設定"
+
+#: core/core_pdf_embedder.php:68
+msgid "PDF <span class=\"count\">(%s)</span>"
+msgid_plural "PDFs <span class=\"count\">(%s)</span>"
+msgstr[0] "<span class=\"count\">%s</span> 個 PDF 檔"
+
+#: core/core_pdf_embedder.php:68
+msgid "Manage PDFs"
+msgstr "管理 PDF 檔案"
+
+#: core/core_pdf_embedder.php:68
+msgid "PDFs"
+msgstr "PDF 檔案"
+
+#: core/core_pdf_embedder.php:50
+msgid "View in Full Screen"
+msgstr "在全螢幕中檢視"
+
+#: core/core_pdf_embedder.php:49
+msgid "PDF page width or height are invalid"
+msgstr "PDF 頁面的寬度或高度設定不正確"
+
+#: core/core_pdf_embedder.php:48
+msgid "Click here for more info"
+msgstr "按一下這裡以獲得更多資訊"
+
+#: core/core_pdf_embedder.php:47
+msgid "Error: URL to the PDF file must be on exactly the same domain as the current web page."
+msgstr "錯誤: 透過 PDF Embedder 嵌入的 PDF 檔，其檔案來源的網站網址必須與目前頁面為相同網站網址。"
+
+#: core/core_pdf_embedder.php:46
+msgid "Full Screen"
+msgstr "全螢幕"
+
+#: core/core_pdf_embedder.php:45
+msgid "Download PDF"
+msgstr "下載 PDF"
+
+#: core/core_pdf_embedder.php:44 core/core_pdf_embedder.php:251
+msgid "Secure"
+msgstr "保全"
+
+#: core/core_pdf_embedder.php:43
+msgid "Zoom Out"
+msgstr "縮小"
+
+#: core/core_pdf_embedder.php:42
+msgid "Zoom In"
+msgstr "放大"
+
+#: core/core_pdf_embedder.php:41
+msgid "Next page"
+msgstr "下一頁"
+
+#: core/core_pdf_embedder.php:40
+msgid "Previous page"
+msgstr "上一頁"
+
+#: core/core_pdf_embedder.php:39
+msgid "Zoom"
+msgstr "縮放"
+
+#: core/core_pdf_embedder.php:38
+msgid "Page"
+msgstr "頁次"
+
+#: core/core_pdf_embedder.php:37
+msgid "Loading..."
+msgstr "載入中..."

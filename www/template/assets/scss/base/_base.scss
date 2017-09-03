@@ -1,0 +1,482 @@
+/* Base styles
+-------------------------------------------------------------------------------------*/
+body, html{
+  font: 300 16px 'Roboto', sans-serif;
+  color: $main-text;
+  background-color: #ffffff;
+  width: 100%;
+  -webkit-appearance: none;
+  height: 100%;
+}
+
+body {
+  transition: .4s;
+}
+
+body.menu-open {
+  overflow: hidden;
+}
+
+
+b, strong{
+  font-weight: 500;
+}
+
+.box-c{
+  width: 100%;
+  text-align: center;
+}
+.box-l{
+  width: 100%;
+  text-align: left;
+}
+.box-r{
+  width: 100%;
+  text-align: right;
+}
+.table{
+  display: table;
+  width: 100%;
+}
+.cell{
+  display: table-cell;
+  width: 1%;
+  vertical-align: middle;
+  text-align: center;
+}
+.ftl{
+  float: left;
+}
+.ftr{
+  float: right;
+}
+
+/*----------------- button styles --------------*/
+.btn{
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  padding: 10px 33px;
+  border: 1px solid $red-color;
+  color: $red-color;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: #ffffff;
+  transition: all .3s linear;
+  
+  &:before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: $red-color;
+    transition: all .3s linear;
+  }
+  
+  span{
+    position: relative;
+    
+  }
+
+  &:hover{
+    color: #ffffff;
+    transition: all .3s linear;
+
+    &:before{
+      width: 100%;
+      opacity: 1;
+      transition: all .3s linear;
+    }
+  }
+
+  &.btn-disabled, &:disabled{
+    border-color: #e9eef1!important;
+    color: #7f7f7f!important;
+    cursor: not-allowed!important;
+
+    &:before{
+      width: 100%!important;
+      opacity: 1!important;
+      background-color: #e9eef1!important;
+    }
+  }
+
+  &.to-favorite{
+    width: 40px;
+    height: 40px;
+    padding: 0;
+
+    i{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 16px;
+      line-height: 18px;
+      transition: opacity .1s linear;
+
+      &.after{
+        opacity: 0;
+      }
+    }
+
+    &:hover{
+      i.after{
+        opacity: 1;
+        transition: opacity .1s linear;
+      }
+      i.before{
+        opacity: 0;
+        transition: opacity .1s linear;
+      }
+    }
+
+    &.active, &:active{
+      &:before{
+        width: 0;
+        opacity: 0;
+      }
+
+      i.after{
+        opacity: 1;
+      }
+      i.before{
+        opacity: 0;
+      }
+      
+      &.active:hover,
+      &:active:hover{
+        &:before{
+          width: 100%;
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  &.btn-small{
+    font-size: 13px;
+    line-height: 18px;
+    font-weight:600;
+    text-transform: none;
+    padding: 5px 20px;
+  }
+
+  &.btn-full{
+    border-color: $red-color;
+    color: #ffffff;
+
+    &:before{
+      background-color: $red-color;
+      width: 100%;
+      opacity: 1;
+    }
+
+    &:hover{
+      color: $red-color;
+
+      &:before{
+        width: 0;
+        opacity: 0;
+      }
+    }
+  }
+  
+}
+
+.btn-simple{
+  display: inline-block;
+  position: relative;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ca1a1f;
+  text-decoration: none;
+
+  &:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-bottom: 1px dashed #ca1a1f;
+    transition: all .2s linear;
+  }
+
+  &:hover:before{
+    width: 0;
+    transition: all .2s linear;
+  }
+
+  &.inner{
+    color: #7f7f7f;
+
+    &:before{
+      border-bottom: 1px solid #7f7f7f;
+    }
+  }
+}
+
+.read-more{
+  display: inline-block;
+  position: relative;
+  font-size: 13px;
+  line-height: 18px;
+  color: #ce383b;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 100%;
+    height: 1px;
+    background-color: #ce383b;
+    transition: all .3s linear;
+  }
+
+  &:hover:after{
+    width: 0;
+    transition: all .3s linear;
+  }
+}
+
+/*----------------- title styles --------------*/
+.sect-title{
+  position: relative;
+  margin: 0 0 25px;
+  text-align: center;
+
+  h3, h2, h1{
+    display: inline-block;
+    position: relative;
+    padding: 0 17px;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: $main-text;
+    background-color: #ffffff;
+  }
+
+  &:before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    transform: translate(0, -50%);
+    background-color: $main-color;
+  }
+
+  &.inner-color{
+    &:before{
+      background-color: #d1d9de;
+    }
+  }
+}
+
+/*----------------- breadcrumbs styles --------------*/
+.breadcrumb{
+  margin: 0 0 22px;
+
+  ul{
+    text-align: center;
+    font-size: 0;
+    line-height: 0;
+
+    li{
+      display: inline-block;
+      position: relative;
+      padding: 0 12px 0 10px;
+      font-size: 12px;
+      line-height: 16px;
+      color: #7f7f7f;
+      vertical-align: middle;
+
+      i{
+        position: absolute;
+        top: 2px;
+        right: -3px;
+        color: #e1c6c7;
+        font-size: 13px;
+      }
+
+      a{
+        display: block;
+        color: #dc4b4b;
+        text-decoration: underline;
+
+        &:hover{
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+.rating-stars{
+  display: inline-block;
+}
+
+.pagination{
+  position: relative;
+  text-align: center;
+  font-size: 0;
+  margin-bottom: 15px;
+
+  ul{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    padding: 12px 10px;
+    font-size: 0;
+    line-height: 0;
+    background-color: #ffffff;
+    display: none;
+
+    li{
+      display: inline-block;
+      margin: 0 10px;
+      font-size: 14px;
+      line-height: 26px;
+      font-weight: 500;
+      color: $main-text;
+
+      a{
+        display: block;
+        text-decoration: none;
+        color: $main-text;
+        transition: all .2s linear;
+
+        &:hover{
+          color: #ce383b;
+          transition: all .2s linear;
+        }
+      }
+
+      b{
+        font-weight: 500;
+        color: #ce383b;
+      }
+    }
+  }
+
+  &_more{
+    display: inline-block;
+    position: relative;
+    padding: 12px 20px;
+    font-size: 13px;
+    line-height: 26px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: $main-text;
+    background-color: #ffffff;
+    transition: all .2s linear;
+
+    &:hover{
+      color: $red-color;
+      text-decoration: none;
+      transition: all .2s linear;
+    }
+  }
+
+  &:before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    transform: translate(0, -50%);
+    background-color: $main-color;
+  }
+
+  &_arrow {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -1px;
+    padding: 0;
+    text-align: center;
+    font-size: 28px;
+    line-height: 50px;
+    color: $main-color;
+    border: 1px solid $main-color;
+    background-color: #ffffff;
+    z-index: 10;
+    cursor: pointer;
+    transition: all .3s linear;
+
+    &:before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-color: $red-color;
+      opacity: 0;
+      transition: all .3s linear;
+    }
+
+    i {
+      position: relative;
+    }
+
+    &:hover {
+      color: #ffffff;
+      border-color: transparentize($red-color, .5);
+      transition: all .3s linear;
+
+      &:before {
+        opacity: .5;
+        transition: all .3s linear;
+      }
+    }
+
+    &.left{
+      left: 0;
+    }
+    &.right{
+      right: 0;
+    }
+
+    &.disabled{
+      border-color: #e9eef1;
+      color: #7f7f7f;
+      cursor: not-allowed;
+
+      i{
+        opacity: .5;
+      }
+
+      &:hover{
+        border-color: #e9eef1;
+        color: #7f7f7f;
+
+        &:before{
+          opacity: 0;
+        }
+      }
+    }
+  }
+
+  &.with-number{
+
+    ul{
+      display: inline-block;
+    }
+  }
+}

@@ -1,0 +1,468 @@
+.product-details{
+
+  .container{
+    border-top: 1px solid #ffc2c4;
+    position: relative;
+  }
+
+  .product-nav{
+    position: absolute;
+    width: 53px;
+    height: 97px;
+    top: 110px;
+    text-decoration: none;
+    font-size: 97px;
+    color: #e9eef1;
+    overflow: hidden;
+    transition: all .3s linear;
+
+    &:before{
+      position: relative;
+      left: -22px;
+    }
+    
+    &:hover{
+      color: $red-color;
+      transition: all .3s linear;
+    }
+
+    &.left{
+      left: 15px;
+
+      &:hover{
+        margin-left: -20px;
+      }
+    }
+
+    &.right{
+      right: 15px;
+      transform: scale(-1);
+
+      &:hover{
+        margin-right: -20px;
+      }
+    }
+  }
+}
+
+.product{
+  padding: 25px 0 0;
+
+  &-img{
+    float: left;
+    width: 64%;
+    position: relative;
+    margin: 0 0 25px;
+
+    .cell{
+      height: 380px;
+      padding: 20px 15px 20px 10px;
+      vertical-align: bottom;
+      font-size: 0;
+      text-align: center;
+
+      img{
+        max-width: 100%;
+        max-height: 380px;
+      }
+    }
+  }
+
+  &-ribbon{
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    top: 0;
+    left: 5px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fefefe;
+    z-index: 10;
+
+    &:after{
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -5px;
+      border-top: 5px solid;
+      border-left: 5px solid transparent;
+    }
+
+    &.new{
+      background-color: #1fc0a0;
+
+      &:after{
+        border-top-color: #1fc0a0;
+      }
+    }
+
+    &.sale{
+      background-color: $red-color;
+
+      &:after{
+        border-top-color: $red-color;
+      }
+    }
+  }
+
+  .product-ribbon + .product-ribbon{
+    top: 40px;
+  }
+
+  &-info{
+    float: left;
+    width: 36%;
+    padding: 0 0 0 15px;
+    margin: 0 0 25px;
+  }
+
+  &-color {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 100%;
+    vertical-align: middle;
+  }
+
+  &-name{
+    margin: 0 0 7px;
+
+    h1{
+      font-size: 22px;
+      line-height: 24px;
+      font-weight: 500;
+      color: $main-text;
+      text-transform: uppercase;
+    }
+  }
+
+  &-descr{
+    margin: 0 0 12px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #7f8c8d;
+  }
+
+  &-availability{
+    margin: 0 0 12px;
+    font-size: 14px;
+    line-height: 18px;
+
+    &.available{
+      color: #0b836b;
+    }
+
+    &.unavailable{
+      color: $red-color;
+    }
+  }
+
+  &-stars{
+    margin: 0 0 18px;
+    
+    .rating-stars{
+      float: left;
+      margin: 0 35px 0 0;
+    }
+
+    .review-count{
+      display: block;
+      float: left;
+      font-size: 14px;
+      line-height: 19px;
+      color: #ca1a1f;
+      text-decoration: underline;
+
+      &:hover{
+        text-decoration: none;
+      }
+    }
+  }
+
+  &-param{
+    text-align: left;
+    font-size: 0;
+    line-height: 0;
+    margin: 0 0 20px;
+
+    a{
+      position: relative;
+      display: inline-block;
+      text-align: center;
+      margin: 0 10px 10px 0;
+      padding: 0 9px;
+      border: 1px solid #d6e1e9;
+      font-size: 14px;
+      line-height: 28px;
+      color: #34495e;
+      text-decoration: none;
+      vertical-align: middle;
+      transition: all .3s linear;
+      cursor: pointer;
+
+      &:hover, &.active{
+        border-color: #dc4b4b;
+        transition: all .3s linear;
+      }
+
+      .color {
+        position: absolute;
+        display: block;
+        right: -5px;
+        top: -5px;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+      }
+
+    }
+  }
+
+  &-price{
+    margin: 0 0 30px;
+
+    .old-price{
+      display: inline-block;
+      font-size: 14px;
+      line-height: 22px;
+      color: #7f7f7f;
+      text-decoration: line-through;
+      margin: 0 16px 0 0;
+      vertical-align: middle;
+    }
+
+    b{
+      vertical-align: middle;
+      display: inline-block;
+      font-size: 22px;
+      line-height: 22px;
+      font-weight: 500;
+      color: $main-text;
+
+      span{
+        font-weight: 300;
+      }
+    }
+  }
+
+  &-buy{
+    text-align: left;
+    font-size: 0;
+    line-height: 0;
+    margin: 0 0 15px;
+
+    .btn{
+      vertical-align: middle;
+      margin: 0 5px 0 0;
+    }
+
+    .btn.to-favorite{
+      display: none;
+    }
+  }
+
+  &-oneclick{
+    text-align: left;
+    margin: 0 0 24px;
+    
+    a{
+      color: $main-text;
+      
+      &:before{
+        border-color: $main-text;
+      }
+    }
+  }
+
+  &-share{
+    > span{
+      display: block;
+      float: left;
+      font-size: 14px;
+      line-height: 20px;
+      color: #969696;
+    }
+
+    .social-menu{
+      float: right;
+
+      a{
+        margin: 0 0 0 5px;
+      }
+    }
+  }
+
+  &-reviews{
+    .one-review{
+      padding: 26px 0 30px;
+      border-bottom: 1px solid #d6e1e9;
+
+      &:last-child{
+        border-bottom: none;
+
+      }
+
+      &_left{
+        float: left;
+        width: 25%;
+      }
+
+      &_right{
+        float: left;
+        width: 75%;
+        padding: 0 0 0 20px;
+      }
+
+      &_name{
+        margin: 0 0 6px;
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 500;
+        color: $main-text;
+        text-transform: uppercase;
+      }
+
+      &_date{
+        font-size: 14px;
+        line-height: 18px;
+        color: #7f7f7f;
+      }
+
+      &_descr{
+        margin: 0 0 18px;
+        font-size: 14px;
+        line-height: 18px;
+        color: $main-text;
+      }
+
+      &_stars{
+        font-size: 0;
+
+        a{
+          margin: 0 10px 0 0;
+        }
+      }
+    }
+  }
+
+  &-options{
+
+    table{
+      width: 100%;
+    }
+
+    tr{
+      background-color: #ffffff;
+
+      &:nth-child(odd){
+        background-color: #f7f7f7;
+      }
+
+      td{
+        vertical-align: middle;
+        text-align: left;
+        padding: 8px 10px 8px 30px;
+        font-size: 14px;
+        line-height: 20px;
+        color: #363636;
+
+        b{
+          font-weight: 500;
+          color: #000000;
+        }
+      }
+    }
+  }
+
+  &-tabs{
+    float: left;
+    width: 100%;
+    padding: 0 0 60px;
+
+    &_links{
+
+      > ul > li{
+        float: left;
+        width: 33.33%;
+        position: relative;
+
+        .tab-link{
+          display: block;
+          position: relative;
+          text-align: center;
+          padding: 15px 15px;
+          font-size: 16px;
+          line-height: 26px;
+          font-weight: 500;
+          color: $main-text;
+          text-decoration: none;
+          text-transform: uppercase;
+          background-color: #e9eef1;
+          border-right: 2px solid #fff;
+          transition: all .3s linear;
+
+          i{
+            display: none;
+          }
+
+          &:after{
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 3px;
+            top: 0;
+            left: 50%;
+            transform: translate(-50%, 0);
+            background-color: #dc4b4b;
+            transition: all .3s linear;
+          }
+
+          &.active{
+            background-color: #ffffff;
+            transition: all .3s linear;
+
+            &:after{
+              width: 100%;
+              transition: all .3s linear;
+            }
+          }
+
+          &:hover:after{
+            width: 100%;
+            transition: all .3s linear;
+          }
+        }
+      }
+    }
+
+    &_content{
+      padding: 30px 0 0;
+
+      .one-tab{
+
+        &.tab-descr{
+          padding: 25px 0 0;
+          p{
+            font-size: 16px;
+            line-height: 26px;
+            color: $main-text;
+            margin: 0 0 15px;
+
+          }
+        }
+
+        &.tab-reviews{
+
+          .product-reviews{
+            padding: 20px 0 0;
+          }
+
+        }
+      }
+    }
+  }
+}

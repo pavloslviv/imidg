@@ -1,0 +1,13 @@
+.star{background-image:url('../img/sprite.png');
+    background-position: -75px 0;
+    display: inline-block;
+    width:13px;
+    height:12px;
+    line-height:13px;
+    cursor:pointer;
+    zoom:1;
+    margin: 0 5px;}
+.fullStar{background-position: -62px 0;}
+.stars{overflow:hidden;}
+.tmp_es{background-position: -75px 0;}
+.tmp_fs{background-position: -62px 0;}

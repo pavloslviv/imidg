@@ -1,0 +1,369 @@
+.order-page{
+  padding: 30px 0;
+
+  .sect-title{
+    margin: 0 0 35px;
+  }
+}
+
+.order-client{
+  position: relative;
+  padding: 18px 45px 0 0;
+  margin: 0 0 30px;
+
+  &:after{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 480px;
+    top: 0;
+    right: 0;
+    background-color: #d6e1e9;
+  }
+
+  .main-tabs_links > ul > li{
+    width: 50%;
+  }
+
+  .input-item{
+    
+    &.error {
+      label {
+        color: $red-color;
+      }
+    }
+
+    label{
+      color: #7f7f7f;
+    }
+  }
+
+  &_info{
+    position: relative;
+    margin: 0 0 55px;
+    padding: 0 0 0 85px;
+  }
+
+  &_img{
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    overflow: hidden;
+
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &_name{
+    margin: 0 0 8px;
+    font-size: 14px;
+    line-height: 16px;
+    color: $main-text;
+
+    b{
+      display: inline-block;
+      margin: 0 6px 0 0;
+    }
+
+    .edit-profile{
+      font-size: 13px;
+      line-height: 15px;
+      color: #dc4b4b;
+      text-decoration: underline;
+
+      &:hover{
+        text-decoration: none;
+      }
+    }
+  }
+
+  &_mail{
+    margin: 0 0 8px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    color: $main-text;
+  }
+
+  &_tel{
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    color: $main-text;
+  }
+}
+
+.order-step{
+  padding: 0 0 15px;
+
+  &_title{
+    position: relative;
+    margin: 0 0 23px;
+    padding: 0 0 0 40px;
+    min-height: 30px;
+
+    span{
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      top: 0;
+      left: 0;
+      padding: 1px 0 0;
+      border-radius: 50%;
+      border: 1px solid #88a0af;
+      text-align: center;
+      font-size: 16px;
+      line-height: 28px;
+      font-weight: 500;
+      color: $main-text;
+    }
+
+    b{
+      display: block;
+      padding: 1px 0 0;
+      font-size: 16px;
+      line-height: 29px;
+      font-weight: 500;
+      color: $main-text;
+    }
+  }
+}
+
+.one-tab.registr-client{
+  .order-step_title{
+    padding: 0;
+  }
+}
+
+.order-form{
+
+  &_left{
+    width: 50%;
+    float: left;
+    padding: 0 15px 0 0;
+  }
+
+  &_right{
+    width: 50%;
+    float: left;
+    padding: 0 0 0 15px;
+  }
+
+}
+
+.order-enter{
+
+  p{
+    font-size: 14px;
+    line-height: 18px;
+    color: $main-text;
+    margin: 0 0 25px;
+  }
+}
+
+.order-enter_btn{
+  padding: 13px 0 0;
+
+  .btn-simple{
+    margin: 12px 0 0;
+  }
+}
+
+.order-product{
+  padding: 30px 0 0;
+  margin: 0 0 30px;
+
+  &_title{
+    margin: 0 0 28px;
+
+    b{
+      display: block;
+      float: left;
+      font-size: 16px;
+      line-height: 16px;
+      font-weight: 500;
+      color: $main-text;
+    }
+
+    a{
+      display: block;
+      float: right;
+    }
+  }
+
+  &_item{
+
+    padding: 18px 0 20px;
+    border-bottom: 1px solid #d1d9de;
+
+  }
+
+  &_img{
+    float: left;
+    width: 30%;
+    padding: 0 15px 0 0;
+
+    .cell{
+      height: 86px;
+      text-align: center;
+
+      a{
+        display: inline-block;
+
+        img{
+          display: block;
+          max-height: 86px;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+
+  &_info{
+    float: left;
+    width: 46%;
+  }
+
+  &_name{
+    margin: 0 0 4px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #000000;
+
+    a{
+      color: #000000;
+      text-decoration: none;
+      transition: all .2s linear;
+
+      &:hover{
+        color: $red-color;
+        transition: all .2s linear;
+      }
+    }
+  }
+
+  &_descr{
+    margin: 0 0 20px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #7f7f7f;
+    vertical-align: middle;
+    p {
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .color {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      -webkit-border-radius: 100%;
+      border-radius: 100%;
+      vertical-align: middle;
+      margin-left: 10px;
+    }
+  }
+
+  &_amount{
+    text-align: left;
+    font-size: 14px;
+    line-height: 16px;
+    color: $main-text;
+  }
+
+  &_price{
+    float: left;
+    width: 24%;
+    text-align: right;
+
+    .old-price{
+      display: inline-block;
+      font-size: 14px;
+      line-height: 22px;
+      color: #7f7f7f;
+      text-decoration: line-through;
+      vertical-align: middle;
+    }
+
+    b{
+      display: block;
+      margin: 0 0 15px;
+      font-size: 16px;
+      line-height: 18px;
+      font-weight: 500;
+      color: $main-text;
+
+      span{
+        font-weight: 300;
+      }
+
+    }
+  }
+
+  &_footer{
+    padding: 15px 0 0;
+
+
+    .order-product_sales{
+      margin: 0 0 15px;
+
+      p{
+        float: left;
+        width: auto;
+        font-size: 14px;
+        line-height: 20px;
+        color: $main-text;
+
+        b{
+          font-weight: 500;
+          color: $red-color;
+        }
+      }
+
+      span{
+        display: block;
+        float: right;
+        font-size: 14px;
+        line-height: 20px;
+        color: $red-color;
+
+        b{
+          font-weight: 500;
+        }
+      }
+    }
+
+    .order-product_total{
+
+      p{
+        float: left;
+        font-size: 14px;
+        line-height: 20px;
+        color: $main-text;
+      }
+
+      span{
+        display: block;
+        float: right;
+        font-size: 18px;
+        line-height: 20px;
+        color: $main-text;
+
+        b{
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+

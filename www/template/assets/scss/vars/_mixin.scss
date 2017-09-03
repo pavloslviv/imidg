@@ -1,0 +1,21 @@
+/* Mixin
+-------------------------------------------------------------------------------------*/
+@mixin placeholder{
+  &::-webkit-input-placeholder {font: 300 13px/18px 'Roboto'; color: #838590; opacity: 1;}
+  &:-moz-placeholder           {font: 300 13px/18px 'Roboto'; color: #838590; opacity: 1;}
+  &::-moz-placeholder          {font: 300 13px/18px 'Roboto'; color: #838590; opacity: 1;}
+  &:-ms-input-placeholder      {font: 300 13px/18px 'Roboto'; color: #838590; opacity: 1;}
+  &::-moz-placeholder          {font: 300 13px/18px 'Roboto'; color: #838590; opacity: 1;}
+}
+
+@mixin clearfix {
+  *zoom: 1;
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}

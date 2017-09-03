@@ -1,0 +1,94 @@
+
+@mixin placeholder{
+  &::-webkit-input-placeholder {font: 13px/18px $arial; color: darkgrey;}
+  &:-moz-placeholder           {font: 13px/18px $arial; color: darkgrey;}
+  &::-moz-placeholder          {font: 13px/18px $arial; color: darkgrey;}
+  &:-ms-input-placeholder      {font: 13px/18px $arial; color: darkgrey;}
+  &::-moz-placeholder          {font: 13px/18px $arial; color: darkgrey;}
+}
+@mixin transition($content,$time){
+  -webkit-transition: $content $time;
+  -moz-transition: $content $time;
+  -ms-transition: $content $time;
+  -o-transition: $content $time;
+  transition: $content $time;
+}
+
+@mixin border-radius($size){
+  -webkit-border-radius: $size;
+  -moz-border-radius: $size;
+  -ms-border-radius: $size;
+  -o-border-radius: $size;
+  border-radius: $size;
+}
+
+@mixin translate ($var1, $var2){
+  -webkit-transform: translate($var1, $var2);
+  -moz-transform: translate($var1, $var2);
+  -ms-transform: translate($var1, $var2);
+  -o-transform: translate($var1, $var2);
+  transform: translate($var1, $var2);
+}
+
+@mixin circle ($radius) {
+    height: $radius;
+    width: $radius;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+// === eugene =================
+
+@mixin respond-to($media) {
+
+    @if $media == 1401 {
+        @media only screen and (min-width: 1401px) {
+            @content;
+        }
+    }
+    
+    // width < 1400px
+    @if $media == 1400 {
+        @media only screen and (max-width: 1400px) {
+            @content;
+        }
+    }
+
+    @if $media == 1200 {
+        @media only screen and (max-width: 1200px) {
+            @content;
+        }
+    }
+    
+    @if $media == 992 {
+        @media only screen and (max-width: 992px) {
+            @content;
+        }
+    }
+    
+    // width < 479
+    @if $media == 479 {
+        @media only screen and (max-width: 479px) {
+            @content;
+        }
+    }
+    
+    @if $media == ipad {
+        @media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
+            @content;
+        }
+    }
+    
+}
+
+@mixin clearfix() {
+    *zoom: 1;
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
